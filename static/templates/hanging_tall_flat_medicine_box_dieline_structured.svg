@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Structured_hanging_tall_flat_medicine_box_dieline"
+     xmlns="http://www.w3.org/2000/svg"
+     viewBox="-5 -5 385.5 333.75"
+     width="385.5mm"
+     height="333.75mm"
+     data-box-app="BoxBuilder"
+     data-box-version="1.0"
+     data-box-role="template"
+     data-unit="source-svg-unit">
+  <title>Structured Hanging tall flat medicine box dieline dieline</title>
+  <desc>Batch structured SVG with visible cut/fold paths, hidden panel faces, metadata, and clipped artwork groups.</desc>
+
+  <metadata id="box-template-metadata" type="application/json"><![CDATA[
+{
+  "schema": "box-template-v1",
+  "source": {
+    "file": "Hanging tall flat medicine box dieline.svg",
+    "viewBox": "-5 -5 385.5 333.75",
+    "width": "385.5mm",
+    "height": "333.75mm",
+    "unit": "source-svg-unit",
+    "note": "Batch-structured from SVG. Existing named panel faces were preserved where available; otherwise closed paths were treated as panel regions."
+  },
+  "template": "hanging_tall_flat_medicine_box_dieline",
+  "basePanel": "h",
+  "panels": [
+    {
+      "id": "h",
+      "sourceId": "knifeFace_H",
+      "label": "H",
+      "type": "panel",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M16,90 L16.5,90 L135.5,90 L136,90 L136,249.5 L16,249.5 L16,249 L16,90 Z"
+    },
+    {
+      "id": "ht",
+      "sourceId": "knifeFace_HT",
+      "label": "Ht",
+      "type": "tab",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M16.5,90 L16.5,60 A10,10 0 0,1 22.33402209549469,50.90909090909091 A1,1 0 0,0 22.917424305044158,50 L129.08257569495584,50 A1,1 0 0,0 129.6659779045053,50.90909090909091 A10,10 0 0,1 135.5,60 L135.5,90 L16.5,90 Z"
+    },
+    {
+      "id": "ht1",
+      "sourceId": "knifeFace_HT1",
+      "label": "Ht1",
+      "type": "panel",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M22.917424305044158,50 A1,1 0 0,0 22.33402209549469,49.09090909090909 A10,10 0 0,1 16.5,40 L16.5,12 L18.5,10 L133.5,10 L135.5,12 L135.5,40 A10,10 0 0,1 129.6659779045053,49.09090909090909 A1,1 0 0,0 129.08257569495584,50 L41.24772708486752,50 Z"
+    },
+    {
+      "id": "ht2",
+      "sourceId": "knifeFace_HT2",
+      "label": "Ht2",
+      "type": "panel",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M18.5,10 L20.26326980708465,0 L131.73673019291536,0 L133.5,10 L18.5,10 Z"
+    },
+    {
+      "id": "hb",
+      "sourceId": "knifeFace_HB",
+      "label": "Hb",
+      "type": "flap",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M16,249.5 L136,249.5 L136,309.5 L135.5,309.5 L128.5,309.5 A0.5,0.5 0 0,1 128,309 L128,308.75 L24,308.75 L24,309 A0.5,0.5 0 0,1 23.5,309.5 L16.5,309.5 L16,309.5 L16,249.5 Z"
+    },
+    {
+      "id": "hb1",
+      "sourceId": "knifeFace_HB1",
+      "label": "Hb1",
+      "type": "panel",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M16.5,309.5 L23.5,309.5 A0.5,0.5 0 0,0 24,309 L24,308.75 L128,308.75 L128,309 A0.5,0.5 0 0,0 128.5,309.5 L135.5,309.5 L135.5,315.75 A8,8 0 0,1 127.5,323.75 L24.5,323.75 A8,8 0 0,1 16.5,315.75 L16.5,309.5 Z"
+    },
+    {
+      "id": "ft",
+      "sourceId": "knifeFace_FT",
+      "label": "Ft",
+      "type": "tab",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M196,89.5 L196,30.5 L196.5,30.5 L203.5,30.5 Q204,30.5,204,31 L204,31.25 L308,31.25 L308,31 Q308,30.5,308.5,30.5 L315.5,30.5 L316,30.5 L316,89.5 L196,89.5 Z"
+    },
+    {
+      "id": "ft1",
+      "sourceId": "knifeFace_FT1",
+      "label": "Ft1",
+      "type": "panel",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M196.5,30.5 L196.5,24.25 Q196.5,16.25,204.5,16.25 L307.5,16.25 Q315.5,16.25,315.5,24.25 L315.5,30.5 L308.5,30.5 Q308,30.5,308,31 L308,31.25 L204,31.25 L204,31 Q204,30.5,203.5,30.5 L196.5,30.5 Z"
+    },
+    {
+      "id": "hr",
+      "sourceId": "knifeFace_HR",
+      "label": "Hr",
+      "type": "flap",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M136,90 L137,90 L194.9346688068541,90 L194.9346688068541,90 A0.65,0.65 0 0,0 196,89.5 L196,249 L195.7,249 L137.06533119314588,249 L137.06533119314588,249 A0.65,0.65 0 0,0 135.99999999999997,249.5 L135.99999999999997,90.5 Z"
+    },
+    {
+      "id": "f",
+      "sourceId": "knifeFace_F",
+      "label": "F",
+      "type": "panel",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M196,89.5 L316,89.5 L316,249 L196,249 L196,89.5 Z"
+    },
+    {
+      "id": "hl",
+      "sourceId": "knifeFace_HL",
+      "label": "Hl",
+      "type": "flap",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M16,249 L0,244.71281292110203 L0,94.28718707889794 L16,89.99999999999999 L16,249 Z"
+    },
+    {
+      "id": "frt",
+      "sourceId": "knifeFace_FRT",
+      "label": "Frt",
+      "type": "tab",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M317.0653311931459,90 A0.65,0.65 0 0,0 317.18572337738436,89.86810387518183 L319.5,86.5 L320.5,52 L358.64589920734824,52 A9,9 0 0,1 367.41522979041537,58.975440510905216 L372.50000000000006,81 L375.50000000000006,84 L375.50000000000006,90 L317.06533119314594,90 Z"
+    },
+    {
+      "id": "fr",
+      "sourceId": "knifeFace_FR",
+      "label": "Fr",
+      "type": "flap",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M375.5,90 L375.5,249 L316.3,249 L316,249 L316,89.5 A0.65,0.65 0 0,0 317.0653311931459,90 L317.0653311931459,90 L375.5,90 Z"
+    },
+    {
+      "id": "hrt",
+      "sourceId": "knifeFace_HRT",
+      "label": "Hrt",
+      "type": "tab",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M194.9346688068541,90 L136.99999999999997,90 L136.99999999999997,84 L139.99999999999997,81 L145.08477020958463,58.975440510905216 A9,9 0 0,1 153.85410079265176,52 L191.49999999999997,52 L192.49999999999997,86.5 L194.8142766226156,89.86810387518183 A0.65,0.65 0 0,0 194.9346688068541,90 Z"
+    },
+    {
+      "id": "hrb",
+      "sourceId": "knifeFace_HRB",
+      "label": "Hrb",
+      "type": "flap",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M137.0653311931459,249 L195.70000000000002,249 L195.70000000000002,255 L192.70000000000002,258 L187.61522979041536,280.02455948909477 A9,9 0 0,1 178.84589920734825,287 L140.50000000000003,287 L139.50000000000003,252.5 L137.1857233773844,249.13189612481818 A0.65,0.65 0 0,0 137.0653311931459,249 Z"
+    },
+    {
+      "id": "frb",
+      "sourceId": "knifeFace_FRB",
+      "label": "Frb",
+      "type": "flap",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M316.3,249 L375.5,249 L372.5,252.5 L371.5,287 L333.1541007926518,287 A9,9 0 0,1 324.38477020958464,280.02455948909477 L319.29999999999995,258 L316.29999999999995,255 L316.29999999999995,249 L375.49999999999994,249 Z"
+    }
+  ],
+  "cutPaths": [
+    {
+      "id": "source-path-18",
+      "role": "cut",
+      "d": "M16,90 L16.5,90 L16.5,60 A10,10 0 0,1 22.33402209549469,50.90909090909091 A1,1 0 0,0 22.917424305044158,50 A1,1 0 0,0 22.33402209549469,49.09090909090909 A10,10 0 0,1 16.5,40 L16.5,12 L18.5,10 L20.26326980708465,0 L131.73673019291536,0 L133.5,10 L135.5,12 L135.5,40 A10,10 0 0,1 129.6659779045053,49.09090909090909 A1,1 0 0,0 129.08257569495584,50 A1,1 0 0,0 129.6659779045053,50.90909090909091 A10,10 0 0,1 135.5,60 L135.5,90 L137,90 L136.99999999999997,84 L139.99999999999997,81 L145.08477020958463,58.975440510905216 A9,9 0 0,1 153.85410079265176,52 L191.49999999999997,52 L192.49999999999997,86.5 L194.8142766226156,89.86810387518183 A0.65,0.65 0 0,0 195.99999999999997,89.5 L196,30.5 L196.5,30.5 L196.5,24.25 Q196.5,16.25,204.5,16.25 L307.5,16.25 Q315.5,16.25,315.5,24.25 L315.5,30.5 L316,30.5 L316,89.5 A0.65,0.65 0 0,0 317.18572337738436,89.86810387518183 L319.5,86.5 L320.5,52 L358.64589920734824,52 A9,9 0 0,1 367.41522979041537,58.975440510905216 L372.50000000000006,81 L375.50000000000006,84 L375.5,249 L372.5,252.5 L371.5,287 L333.1541007926518,287 A9,9 0 0,1 324.38477020958464,280.02455948909477 L319.29999999999995,258 L316.29999999999995,255 L316.29999999999995,249 L195.70000000000002,249 L195.70000000000002,255 L192.70000000000002,258 L187.61522979041536,280.02455948909477 A9,9 0 0,1 178.84589920734825,287 L140.50000000000003,287 L139.50000000000003,252.5 L137.1857233773844,249.13189612481818 A0.65,0.65 0 0,0 136.00000000000003,249.5 L136,309.5 L135.5,309.5 L135.5,315.75 A8,8 0 0,1 127.5,323.75 L24.5,323.75 A8,8 0 0,1 16.5,315.75 L16.5,309.5 L16,309.5 L16,249.5 L16,249 L0,244.71281292110203 L0,94.28718707889794 L16,89.99999999999999 Z M196.5,30.5 L203.5,30.5 A0.5,0.5 0 0,1 204,31 L204,31.75 M315.5,30.5 L308.5,30.5 A0.5,0.5 0 0,0 308,31 L308,31.75 M16.5,309.5 L23.5,309.5 A0.5,0.5 0 0,0 24,309 L24,308.25 M135.5,309.5 L128.5,309.5 A0.5,0.5 0 0,1 128,309 L128,308.25"
+    },
+    {
+      "id": "source-path-19",
+      "role": "cut",
+      "d": "M63.5,69 L88.5,69 A2.5,2.5 0 0,0 88.5,64 L80,64 A4,4 0 0,0 72,64 L63.5,64 A2.5,2.5 0 0,0 63.5,69 Z"
+    },
+    {
+      "id": "source-path-20",
+      "role": "cut",
+      "d": "M63.5,31 L88.5,31 A2.5,2.5 0 0,1 88.5,36 L80,36 A4,4 0 0,1 72,36 L63.5,36 A2.5,2.5 0 0,1 63.5,31 Z"
+    }
+  ],
+  "foldPaths": [
+    {
+      "id": "fold-line-01",
+      "role": "fold",
+      "d": "M 16.5 90 L 135.5 90"
+    },
+    {
+      "id": "fold-line-02",
+      "role": "fold",
+      "d": "M 136 249.5 L 16 249.5"
+    },
+    {
+      "id": "fold-line-03",
+      "role": "fold",
+      "d": "M 16 249 L 16 90"
+    },
+    {
+      "id": "fold-line-04",
+      "role": "fold",
+      "d": "M 22.9174 50 L 129.083 50"
+    },
+    {
+      "id": "fold-line-05",
+      "role": "fold",
+      "d": "M 18.5 10 L 133.5 10"
+    },
+    {
+      "id": "fold-line-06",
+      "role": "fold",
+      "d": "M 128 308.75 L 24 308.75"
+    },
+    {
+      "id": "fold-line-07",
+      "role": "fold",
+      "d": "M 204 31.25 L 308 31.25"
+    },
+    {
+      "id": "fold-line-08",
+      "role": "fold",
+      "d": "M 137 90 L 194.935 90"
+    },
+    {
+      "id": "fold-line-09",
+      "role": "fold",
+      "d": "M 195.7 249 L 137.065 249"
+    },
+    {
+      "id": "fold-line-10",
+      "role": "fold",
+      "d": "M 136 249.5 L 136 90.5"
+    },
+    {
+      "id": "fold-line-11",
+      "role": "fold",
+      "d": "M 196 89.5 L 316 89.5"
+    },
+    {
+      "id": "fold-line-12",
+      "role": "fold",
+      "d": "M 316 89.5 L 316 249"
+    },
+    {
+      "id": "fold-line-13",
+      "role": "fold",
+      "d": "M 196 249 L 196 89.5"
+    },
+    {
+      "id": "fold-line-14",
+      "role": "fold",
+      "d": "M 375.5 249 L 316.3 249"
+    },
+    {
+      "id": "fold-line-15",
+      "role": "fold",
+      "d": "M 317.065 90 L 375.5 90"
+    }
+  ],
+  "tabPaths": [],
+  "sourcePathCount": 20
+}
+  ]]></metadata>
+
+  <defs>
+    <clipPath id="clip-h"><path d="M16,90 L16.5,90 L135.5,90 L136,90 L136,249.5 L16,249.5 L16,249 L16,90 Z" /></clipPath>
+    <clipPath id="clip-ht"><path d="M16.5,90 L16.5,60 A10,10 0 0,1 22.33402209549469,50.90909090909091 A1,1 0 0,0 22.917424305044158,50 L129.08257569495584,50 A1,1 0 0,0 129.6659779045053,50.90909090909091 A10,10 0 0,1 135.5,60 L135.5,90 L16.5,90 Z" /></clipPath>
+    <clipPath id="clip-ht1"><path d="M22.917424305044158,50 A1,1 0 0,0 22.33402209549469,49.09090909090909 A10,10 0 0,1 16.5,40 L16.5,12 L18.5,10 L133.5,10 L135.5,12 L135.5,40 A10,10 0 0,1 129.6659779045053,49.09090909090909 A1,1 0 0,0 129.08257569495584,50 L41.24772708486752,50 Z" /></clipPath>
+    <clipPath id="clip-ht2"><path d="M18.5,10 L20.26326980708465,0 L131.73673019291536,0 L133.5,10 L18.5,10 Z" /></clipPath>
+    <clipPath id="clip-hb"><path d="M16,249.5 L136,249.5 L136,309.5 L135.5,309.5 L128.5,309.5 A0.5,0.5 0 0,1 128,309 L128,308.75 L24,308.75 L24,309 A0.5,0.5 0 0,1 23.5,309.5 L16.5,309.5 L16,309.5 L16,249.5 Z" /></clipPath>
+    <clipPath id="clip-hb1"><path d="M16.5,309.5 L23.5,309.5 A0.5,0.5 0 0,0 24,309 L24,308.75 L128,308.75 L128,309 A0.5,0.5 0 0,0 128.5,309.5 L135.5,309.5 L135.5,315.75 A8,8 0 0,1 127.5,323.75 L24.5,323.75 A8,8 0 0,1 16.5,315.75 L16.5,309.5 Z" /></clipPath>
+    <clipPath id="clip-ft"><path d="M196,89.5 L196,30.5 L196.5,30.5 L203.5,30.5 Q204,30.5,204,31 L204,31.25 L308,31.25 L308,31 Q308,30.5,308.5,30.5 L315.5,30.5 L316,30.5 L316,89.5 L196,89.5 Z" /></clipPath>
+    <clipPath id="clip-ft1"><path d="M196.5,30.5 L196.5,24.25 Q196.5,16.25,204.5,16.25 L307.5,16.25 Q315.5,16.25,315.5,24.25 L315.5,30.5 L308.5,30.5 Q308,30.5,308,31 L308,31.25 L204,31.25 L204,31 Q204,30.5,203.5,30.5 L196.5,30.5 Z" /></clipPath>
+    <clipPath id="clip-hr"><path d="M136,90 L137,90 L194.9346688068541,90 L194.9346688068541,90 A0.65,0.65 0 0,0 196,89.5 L196,249 L195.7,249 L137.06533119314588,249 L137.06533119314588,249 A0.65,0.65 0 0,0 135.99999999999997,249.5 L135.99999999999997,90.5 Z" /></clipPath>
+    <clipPath id="clip-f"><path d="M196,89.5 L316,89.5 L316,249 L196,249 L196,89.5 Z" /></clipPath>
+    <clipPath id="clip-hl"><path d="M16,249 L0,244.71281292110203 L0,94.28718707889794 L16,89.99999999999999 L16,249 Z" /></clipPath>
+    <clipPath id="clip-frt"><path d="M317.0653311931459,90 A0.65,0.65 0 0,0 317.18572337738436,89.86810387518183 L319.5,86.5 L320.5,52 L358.64589920734824,52 A9,9 0 0,1 367.41522979041537,58.975440510905216 L372.50000000000006,81 L375.50000000000006,84 L375.50000000000006,90 L317.06533119314594,90 Z" /></clipPath>
+    <clipPath id="clip-fr"><path d="M375.5,90 L375.5,249 L316.3,249 L316,249 L316,89.5 A0.65,0.65 0 0,0 317.0653311931459,90 L317.0653311931459,90 L375.5,90 Z" /></clipPath>
+    <clipPath id="clip-hrt"><path d="M194.9346688068541,90 L136.99999999999997,90 L136.99999999999997,84 L139.99999999999997,81 L145.08477020958463,58.975440510905216 A9,9 0 0,1 153.85410079265176,52 L191.49999999999997,52 L192.49999999999997,86.5 L194.8142766226156,89.86810387518183 A0.65,0.65 0 0,0 194.9346688068541,90 Z" /></clipPath>
+    <clipPath id="clip-hrb"><path d="M137.0653311931459,249 L195.70000000000002,249 L195.70000000000002,255 L192.70000000000002,258 L187.61522979041536,280.02455948909477 A9,9 0 0,1 178.84589920734825,287 L140.50000000000003,287 L139.50000000000003,252.5 L137.1857233773844,249.13189612481818 A0.65,0.65 0 0,0 137.0653311931459,249 Z" /></clipPath>
+    <clipPath id="clip-frb"><path d="M316.3,249 L375.5,249 L372.5,252.5 L371.5,287 L333.1541007926518,287 A9,9 0 0,1 324.38477020958464,280.02455948909477 L319.29999999999995,258 L316.29999999999995,255 L316.29999999999995,249 L375.49999999999994,249 Z" /></clipPath>
+    <pattern id="glueHatch" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+      <rect width="6" height="6" fill="transparent" />
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#d41a5a" stroke-width="0.8" />
+    </pattern>
+    <style><![CDATA[
+      .cut-line { fill: none; stroke: #d41a5a; stroke-width: 1.25; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+      .fold-line { fill: none; stroke: #00adee; stroke-width: 0.75; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+      .tab-line { fill: #e8e6e1; stroke: #d41a5a; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+      .panel-preview { fill: rgba(212, 26, 90, 0.07); stroke: none; }
+      .preview-glue-flap { fill: url(#glueHatch); opacity: 0.75; }
+      .label { font-family: Arial, sans-serif; font-size: 7px; fill: #333333; pointer-events: none; }
+    ]]></style>
+  </defs>
+
+  <g id="panel-preview" data-box-role="panel-preview" visibility="hidden">
+    <path id="preview-h" class="panel-preview preview-panel" d="M16,90 L16.5,90 L135.5,90 L136,90 L136,249.5 L16,249.5 L16,249 L16,90 Z" />
+    <path id="preview-ht" class="panel-preview preview-tab" d="M16.5,90 L16.5,60 A10,10 0 0,1 22.33402209549469,50.90909090909091 A1,1 0 0,0 22.917424305044158,50 L129.08257569495584,50 A1,1 0 0,0 129.6659779045053,50.90909090909091 A10,10 0 0,1 135.5,60 L135.5,90 L16.5,90 Z" />
+    <path id="preview-ht1" class="panel-preview preview-panel" d="M22.917424305044158,50 A1,1 0 0,0 22.33402209549469,49.09090909090909 A10,10 0 0,1 16.5,40 L16.5,12 L18.5,10 L133.5,10 L135.5,12 L135.5,40 A10,10 0 0,1 129.6659779045053,49.09090909090909 A1,1 0 0,0 129.08257569495584,50 L41.24772708486752,50 Z" />
+    <path id="preview-ht2" class="panel-preview preview-panel" d="M18.5,10 L20.26326980708465,0 L131.73673019291536,0 L133.5,10 L18.5,10 Z" />
+    <path id="preview-hb" class="panel-preview preview-flap" d="M16,249.5 L136,249.5 L136,309.5 L135.5,309.5 L128.5,309.5 A0.5,0.5 0 0,1 128,309 L128,308.75 L24,308.75 L24,309 A0.5,0.5 0 0,1 23.5,309.5 L16.5,309.5 L16,309.5 L16,249.5 Z" />
+    <path id="preview-hb1" class="panel-preview preview-panel" d="M16.5,309.5 L23.5,309.5 A0.5,0.5 0 0,0 24,309 L24,308.75 L128,308.75 L128,309 A0.5,0.5 0 0,0 128.5,309.5 L135.5,309.5 L135.5,315.75 A8,8 0 0,1 127.5,323.75 L24.5,323.75 A8,8 0 0,1 16.5,315.75 L16.5,309.5 Z" />
+    <path id="preview-ft" class="panel-preview preview-tab" d="M196,89.5 L196,30.5 L196.5,30.5 L203.5,30.5 Q204,30.5,204,31 L204,31.25 L308,31.25 L308,31 Q308,30.5,308.5,30.5 L315.5,30.5 L316,30.5 L316,89.5 L196,89.5 Z" />
+    <path id="preview-ft1" class="panel-preview preview-panel" d="M196.5,30.5 L196.5,24.25 Q196.5,16.25,204.5,16.25 L307.5,16.25 Q315.5,16.25,315.5,24.25 L315.5,30.5 L308.5,30.5 Q308,30.5,308,31 L308,31.25 L204,31.25 L204,31 Q204,30.5,203.5,30.5 L196.5,30.5 Z" />
+    <path id="preview-hr" class="panel-preview preview-flap" d="M136,90 L137,90 L194.9346688068541,90 L194.9346688068541,90 A0.65,0.65 0 0,0 196,89.5 L196,249 L195.7,249 L137.06533119314588,249 L137.06533119314588,249 A0.65,0.65 0 0,0 135.99999999999997,249.5 L135.99999999999997,90.5 Z" />
+    <path id="preview-f" class="panel-preview preview-panel" d="M196,89.5 L316,89.5 L316,249 L196,249 L196,89.5 Z" />
+    <path id="preview-hl" class="panel-preview preview-flap" d="M16,249 L0,244.71281292110203 L0,94.28718707889794 L16,89.99999999999999 L16,249 Z" />
+    <path id="preview-frt" class="panel-preview preview-tab" d="M317.0653311931459,90 A0.65,0.65 0 0,0 317.18572337738436,89.86810387518183 L319.5,86.5 L320.5,52 L358.64589920734824,52 A9,9 0 0,1 367.41522979041537,58.975440510905216 L372.50000000000006,81 L375.50000000000006,84 L375.50000000000006,90 L317.06533119314594,90 Z" />
+    <path id="preview-fr" class="panel-preview preview-flap" d="M375.5,90 L375.5,249 L316.3,249 L316,249 L316,89.5 A0.65,0.65 0 0,0 317.0653311931459,90 L317.0653311931459,90 L375.5,90 Z" />
+    <path id="preview-hrt" class="panel-preview preview-tab" d="M194.9346688068541,90 L136.99999999999997,90 L136.99999999999997,84 L139.99999999999997,81 L145.08477020958463,58.975440510905216 A9,9 0 0,1 153.85410079265176,52 L191.49999999999997,52 L192.49999999999997,86.5 L194.8142766226156,89.86810387518183 A0.65,0.65 0 0,0 194.9346688068541,90 Z" />
+    <path id="preview-hrb" class="panel-preview preview-flap" d="M137.0653311931459,249 L195.70000000000002,249 L195.70000000000002,255 L192.70000000000002,258 L187.61522979041536,280.02455948909477 A9,9 0 0,1 178.84589920734825,287 L140.50000000000003,287 L139.50000000000003,252.5 L137.1857233773844,249.13189612481818 A0.65,0.65 0 0,0 137.0653311931459,249 Z" />
+    <path id="preview-frb" class="panel-preview preview-flap" d="M316.3,249 L375.5,249 L372.5,252.5 L371.5,287 L333.1541007926518,287 A9,9 0 0,1 324.38477020958464,280.02455948909477 L319.29999999999995,258 L316.29999999999995,255 L316.29999999999995,249 L375.49999999999994,249 Z" />
+  </g>
+
+  <g id="dieline" data-box-role="dieline">
+    <g id="cut-lines" class="cut-line" data-box-role="cut-lines">
+      <path id="source-path-18" data-box-role="cut-line" data-line-type="cut" d="M16,90 L16.5,90 L16.5,60 A10,10 0 0,1 22.33402209549469,50.90909090909091 A1,1 0 0,0 22.917424305044158,50 A1,1 0 0,0 22.33402209549469,49.09090909090909 A10,10 0 0,1 16.5,40 L16.5,12 L18.5,10 L20.26326980708465,0 L131.73673019291536,0 L133.5,10 L135.5,12 L135.5,40 A10,10 0 0,1 129.6659779045053,49.09090909090909 A1,1 0 0,0 129.08257569495584,50 A1,1 0 0,0 129.6659779045053,50.90909090909091 A10,10 0 0,1 135.5,60 L135.5,90 L137,90 L136.99999999999997,84 L139.99999999999997,81 L145.08477020958463,58.975440510905216 A9,9 0 0,1 153.85410079265176,52 L191.49999999999997,52 L192.49999999999997,86.5 L194.8142766226156,89.86810387518183 A0.65,0.65 0 0,0 195.99999999999997,89.5 L196,30.5 L196.5,30.5 L196.5,24.25 Q196.5,16.25,204.5,16.25 L307.5,16.25 Q315.5,16.25,315.5,24.25 L315.5,30.5 L316,30.5 L316,89.5 A0.65,0.65 0 0,0 317.18572337738436,89.86810387518183 L319.5,86.5 L320.5,52 L358.64589920734824,52 A9,9 0 0,1 367.41522979041537,58.975440510905216 L372.50000000000006,81 L375.50000000000006,84 L375.5,249 L372.5,252.5 L371.5,287 L333.1541007926518,287 A9,9 0 0,1 324.38477020958464,280.02455948909477 L319.29999999999995,258 L316.29999999999995,255 L316.29999999999995,249 L195.70000000000002,249 L195.70000000000002,255 L192.70000000000002,258 L187.61522979041536,280.02455948909477 A9,9 0 0,1 178.84589920734825,287 L140.50000000000003,287 L139.50000000000003,252.5 L137.1857233773844,249.13189612481818 A0.65,0.65 0 0,0 136.00000000000003,249.5 L136,309.5 L135.5,309.5 L135.5,315.75 A8,8 0 0,1 127.5,323.75 L24.5,323.75 A8,8 0 0,1 16.5,315.75 L16.5,309.5 L16,309.5 L16,249.5 L16,249 L0,244.71281292110203 L0,94.28718707889794 L16,89.99999999999999 Z M196.5,30.5 L203.5,30.5 A0.5,0.5 0 0,1 204,31 L204,31.75 M315.5,30.5 L308.5,30.5 A0.5,0.5 0 0,0 308,31 L308,31.75 M16.5,309.5 L23.5,309.5 A0.5,0.5 0 0,0 24,309 L24,308.25 M135.5,309.5 L128.5,309.5 A0.5,0.5 0 0,1 128,309 L128,308.25" />
+      <path id="source-path-19" data-box-role="cut-line" data-line-type="cut" d="M63.5,69 L88.5,69 A2.5,2.5 0 0,0 88.5,64 L80,64 A4,4 0 0,0 72,64 L63.5,64 A2.5,2.5 0 0,0 63.5,69 Z" />
+      <path id="source-path-20" data-box-role="cut-line" data-line-type="cut" d="M63.5,31 L88.5,31 A2.5,2.5 0 0,1 88.5,36 L80,36 A4,4 0 0,1 72,36 L63.5,36 A2.5,2.5 0 0,1 63.5,31 Z" />
+    </g>
+    <g id="fold-lines" class="fold-line" data-box-role="fold-lines">
+      <path id="fold-line-01" data-box-role="fold-line" data-line-type="fold" d="M 16.5 90 L 135.5 90" />
+      <path id="fold-line-02" data-box-role="fold-line" data-line-type="fold" d="M 136 249.5 L 16 249.5" />
+      <path id="fold-line-03" data-box-role="fold-line" data-line-type="fold" d="M 16 249 L 16 90" />
+      <path id="fold-line-04" data-box-role="fold-line" data-line-type="fold" d="M 22.9174 50 L 129.083 50" />
+      <path id="fold-line-05" data-box-role="fold-line" data-line-type="fold" d="M 18.5 10 L 133.5 10" />
+      <path id="fold-line-06" data-box-role="fold-line" data-line-type="fold" d="M 128 308.75 L 24 308.75" />
+      <path id="fold-line-07" data-box-role="fold-line" data-line-type="fold" d="M 204 31.25 L 308 31.25" />
+      <path id="fold-line-08" data-box-role="fold-line" data-line-type="fold" d="M 137 90 L 194.935 90" />
+      <path id="fold-line-09" data-box-role="fold-line" data-line-type="fold" d="M 195.7 249 L 137.065 249" />
+      <path id="fold-line-10" data-box-role="fold-line" data-line-type="fold" d="M 136 249.5 L 136 90.5" />
+      <path id="fold-line-11" data-box-role="fold-line" data-line-type="fold" d="M 196 89.5 L 316 89.5" />
+      <path id="fold-line-12" data-box-role="fold-line" data-line-type="fold" d="M 316 89.5 L 316 249" />
+      <path id="fold-line-13" data-box-role="fold-line" data-line-type="fold" d="M 196 249 L 196 89.5" />
+      <path id="fold-line-14" data-box-role="fold-line" data-line-type="fold" d="M 375.5 249 L 316.3 249" />
+      <path id="fold-line-15" data-box-role="fold-line" data-line-type="fold" d="M 317.065 90 L 375.5 90" />
+    </g>
+    <g id="tab-shapes" class="tab-line" data-box-role="tab-shapes">
+
+    </g>
+  </g>
+
+  <g id="labels" class="label" data-box-role="labels" visibility="hidden">
+    <text x="61" y="149.75" text-anchor="middle">H</text>
+    <text x="31.4378" y="35" text-anchor="middle">Ht</text>
+    <text x="36.6871" y="21.381" text-anchor="middle">Ht1</text>
+    <text x="64.5" y="6" text-anchor="middle">Ht2</text>
+    <text x="103.417" y="161.75" text-anchor="middle">Hb</text>
+    <text x="103.196" y="115.348" text-anchor="middle">Hb1</text>
+    <text x="252" y="42.4667" text-anchor="middle">Ft</text>
+    <text x="252.5" y="26.5588" text-anchor="middle">Ft1</text>
+    <text x="126.354" y="97.6957" text-anchor="middle">Hr</text>
+    <text x="244" y="153.3" text-anchor="middle">F</text>
+    <text x="9.6" y="185.4" text-anchor="middle">Hl</text>
+    <text x="161.004" y="121.364" text-anchor="middle">Frt</text>
+    <text x="187.995" y="193.678" text-anchor="middle">Fr</text>
+    <text x="82.6648" y="82.4196" text-anchor="middle">Hrt</text>
+    <text x="142.142" y="143.047" text-anchor="middle">Hrb</text>
+    <text x="235.082" y="248.774" text-anchor="middle">Frb</text>
+  </g>
+
+  <g id="panels" data-box-role="panels" visibility="hidden">
+    <path id="panel-h" data-box-role="panel" data-panel-id="h" data-source-id="knifeFace_H" data-panel-type="panel" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M16,90 L16.5,90 L135.5,90 L136,90 L136,249.5 L16,249.5 L16,249 L16,90 Z" />
+    <path id="panel-ht" data-box-role="panel" data-panel-id="ht" data-source-id="knifeFace_HT" data-panel-type="tab" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M16.5,90 L16.5,60 A10,10 0 0,1 22.33402209549469,50.90909090909091 A1,1 0 0,0 22.917424305044158,50 L129.08257569495584,50 A1,1 0 0,0 129.6659779045053,50.90909090909091 A10,10 0 0,1 135.5,60 L135.5,90 L16.5,90 Z" />
+    <path id="panel-ht1" data-box-role="panel" data-panel-id="ht1" data-source-id="knifeFace_HT1" data-panel-type="panel" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M22.917424305044158,50 A1,1 0 0,0 22.33402209549469,49.09090909090909 A10,10 0 0,1 16.5,40 L16.5,12 L18.5,10 L133.5,10 L135.5,12 L135.5,40 A10,10 0 0,1 129.6659779045053,49.09090909090909 A1,1 0 0,0 129.08257569495584,50 L41.24772708486752,50 Z" />
+    <path id="panel-ht2" data-box-role="panel" data-panel-id="ht2" data-source-id="knifeFace_HT2" data-panel-type="panel" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M18.5,10 L20.26326980708465,0 L131.73673019291536,0 L133.5,10 L18.5,10 Z" />
+    <path id="panel-hb" data-box-role="panel" data-panel-id="hb" data-source-id="knifeFace_HB" data-panel-type="flap" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M16,249.5 L136,249.5 L136,309.5 L135.5,309.5 L128.5,309.5 A0.5,0.5 0 0,1 128,309 L128,308.75 L24,308.75 L24,309 A0.5,0.5 0 0,1 23.5,309.5 L16.5,309.5 L16,309.5 L16,249.5 Z" />
+    <path id="panel-hb1" data-box-role="panel" data-panel-id="hb1" data-source-id="knifeFace_HB1" data-panel-type="panel" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M16.5,309.5 L23.5,309.5 A0.5,0.5 0 0,0 24,309 L24,308.75 L128,308.75 L128,309 A0.5,0.5 0 0,0 128.5,309.5 L135.5,309.5 L135.5,315.75 A8,8 0 0,1 127.5,323.75 L24.5,323.75 A8,8 0 0,1 16.5,315.75 L16.5,309.5 Z" />
+    <path id="panel-ft" data-box-role="panel" data-panel-id="ft" data-source-id="knifeFace_FT" data-panel-type="tab" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M196,89.5 L196,30.5 L196.5,30.5 L203.5,30.5 Q204,30.5,204,31 L204,31.25 L308,31.25 L308,31 Q308,30.5,308.5,30.5 L315.5,30.5 L316,30.5 L316,89.5 L196,89.5 Z" />
+    <path id="panel-ft1" data-box-role="panel" data-panel-id="ft1" data-source-id="knifeFace_FT1" data-panel-type="panel" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M196.5,30.5 L196.5,24.25 Q196.5,16.25,204.5,16.25 L307.5,16.25 Q315.5,16.25,315.5,24.25 L315.5,30.5 L308.5,30.5 Q308,30.5,308,31 L308,31.25 L204,31.25 L204,31 Q204,30.5,203.5,30.5 L196.5,30.5 Z" />
+    <path id="panel-hr" data-box-role="panel" data-panel-id="hr" data-source-id="knifeFace_HR" data-panel-type="flap" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M136,90 L137,90 L194.9346688068541,90 L194.9346688068541,90 A0.65,0.65 0 0,0 196,89.5 L196,249 L195.7,249 L137.06533119314588,249 L137.06533119314588,249 A0.65,0.65 0 0,0 135.99999999999997,249.5 L135.99999999999997,90.5 Z" />
+    <path id="panel-f" data-box-role="panel" data-panel-id="f" data-source-id="knifeFace_F" data-panel-type="panel" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M196,89.5 L316,89.5 L316,249 L196,249 L196,89.5 Z" />
+    <path id="panel-hl" data-box-role="panel" data-panel-id="hl" data-source-id="knifeFace_HL" data-panel-type="flap" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M16,249 L0,244.71281292110203 L0,94.28718707889794 L16,89.99999999999999 L16,249 Z" />
+    <path id="panel-frt" data-box-role="panel" data-panel-id="frt" data-source-id="knifeFace_FRT" data-panel-type="tab" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M317.0653311931459,90 A0.65,0.65 0 0,0 317.18572337738436,89.86810387518183 L319.5,86.5 L320.5,52 L358.64589920734824,52 A9,9 0 0,1 367.41522979041537,58.975440510905216 L372.50000000000006,81 L375.50000000000006,84 L375.50000000000006,90 L317.06533119314594,90 Z" />
+    <path id="panel-fr" data-box-role="panel" data-panel-id="fr" data-source-id="knifeFace_FR" data-panel-type="flap" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M375.5,90 L375.5,249 L316.3,249 L316,249 L316,89.5 A0.65,0.65 0 0,0 317.0653311931459,90 L317.0653311931459,90 L375.5,90 Z" />
+    <path id="panel-hrt" data-box-role="panel" data-panel-id="hrt" data-source-id="knifeFace_HRT" data-panel-type="tab" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M194.9346688068541,90 L136.99999999999997,90 L136.99999999999997,84 L139.99999999999997,81 L145.08477020958463,58.975440510905216 A9,9 0 0,1 153.85410079265176,52 L191.49999999999997,52 L192.49999999999997,86.5 L194.8142766226156,89.86810387518183 A0.65,0.65 0 0,0 194.9346688068541,90 Z" />
+    <path id="panel-hrb" data-box-role="panel" data-panel-id="hrb" data-source-id="knifeFace_HRB" data-panel-type="flap" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M137.0653311931459,249 L195.70000000000002,249 L195.70000000000002,255 L192.70000000000002,258 L187.61522979041536,280.02455948909477 A9,9 0 0,1 178.84589920734825,287 L140.50000000000003,287 L139.50000000000003,252.5 L137.1857233773844,249.13189612481818 A0.65,0.65 0 0,0 137.0653311931459,249 Z" />
+    <path id="panel-frb" data-box-role="panel" data-panel-id="frb" data-source-id="knifeFace_FRB" data-panel-type="flap" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M316.3,249 L375.5,249 L372.5,252.5 L371.5,287 L333.1541007926518,287 A9,9 0 0,1 324.38477020958464,280.02455948909477 L319.29999999999995,258 L316.29999999999995,255 L316.29999999999995,249 L375.49999999999994,249 Z" />
+  </g>
+
+  <g id="artwork" data-box-role="artwork">
+    <g id="artwork-h" data-box-role="artwork-panel" data-panel-id="h" clip-path="url(#clip-h)"></g>
+    <g id="artwork-ht" data-box-role="artwork-panel" data-panel-id="ht" clip-path="url(#clip-ht)"></g>
+    <g id="artwork-ht1" data-box-role="artwork-panel" data-panel-id="ht1" clip-path="url(#clip-ht1)"></g>
+    <g id="artwork-ht2" data-box-role="artwork-panel" data-panel-id="ht2" clip-path="url(#clip-ht2)"></g>
+    <g id="artwork-hb" data-box-role="artwork-panel" data-panel-id="hb" clip-path="url(#clip-hb)"></g>
+    <g id="artwork-hb1" data-box-role="artwork-panel" data-panel-id="hb1" clip-path="url(#clip-hb1)"></g>
+    <g id="artwork-ft" data-box-role="artwork-panel" data-panel-id="ft" clip-path="url(#clip-ft)"></g>
+    <g id="artwork-ft1" data-box-role="artwork-panel" data-panel-id="ft1" clip-path="url(#clip-ft1)"></g>
+    <g id="artwork-hr" data-box-role="artwork-panel" data-panel-id="hr" clip-path="url(#clip-hr)"></g>
+    <g id="artwork-f" data-box-role="artwork-panel" data-panel-id="f" clip-path="url(#clip-f)"></g>
+    <g id="artwork-hl" data-box-role="artwork-panel" data-panel-id="hl" clip-path="url(#clip-hl)"></g>
+    <g id="artwork-frt" data-box-role="artwork-panel" data-panel-id="frt" clip-path="url(#clip-frt)"></g>
+    <g id="artwork-fr" data-box-role="artwork-panel" data-panel-id="fr" clip-path="url(#clip-fr)"></g>
+    <g id="artwork-hrt" data-box-role="artwork-panel" data-panel-id="hrt" clip-path="url(#clip-hrt)"></g>
+    <g id="artwork-hrb" data-box-role="artwork-panel" data-panel-id="hrb" clip-path="url(#clip-hrb)"></g>
+    <g id="artwork-frb" data-box-role="artwork-panel" data-panel-id="frb" clip-path="url(#clip-frb)"></g>
+  </g>
+</svg>

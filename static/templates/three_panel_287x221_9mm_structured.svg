@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Structured_three_panel_287x221_9mm"
+     xmlns="http://www.w3.org/2000/svg"
+     viewBox="-3 -3 287.01 221.9"
+     width="287.01mm"
+     height="221.9mm"
+     data-box-app="BoxBuilder"
+     data-box-version="1.0"
+     data-box-role="template"
+     data-unit="source-svg-unit">
+  <title>Structured three_panel_287x221_9mm dieline</title>
+  <desc>Batch structured SVG with visible cut/fold paths, hidden panel faces, metadata, and clipped artwork groups.</desc>
+
+  <metadata id="box-template-metadata" type="application/json"><![CDATA[
+{
+  "schema": "box-template-v1",
+  "source": {
+    "file": "three_panel_287x221_9mm.svg",
+    "viewBox": "-3 -3 287.01 221.9",
+    "width": "287.01mm",
+    "height": "221.9mm",
+    "unit": "source-svg-unit",
+    "note": "Batch-structured from SVG. Existing named panel faces were preserved where available; otherwise closed paths were treated as panel regions."
+  },
+  "template": "three_panel_287x221_9mm",
+  "basePanel": "fl",
+  "panels": [
+    {
+      "id": "fl",
+      "sourceId": "knifeFace_FL",
+      "label": "Fl",
+      "type": "glue-flap",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M0,0 L93.67,0 L93.67,215.9 L0,215.9 L0,0 Z"
+    },
+    {
+      "id": "f",
+      "sourceId": "knifeFace_F",
+      "label": "F",
+      "type": "panel",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M93.67,0 L187.34,0 L187.34,215.9 L93.67,215.9 L93.67,0 Z"
+    },
+    {
+      "id": "fr",
+      "sourceId": "knifeFace_FR",
+      "label": "Fr",
+      "type": "flap",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M187.34,0 L281.01,0 L281.01,215.9 L187.33999999999997,215.9 L187.33999999999997,0 Z"
+    }
+  ],
+  "cutPaths": [
+    {
+      "id": "source-path-5",
+      "role": "cut",
+      "d": "M0,0 L93.67,0 L187.34,0 L281.01,0 L281.01,215.9 L187.33999999999997,215.9 L93.67,215.9 L0,215.9 L0,0 Z"
+    }
+  ],
+  "foldPaths": [
+    {
+      "id": "fold-line-01",
+      "role": "fold",
+      "d": "M 187.34 0 L 187.34 215.9"
+    },
+    {
+      "id": "fold-line-02",
+      "role": "fold",
+      "d": "M 93.67 215.9 L 93.67 0"
+    }
+  ],
+  "tabPaths": [],
+  "sourcePathCount": 5
+}
+  ]]></metadata>
+
+  <defs>
+    <clipPath id="clip-fl"><path d="M0,0 L93.67,0 L93.67,215.9 L0,215.9 L0,0 Z" /></clipPath>
+    <clipPath id="clip-f"><path d="M93.67,0 L187.34,0 L187.34,215.9 L93.67,215.9 L93.67,0 Z" /></clipPath>
+    <clipPath id="clip-fr"><path d="M187.34,0 L281.01,0 L281.01,215.9 L187.33999999999997,215.9 L187.33999999999997,0 Z" /></clipPath>
+    <pattern id="glueHatch" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+      <rect width="6" height="6" fill="transparent" />
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#d41a5a" stroke-width="0.8" />
+    </pattern>
+    <style><![CDATA[
+      .cut-line { fill: none; stroke: #d41a5a; stroke-width: 1.25; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+      .fold-line { fill: none; stroke: #00adee; stroke-width: 0.75; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+      .tab-line { fill: #e8e6e1; stroke: #d41a5a; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+      .panel-preview { fill: rgba(212, 26, 90, 0.07); stroke: none; }
+      .preview-glue-flap { fill: url(#glueHatch); opacity: 0.75; }
+      .label { font-family: Arial, sans-serif; font-size: 7px; fill: #333333; pointer-events: none; }
+    ]]></style>
+  </defs>
+
+  <g id="panel-preview" data-box-role="panel-preview" visibility="hidden">
+    <path id="preview-fl" class="panel-preview preview-glue-flap" d="M0,0 L93.67,0 L93.67,215.9 L0,215.9 L0,0 Z" />
+    <path id="preview-f" class="panel-preview preview-panel" d="M93.67,0 L187.34,0 L187.34,215.9 L93.67,215.9 L93.67,0 Z" />
+    <path id="preview-fr" class="panel-preview preview-flap" d="M187.34,0 L281.01,0 L281.01,215.9 L187.33999999999997,215.9 L187.33999999999997,0 Z" />
+  </g>
+
+  <g id="dieline" data-box-role="dieline">
+    <g id="cut-lines" class="cut-line" data-box-role="cut-lines">
+      <path id="source-path-5" data-box-role="cut-line" data-line-type="cut" d="M0,0 L93.67,0 L187.34,0 L281.01,0 L281.01,215.9 L187.33999999999997,215.9 L93.67,215.9 L0,215.9 L0,0 Z" />
+    </g>
+    <g id="fold-lines" class="fold-line" data-box-role="fold-lines">
+      <path id="fold-line-01" data-box-role="fold-line" data-line-type="fold" d="M 187.34 0 L 187.34 215.9" />
+      <path id="fold-line-02" data-box-role="fold-line" data-line-type="fold" d="M 93.67 215.9 L 93.67 0" />
+    </g>
+    <g id="tab-shapes" class="tab-line" data-box-role="tab-shapes">
+
+    </g>
+  </g>
+
+  <g id="labels" class="label" data-box-role="labels" visibility="hidden">
+    <text x="37.468" y="86.36" text-anchor="middle">Fl</text>
+    <text x="131.138" y="86.36" text-anchor="middle">F</text>
+    <text x="224.808" y="86.36" text-anchor="middle">Fr</text>
+  </g>
+
+  <g id="panels" data-box-role="panels" visibility="hidden">
+    <path id="panel-fl" data-box-role="panel" data-panel-id="fl" data-source-id="knifeFace_FL" data-panel-type="glue-flap" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M0,0 L93.67,0 L93.67,215.9 L0,215.9 L0,0 Z" />
+    <path id="panel-f" data-box-role="panel" data-panel-id="f" data-source-id="knifeFace_F" data-panel-type="panel" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M93.67,0 L187.34,0 L187.34,215.9 L93.67,215.9 L93.67,0 Z" />
+    <path id="panel-fr" data-box-role="panel" data-panel-id="fr" data-source-id="knifeFace_FR" data-panel-type="flap" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M187.34,0 L281.01,0 L281.01,215.9 L187.33999999999997,215.9 L187.33999999999997,0 Z" />
+  </g>
+
+  <g id="artwork" data-box-role="artwork">
+    <g id="artwork-fl" data-box-role="artwork-panel" data-panel-id="fl" clip-path="url(#clip-fl)"></g>
+    <g id="artwork-f" data-box-role="artwork-panel" data-panel-id="f" clip-path="url(#clip-f)"></g>
+    <g id="artwork-fr" data-box-role="artwork-panel" data-panel-id="fr" clip-path="url(#clip-fr)"></g>
+  </g>
+</svg>

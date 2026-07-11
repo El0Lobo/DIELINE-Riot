@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Structured_Playing_Card_Size_Forms"
+     xmlns="http://www.w3.org/2000/svg"
+     viewBox="-25 -25 750 1250"
+     width="75mm"
+     height="125mm"
+     data-box-app="BoxBuilder"
+     data-box-version="1.0"
+     data-box-role="template"
+     data-unit="mm"
+     data-scale="10-svg-units-per-mm">
+  <title>Structured playing card size forms</title>
+  <desc>Clean structured SVG containing only the useful card/tag-like rounded-rectangle forms from the uploaded comparison file.</desc>
+
+  <metadata id="box-template-metadata" type="application/json"><![CDATA[
+{
+  "schema": "flat-template-v1",
+  "source": {
+    "file": "comparison playing card size.svg",
+    "viewBox": "-25 -25 750 1250",
+    "sourceWidth": "100%",
+    "sourceHeight": "100%",
+    "unit": "mm",
+    "scale": "10 SVG units = 1 mm",
+    "note": "Cleaned from a comparison illustration. Text labels, background circle, filters, and decorative playing-card artwork were removed. The card sizes are preserved as separate structured objects/forms."
+  },
+  "template": "playing-card-size-comparison-cleaned",
+  "objects": [
+    {
+      "id": "tarot",
+      "label": "Tarot",
+      "basePanel": "tarot",
+      "widthMm": 70.0,
+      "heightMm": 120.0,
+      "panelIds": [
+        "tarot"
+      ],
+      "path": "M 60 0 L 640 0 Q 700 0 700 60 L 700 1140 Q 700 1200 640 1200 L 60 1200 Q 0 1200 0 1140 L 0 60 Q 0 0 60 0 Z"
+    },
+    {
+      "id": "poker",
+      "label": "Poker",
+      "basePanel": "poker",
+      "widthMm": 63.5,
+      "heightMm": 88.9,
+      "panelIds": [
+        "poker"
+      ],
+      "path": "M 35 0 L 600 0 Q 635 0 635 35 L 635 854 Q 635 889 600 889 L 35 889 Q 0 889 0 854 L 0 35 Q 0 0 35 0 Z"
+    },
+    {
+      "id": "bridge",
+      "label": "Bridge",
+      "basePanel": "bridge",
+      "widthMm": 57.2,
+      "heightMm": 88.9,
+      "panelIds": [
+        "bridge"
+      ],
+      "path": "M 35 0 L 537 0 Q 572 0 572 35 L 572 854 Q 572 889 537 889 L 35 889 Q 0 889 0 854 L 0 35 Q 0 0 35 0 Z"
+    },
+    {
+      "id": "mini",
+      "label": "Mini",
+      "basePanel": "mini",
+      "widthMm": 44.5,
+      "heightMm": 63.5,
+      "panelIds": [
+        "mini"
+      ],
+      "path": "M 30 0 L 415 0 Q 445 0 445 30 L 445 605 Q 445 635 415 635 L 30 635 Q 0 635 0 605 L 0 30 Q 0 0 30 0 Z"
+    }
+  ],
+  "panels": [
+    {
+      "id": "tarot",
+      "objectId": "tarot",
+      "label": "Tarot",
+      "type": "card-face",
+      "widthMm": 70.0,
+      "heightMm": 120.0,
+      "foldParent": null,
+      "foldId": null,
+      "foldAngleDeg": 0,
+      "path": "M 60 0 L 640 0 Q 700 0 700 60 L 700 1140 Q 700 1200 640 1200 L 60 1200 Q 0 1200 0 1140 L 0 60 Q 0 0 60 0 Z"
+    },
+    {
+      "id": "poker",
+      "objectId": "poker",
+      "label": "Poker",
+      "type": "card-face",
+      "widthMm": 63.5,
+      "heightMm": 88.9,
+      "foldParent": null,
+      "foldId": null,
+      "foldAngleDeg": 0,
+      "path": "M 35 0 L 600 0 Q 635 0 635 35 L 635 854 Q 635 889 600 889 L 35 889 Q 0 889 0 854 L 0 35 Q 0 0 35 0 Z"
+    },
+    {
+      "id": "bridge",
+      "objectId": "bridge",
+      "label": "Bridge",
+      "type": "card-face",
+      "widthMm": 57.2,
+      "heightMm": 88.9,
+      "foldParent": null,
+      "foldId": null,
+      "foldAngleDeg": 0,
+      "path": "M 35 0 L 537 0 Q 572 0 572 35 L 572 854 Q 572 889 537 889 L 35 889 Q 0 889 0 854 L 0 35 Q 0 0 35 0 Z"
+    },
+    {
+      "id": "mini",
+      "objectId": "mini",
+      "label": "Mini",
+      "type": "card-face",
+      "widthMm": 44.5,
+      "heightMm": 63.5,
+      "foldParent": null,
+      "foldId": null,
+      "foldAngleDeg": 0,
+      "path": "M 30 0 L 415 0 Q 445 0 445 30 L 445 605 Q 445 635 415 635 L 30 635 Q 0 635 0 605 L 0 30 Q 0 0 30 0 Z"
+    }
+  ],
+  "cutPaths": [
+    {
+      "id": "cut-tarot",
+      "objectId": "tarot",
+      "lineType": "cut",
+      "path": "M 60 0 L 640 0 Q 700 0 700 60 L 700 1140 Q 700 1200 640 1200 L 60 1200 Q 0 1200 0 1140 L 0 60 Q 0 0 60 0 Z"
+    },
+    {
+      "id": "cut-poker",
+      "objectId": "poker",
+      "lineType": "cut",
+      "path": "M 35 0 L 600 0 Q 635 0 635 35 L 635 854 Q 635 889 600 889 L 35 889 Q 0 889 0 854 L 0 35 Q 0 0 35 0 Z"
+    },
+    {
+      "id": "cut-bridge",
+      "objectId": "bridge",
+      "lineType": "cut",
+      "path": "M 35 0 L 537 0 Q 572 0 572 35 L 572 854 Q 572 889 537 889 L 35 889 Q 0 889 0 854 L 0 35 Q 0 0 35 0 Z"
+    },
+    {
+      "id": "cut-mini",
+      "objectId": "mini",
+      "lineType": "cut",
+      "path": "M 30 0 L 415 0 Q 445 0 445 30 L 445 605 Q 445 635 415 635 L 30 635 Q 0 635 0 605 L 0 30 Q 0 0 30 0 Z"
+    }
+  ],
+  "removed": [
+    "comparison text labels",
+    "imperial measurements",
+    "decorative diamonds and index artwork",
+    "background circle",
+    "filter outline definition",
+    "global typography styling"
+  ]
+}
+  ]]></metadata>
+
+  <defs>
+    <clipPath id="clip-tarot"><path d="M 60 0 L 640 0 Q 700 0 700 60 L 700 1140 Q 700 1200 640 1200 L 60 1200 Q 0 1200 0 1140 L 0 60 Q 0 0 60 0 Z" /></clipPath>
+    <clipPath id="clip-poker"><path d="M 35 0 L 600 0 Q 635 0 635 35 L 635 854 Q 635 889 600 889 L 35 889 Q 0 889 0 854 L 0 35 Q 0 0 35 0 Z" /></clipPath>
+    <clipPath id="clip-bridge"><path d="M 35 0 L 537 0 Q 572 0 572 35 L 572 854 Q 572 889 537 889 L 35 889 Q 0 889 0 854 L 0 35 Q 0 0 35 0 Z" /></clipPath>
+    <clipPath id="clip-mini"><path d="M 30 0 L 415 0 Q 445 0 445 30 L 445 605 Q 445 635 415 635 L 30 635 Q 0 635 0 605 L 0 30 Q 0 0 30 0 Z" /></clipPath>
+    <style><![CDATA[
+      .cut-line { fill: none; stroke: #d41a5a; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+      .panel-preview { fill: rgba(212, 26, 90, 0.07); stroke: none; }
+      .label { font-family: Arial, sans-serif; font-size: 22px; fill: #333333; pointer-events: none; }
+    ]]></style>
+  </defs>
+
+  <g id="panel-preview" data-box-role="panel-preview" visibility="hidden">
+    <path id="preview-tarot" class="panel-preview" data-object-id="tarot" d="M 60 0 L 640 0 Q 700 0 700 60 L 700 1140 Q 700 1200 640 1200 L 60 1200 Q 0 1200 0 1140 L 0 60 Q 0 0 60 0 Z" />
+    <path id="preview-poker" class="panel-preview" data-object-id="poker" d="M 35 0 L 600 0 Q 635 0 635 35 L 635 854 Q 635 889 600 889 L 35 889 Q 0 889 0 854 L 0 35 Q 0 0 35 0 Z" />
+    <path id="preview-bridge" class="panel-preview" data-object-id="bridge" d="M 35 0 L 537 0 Q 572 0 572 35 L 572 854 Q 572 889 537 889 L 35 889 Q 0 889 0 854 L 0 35 Q 0 0 35 0 Z" />
+    <path id="preview-mini" class="panel-preview" data-object-id="mini" d="M 30 0 L 415 0 Q 445 0 445 30 L 445 605 Q 445 635 415 635 L 30 635 Q 0 635 0 605 L 0 30 Q 0 0 30 0 Z" />
+  </g>
+
+  <g id="dieline" data-box-role="dieline">
+    <g id="cut-lines" class="cut-line" data-box-role="cut-lines">
+      <path id="cut-tarot" data-box-role="cut-line" data-line-type="cut" data-object-id="tarot" d="M 60 0 L 640 0 Q 700 0 700 60 L 700 1140 Q 700 1200 640 1200 L 60 1200 Q 0 1200 0 1140 L 0 60 Q 0 0 60 0 Z" />
+      <path id="cut-poker" data-box-role="cut-line" data-line-type="cut" data-object-id="poker" d="M 35 0 L 600 0 Q 635 0 635 35 L 635 854 Q 635 889 600 889 L 35 889 Q 0 889 0 854 L 0 35 Q 0 0 35 0 Z" />
+      <path id="cut-bridge" data-box-role="cut-line" data-line-type="cut" data-object-id="bridge" d="M 35 0 L 537 0 Q 572 0 572 35 L 572 854 Q 572 889 537 889 L 35 889 Q 0 889 0 854 L 0 35 Q 0 0 35 0 Z" />
+      <path id="cut-mini" data-box-role="cut-line" data-line-type="cut" data-object-id="mini" d="M 30 0 L 415 0 Q 445 0 445 30 L 445 605 Q 445 635 415 635 L 30 635 Q 0 635 0 605 L 0 30 Q 0 0 30 0 Z" />
+    </g>
+  </g>
+
+  <g id="objects" data-box-role="objects" visibility="hidden">
+    <g id="object-tarot" data-box-role="object" data-object-id="tarot" data-base-panel-id="tarot" data-width-mm="70.0" data-height-mm="120.0"><use href="#panel-tarot" /></g>
+    <g id="object-poker" data-box-role="object" data-object-id="poker" data-base-panel-id="poker" data-width-mm="63.5" data-height-mm="88.9"><use href="#panel-poker" /></g>
+    <g id="object-bridge" data-box-role="object" data-object-id="bridge" data-base-panel-id="bridge" data-width-mm="57.2" data-height-mm="88.9"><use href="#panel-bridge" /></g>
+    <g id="object-mini" data-box-role="object" data-object-id="mini" data-base-panel-id="mini" data-width-mm="44.5" data-height-mm="63.5"><use href="#panel-mini" /></g>
+  </g>
+
+  <g id="labels" class="label" data-box-role="labels" visibility="hidden">
+    <text x="350" y="600" text-anchor="middle">Tarot 70.0 × 120.0 mm</text>
+    <text x="317.5" y="444.5" text-anchor="middle">Poker 63.5 × 88.9 mm</text>
+    <text x="286" y="444.5" text-anchor="middle">Bridge 57.2 × 88.9 mm</text>
+    <text x="222.5" y="317.5" text-anchor="middle">Mini 44.5 × 63.5 mm</text>
+  </g>
+
+  <g id="panels" data-box-role="panels" visibility="hidden">
+    <path id="panel-tarot" data-box-role="panel" data-object-id="tarot" data-panel-id="tarot" data-panel-type="card-face" data-width-mm="70.0" data-height-mm="120.0" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M 60 0 L 640 0 Q 700 0 700 60 L 700 1140 Q 700 1200 640 1200 L 60 1200 Q 0 1200 0 1140 L 0 60 Q 0 0 60 0 Z" />
+    <path id="panel-poker" data-box-role="panel" data-object-id="poker" data-panel-id="poker" data-panel-type="card-face" data-width-mm="63.5" data-height-mm="88.9" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M 35 0 L 600 0 Q 635 0 635 35 L 635 854 Q 635 889 600 889 L 35 889 Q 0 889 0 854 L 0 35 Q 0 0 35 0 Z" />
+    <path id="panel-bridge" data-box-role="panel" data-object-id="bridge" data-panel-id="bridge" data-panel-type="card-face" data-width-mm="57.2" data-height-mm="88.9" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M 35 0 L 537 0 Q 572 0 572 35 L 572 854 Q 572 889 537 889 L 35 889 Q 0 889 0 854 L 0 35 Q 0 0 35 0 Z" />
+    <path id="panel-mini" data-box-role="panel" data-object-id="mini" data-panel-id="mini" data-panel-type="card-face" data-width-mm="44.5" data-height-mm="63.5" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M 30 0 L 415 0 Q 445 0 445 30 L 445 605 Q 445 635 415 635 L 30 635 Q 0 635 0 605 L 0 30 Q 0 0 30 0 Z" />
+  </g>
+
+  <g id="artwork" data-box-role="artwork">
+    <g id="artwork-tarot" data-box-role="artwork-panel" data-object-id="tarot" data-panel-id="tarot" clip-path="url(#clip-tarot)"></g>
+    <g id="artwork-poker" data-box-role="artwork-panel" data-object-id="poker" data-panel-id="poker" clip-path="url(#clip-poker)"></g>
+    <g id="artwork-bridge" data-box-role="artwork-panel" data-object-id="bridge" data-panel-id="bridge" clip-path="url(#clip-bridge)"></g>
+    <g id="artwork-mini" data-box-role="artwork-panel" data-object-id="mini" data-panel-id="mini" clip-path="url(#clip-mini)"></g>
+  </g>
+</svg>

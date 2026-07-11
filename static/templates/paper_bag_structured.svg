@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Structured_paper_bag"
+     xmlns="http://www.w3.org/2000/svg"
+     viewBox="-3 -3 625.73 386"
+     width="625.73mm"
+     height="386mm"
+     data-box-app="BoxBuilder"
+     data-box-version="1.0"
+     data-box-role="template"
+     data-unit="source-svg-unit">
+  <title>Structured paper-bag dieline</title>
+  <desc>Batch structured SVG with visible cut/fold paths, hidden panel faces, metadata, and clipped artwork groups.</desc>
+
+  <metadata id="box-template-metadata" type="application/json"><![CDATA[
+{
+  "schema": "box-template-v1",
+  "source": {
+    "file": "paper-bag.svg",
+    "viewBox": "-3 -3 625.73 386",
+    "width": "625.73mm",
+    "height": "386mm",
+    "unit": "source-svg-unit",
+    "note": "Batch-structured from SVG. Existing named panel faces were preserved where available; otherwise closed paths were treated as panel regions."
+  },
+  "template": "paper_bag",
+  "basePanel": "hlt",
+  "panels": [
+    {
+      "id": "hlt",
+      "sourceId": "knifeFace_HLT",
+      "label": "Hlt",
+      "type": "tab",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M0,40 L0,3.5265396141692995 L20,0 L20,40 L0,40 Z"
+    },
+    {
+      "id": "hl",
+      "sourceId": "knifeFace_HL",
+      "label": "Hl",
+      "type": "flap",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M0,40 L20,40 L20,320 L0,320 L0,40 Z"
+    },
+    {
+      "id": "hlb",
+      "sourceId": "knifeFace_HLB",
+      "label": "Hlb",
+      "type": "flap",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M0,320 L20,320 L20,380 L0,376.4734603858307 L0,320 Z"
+    },
+    {
+      "id": "ht",
+      "sourceId": "knifeFace_HT",
+      "label": "Ht",
+      "type": "tab",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M20,40 L20,0 L240,0 L240,40 L20,40 Z"
+    },
+    {
+      "id": "h",
+      "sourceId": "knifeFace_H",
+      "label": "H",
+      "type": "panel",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M20,40 L240,40 L240,320 L20,320 L20,40 Z"
+    },
+    {
+      "id": "hb",
+      "sourceId": "knifeFace_HB",
+      "label": "Hb",
+      "type": "flap",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M20,320 L240,320 L180,380 L80,380 L20,320 Z"
+    },
+    {
+      "id": "hbl",
+      "sourceId": "knifeFace_HBL",
+      "label": "Hbl",
+      "type": "flap",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M20,320 L80,380 L20,380 L20,320 Z"
+    },
+    {
+      "id": "hbr",
+      "sourceId": "knifeFace_HBR",
+      "label": "Hbr",
+      "type": "flap",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M240,320 L240,380 L180,380 L240,320 Z"
+    },
+    {
+      "id": "lt",
+      "sourceId": "knifeFace_LT",
+      "label": "Lt",
+      "type": "tab",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M240,40 L240,0 L320,0 L320,40 L240,40 Z"
+    },
+    {
+      "id": "l",
+      "sourceId": "knifeFace_L",
+      "label": "L",
+      "type": "flap",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M240,40 L320,40 L320,320 L240,320 L240,40 Z"
+    },
+    {
+      "id": "lb",
+      "sourceId": "knifeFace_LB",
+      "label": "Lb",
+      "type": "flap",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M240,320 L320,320 L320,380 L240,380 L240,320 Z"
+    },
+    {
+      "id": "ft",
+      "sourceId": "knifeFace_FT",
+      "label": "Ft",
+      "type": "tab",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M320,40 L320,0 L540,0 L540,40 L320,40 Z"
+    },
+    {
+      "id": "f",
+      "sourceId": "knifeFace_F",
+      "label": "F",
+      "type": "panel",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M320,40 L540,40 L540,320 L320,320 L320,40 Z"
+    },
+    {
+      "id": "fb",
+      "sourceId": "knifeFace_FB",
+      "label": "Fb",
+      "type": "flap",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M320,320 L540,320 L480.2025,380 L380,380 L320,320 Z"
+    },
+    {
+      "id": "fbl",
+      "sourceId": "knifeFace_FBL",
+      "label": "Fbl",
+      "type": "flap",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M320,320 L380,380 L320,380 L320,320 Z"
+    },
+    {
+      "id": "fbr",
+      "sourceId": "knifeFace_FBR",
+      "label": "Fbr",
+      "type": "flap",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M540,320 L540,380 L480.2025,380 L540,320 Z"
+    },
+    {
+      "id": "rt",
+      "sourceId": "knifeFace_RT",
+      "label": "Rt",
+      "type": "tab",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M540,40 L540,0 L619.73,0 L619.73,40 L540,40 Z"
+    },
+    {
+      "id": "r",
+      "sourceId": "knifeFace_R",
+      "label": "R",
+      "type": "flap",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M540,40 L619.73,40 L619.73,320 L540,320 L540,40 Z"
+    },
+    {
+      "id": "rb",
+      "sourceId": "knifeFace_RB",
+      "label": "Rb",
+      "type": "flap",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M540,320 L619.73,320 L619.73,380 L540,380 L540,320 Z"
+    }
+  ],
+  "cutPaths": [
+    {
+      "id": "source-path-21",
+      "role": "cut",
+      "d": "M0,40 L0,3.5265396141692995 L20,0 L619.73,0 L619.73,380 L20,380 L0,376.4734603858307 L0,40 Z"
+    },
+    {
+      "id": "source-path-22",
+      "role": "cut",
+      "d": "M72,20 A3,3 0 0,1 78,20 A3,3 0 0,1 72,20 Z"
+    },
+    {
+      "id": "source-path-23",
+      "role": "cut",
+      "d": "M182,20 A3,3 0 0,1 188,20 A3,3 0 0,1 182,20 Z"
+    },
+    {
+      "id": "source-path-24",
+      "role": "cut",
+      "d": "M72.5,60 A2.5,2.5 0 0,1 77.5,60 A2.5,2.5 0 0,1 72.5,60 Z"
+    },
+    {
+      "id": "source-path-25",
+      "role": "cut",
+      "d": "M182.5,60 A2.5,2.5 0 0,1 187.5,60 A2.5,2.5 0 0,1 182.5,60 Z"
+    },
+    {
+      "id": "source-path-26",
+      "role": "cut",
+      "d": "M372,20 A3,3 0 0,1 378,20 A3,3 0 0,1 372,20 Z"
+    },
+    {
+      "id": "source-path-27",
+      "role": "cut",
+      "d": "M482,20 A3,3 0 0,1 488,20 A3,3 0 0,1 482,20 Z"
+    },
+    {
+      "id": "source-path-28",
+      "role": "cut",
+      "d": "M372.5,60 A2.5,2.5 0 0,1 377.5,60 A2.5,2.5 0 0,1 372.5,60 Z"
+    },
+    {
+      "id": "source-path-29",
+      "role": "cut",
+      "d": "M482.5,60 A2.5,2.5 0 0,1 487.5,60 A2.5,2.5 0 0,1 482.5,60 Z"
+    }
+  ],
+  "foldPaths": [
+    {
+      "id": "fold-line-01",
+      "role": "fold",
+      "d": "M 20 0 L 20 40"
+    },
+    {
+      "id": "fold-line-02",
+      "role": "fold",
+      "d": "M 0 40 L 20 40"
+    },
+    {
+      "id": "fold-line-03",
+      "role": "fold",
+      "d": "M 20 40 L 20 320"
+    },
+    {
+      "id": "fold-line-04",
+      "role": "fold",
+      "d": "M 0 320 L 20 320"
+    },
+    {
+      "id": "fold-line-05",
+      "role": "fold",
+      "d": "M 20 320 L 20 380"
+    },
+    {
+      "id": "fold-line-06",
+      "role": "fold",
+      "d": "M 240 0 L 240 40"
+    },
+    {
+      "id": "fold-line-07",
+      "role": "fold",
+      "d": "M 20 40 L 240 40"
+    },
+    {
+      "id": "fold-line-08",
+      "role": "fold",
+      "d": "M 240 40 L 240 320"
+    },
+    {
+      "id": "fold-line-09",
+      "role": "fold",
+      "d": "M 20 320 L 240 320"
+    },
+    {
+      "id": "fold-line-10",
+      "role": "fold",
+      "d": "M 20 320 L 80 380"
+    },
+    {
+      "id": "fold-line-11",
+      "role": "fold",
+      "d": "M 240 320 L 240 380"
+    },
+    {
+      "id": "fold-line-12",
+      "role": "fold",
+      "d": "M 180 380 L 240 320"
+    },
+    {
+      "id": "fold-line-13",
+      "role": "fold",
+      "d": "M 320 0 L 320 40"
+    },
+    {
+      "id": "fold-line-14",
+      "role": "fold",
+      "d": "M 240 40 L 320 40"
+    },
+    {
+      "id": "fold-line-15",
+      "role": "fold",
+      "d": "M 320 40 L 320 320"
+    },
+    {
+      "id": "fold-line-16",
+      "role": "fold",
+      "d": "M 240 320 L 320 320"
+    },
+    {
+      "id": "fold-line-17",
+      "role": "fold",
+      "d": "M 320 320 L 320 380"
+    },
+    {
+      "id": "fold-line-18",
+      "role": "fold",
+      "d": "M 540 0 L 540 40"
+    },
+    {
+      "id": "fold-line-19",
+      "role": "fold",
+      "d": "M 320 40 L 540 40"
+    },
+    {
+      "id": "fold-line-20",
+      "role": "fold",
+      "d": "M 540 40 L 540 320"
+    },
+    {
+      "id": "fold-line-21",
+      "role": "fold",
+      "d": "M 320 320 L 540 320"
+    },
+    {
+      "id": "fold-line-22",
+      "role": "fold",
+      "d": "M 540 320 L 480.202 380"
+    },
+    {
+      "id": "fold-line-23",
+      "role": "fold",
+      "d": "M 320 320 L 380 380"
+    },
+    {
+      "id": "fold-line-24",
+      "role": "fold",
+      "d": "M 540 320 L 540 380"
+    },
+    {
+      "id": "fold-line-25",
+      "role": "fold",
+      "d": "M 540 40 L 619.73 40"
+    },
+    {
+      "id": "fold-line-26",
+      "role": "fold",
+      "d": "M 540 320 L 619.73 320"
+    },
+    {
+      "id": "fold-line-27",
+      "role": "fold",
+      "d": "M 579.865 280 L 280 280"
+    },
+    {
+      "id": "fold-line-28",
+      "role": "fold",
+      "d": "M 0 300 L 20 320"
+    },
+    {
+      "id": "fold-line-29",
+      "role": "fold",
+      "d": "M 240 320 L 280 280"
+    },
+    {
+      "id": "fold-line-30",
+      "role": "fold",
+      "d": "M 280 0 L 280 380"
+    },
+    {
+      "id": "fold-line-31",
+      "role": "fold",
+      "d": "M 280 280 L 320 320"
+    },
+    {
+      "id": "fold-line-32",
+      "role": "fold",
+      "d": "M 580 0 L 580 380"
+    },
+    {
+      "id": "fold-line-33",
+      "role": "fold",
+      "d": "M 540 320 L 579.865 280"
+    },
+    {
+      "id": "fold-line-34",
+      "role": "fold",
+      "d": "M 579.865 280 L 619.73 320"
+    }
+  ],
+  "tabPaths": [],
+  "sourcePathCount": 29
+}
+  ]]></metadata>
+
+  <defs>
+    <clipPath id="clip-hlt"><path d="M0,40 L0,3.5265396141692995 L20,0 L20,40 L0,40 Z" /></clipPath>
+    <clipPath id="clip-hl"><path d="M0,40 L20,40 L20,320 L0,320 L0,40 Z" /></clipPath>
+    <clipPath id="clip-hlb"><path d="M0,320 L20,320 L20,380 L0,376.4734603858307 L0,320 Z" /></clipPath>
+    <clipPath id="clip-ht"><path d="M20,40 L20,0 L240,0 L240,40 L20,40 Z" /></clipPath>
+    <clipPath id="clip-h"><path d="M20,40 L240,40 L240,320 L20,320 L20,40 Z" /></clipPath>
+    <clipPath id="clip-hb"><path d="M20,320 L240,320 L180,380 L80,380 L20,320 Z" /></clipPath>
+    <clipPath id="clip-hbl"><path d="M20,320 L80,380 L20,380 L20,320 Z" /></clipPath>
+    <clipPath id="clip-hbr"><path d="M240,320 L240,380 L180,380 L240,320 Z" /></clipPath>
+    <clipPath id="clip-lt"><path d="M240,40 L240,0 L320,0 L320,40 L240,40 Z" /></clipPath>
+    <clipPath id="clip-l"><path d="M240,40 L320,40 L320,320 L240,320 L240,40 Z" /></clipPath>
+    <clipPath id="clip-lb"><path d="M240,320 L320,320 L320,380 L240,380 L240,320 Z" /></clipPath>
+    <clipPath id="clip-ft"><path d="M320,40 L320,0 L540,0 L540,40 L320,40 Z" /></clipPath>
+    <clipPath id="clip-f"><path d="M320,40 L540,40 L540,320 L320,320 L320,40 Z" /></clipPath>
+    <clipPath id="clip-fb"><path d="M320,320 L540,320 L480.2025,380 L380,380 L320,320 Z" /></clipPath>
+    <clipPath id="clip-fbl"><path d="M320,320 L380,380 L320,380 L320,320 Z" /></clipPath>
+    <clipPath id="clip-fbr"><path d="M540,320 L540,380 L480.2025,380 L540,320 Z" /></clipPath>
+    <clipPath id="clip-rt"><path d="M540,40 L540,0 L619.73,0 L619.73,40 L540,40 Z" /></clipPath>
+    <clipPath id="clip-r"><path d="M540,40 L619.73,40 L619.73,320 L540,320 L540,40 Z" /></clipPath>
+    <clipPath id="clip-rb"><path d="M540,320 L619.73,320 L619.73,380 L540,380 L540,320 Z" /></clipPath>
+    <pattern id="glueHatch" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+      <rect width="6" height="6" fill="transparent" />
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#d41a5a" stroke-width="0.8" />
+    </pattern>
+    <style><![CDATA[
+      .cut-line { fill: none; stroke: #d41a5a; stroke-width: 1.25; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+      .fold-line { fill: none; stroke: #00adee; stroke-width: 0.75; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+      .tab-line { fill: #e8e6e1; stroke: #d41a5a; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+      .panel-preview { fill: rgba(212, 26, 90, 0.07); stroke: none; }
+      .preview-glue-flap { fill: url(#glueHatch); opacity: 0.75; }
+      .label { font-family: Arial, sans-serif; font-size: 7px; fill: #333333; pointer-events: none; }
+    ]]></style>
+  </defs>
+
+  <g id="panel-preview" data-box-role="panel-preview" visibility="hidden">
+    <path id="preview-hlt" class="panel-preview preview-tab" d="M0,40 L0,3.5265396141692995 L20,0 L20,40 L0,40 Z" />
+    <path id="preview-hl" class="panel-preview preview-flap" d="M0,40 L20,40 L20,320 L0,320 L0,40 Z" />
+    <path id="preview-hlb" class="panel-preview preview-flap" d="M0,320 L20,320 L20,380 L0,376.4734603858307 L0,320 Z" />
+    <path id="preview-ht" class="panel-preview preview-tab" d="M20,40 L20,0 L240,0 L240,40 L20,40 Z" />
+    <path id="preview-h" class="panel-preview preview-panel" d="M20,40 L240,40 L240,320 L20,320 L20,40 Z" />
+    <path id="preview-hb" class="panel-preview preview-flap" d="M20,320 L240,320 L180,380 L80,380 L20,320 Z" />
+    <path id="preview-hbl" class="panel-preview preview-flap" d="M20,320 L80,380 L20,380 L20,320 Z" />
+    <path id="preview-hbr" class="panel-preview preview-flap" d="M240,320 L240,380 L180,380 L240,320 Z" />
+    <path id="preview-lt" class="panel-preview preview-tab" d="M240,40 L240,0 L320,0 L320,40 L240,40 Z" />
+    <path id="preview-l" class="panel-preview preview-flap" d="M240,40 L320,40 L320,320 L240,320 L240,40 Z" />
+    <path id="preview-lb" class="panel-preview preview-flap" d="M240,320 L320,320 L320,380 L240,380 L240,320 Z" />
+    <path id="preview-ft" class="panel-preview preview-tab" d="M320,40 L320,0 L540,0 L540,40 L320,40 Z" />
+    <path id="preview-f" class="panel-preview preview-panel" d="M320,40 L540,40 L540,320 L320,320 L320,40 Z" />
+    <path id="preview-fb" class="panel-preview preview-flap" d="M320,320 L540,320 L480.2025,380 L380,380 L320,320 Z" />
+    <path id="preview-fbl" class="panel-preview preview-flap" d="M320,320 L380,380 L320,380 L320,320 Z" />
+    <path id="preview-fbr" class="panel-preview preview-flap" d="M540,320 L540,380 L480.2025,380 L540,320 Z" />
+    <path id="preview-rt" class="panel-preview preview-tab" d="M540,40 L540,0 L619.73,0 L619.73,40 L540,40 Z" />
+    <path id="preview-r" class="panel-preview preview-flap" d="M540,40 L619.73,40 L619.73,320 L540,320 L540,40 Z" />
+    <path id="preview-rb" class="panel-preview preview-flap" d="M540,320 L619.73,320 L619.73,380 L540,380 L540,320 Z" />
+  </g>
+
+  <g id="dieline" data-box-role="dieline">
+    <g id="cut-lines" class="cut-line" data-box-role="cut-lines">
+      <path id="source-path-21" data-box-role="cut-line" data-line-type="cut" d="M0,40 L0,3.5265396141692995 L20,0 L619.73,0 L619.73,380 L20,380 L0,376.4734603858307 L0,40 Z" />
+      <path id="source-path-22" data-box-role="cut-line" data-line-type="cut" d="M72,20 A3,3 0 0,1 78,20 A3,3 0 0,1 72,20 Z" />
+      <path id="source-path-23" data-box-role="cut-line" data-line-type="cut" d="M182,20 A3,3 0 0,1 188,20 A3,3 0 0,1 182,20 Z" />
+      <path id="source-path-24" data-box-role="cut-line" data-line-type="cut" d="M72.5,60 A2.5,2.5 0 0,1 77.5,60 A2.5,2.5 0 0,1 72.5,60 Z" />
+      <path id="source-path-25" data-box-role="cut-line" data-line-type="cut" d="M182.5,60 A2.5,2.5 0 0,1 187.5,60 A2.5,2.5 0 0,1 182.5,60 Z" />
+      <path id="source-path-26" data-box-role="cut-line" data-line-type="cut" d="M372,20 A3,3 0 0,1 378,20 A3,3 0 0,1 372,20 Z" />
+      <path id="source-path-27" data-box-role="cut-line" data-line-type="cut" d="M482,20 A3,3 0 0,1 488,20 A3,3 0 0,1 482,20 Z" />
+      <path id="source-path-28" data-box-role="cut-line" data-line-type="cut" d="M372.5,60 A2.5,2.5 0 0,1 377.5,60 A2.5,2.5 0 0,1 372.5,60 Z" />
+      <path id="source-path-29" data-box-role="cut-line" data-line-type="cut" d="M482.5,60 A2.5,2.5 0 0,1 487.5,60 A2.5,2.5 0 0,1 482.5,60 Z" />
+    </g>
+    <g id="fold-lines" class="fold-line" data-box-role="fold-lines">
+      <path id="fold-line-01" data-box-role="fold-line" data-line-type="fold" d="M 20 0 L 20 40" />
+      <path id="fold-line-02" data-box-role="fold-line" data-line-type="fold" d="M 0 40 L 20 40" />
+      <path id="fold-line-03" data-box-role="fold-line" data-line-type="fold" d="M 20 40 L 20 320" />
+      <path id="fold-line-04" data-box-role="fold-line" data-line-type="fold" d="M 0 320 L 20 320" />
+      <path id="fold-line-05" data-box-role="fold-line" data-line-type="fold" d="M 20 320 L 20 380" />
+      <path id="fold-line-06" data-box-role="fold-line" data-line-type="fold" d="M 240 0 L 240 40" />
+      <path id="fold-line-07" data-box-role="fold-line" data-line-type="fold" d="M 20 40 L 240 40" />
+      <path id="fold-line-08" data-box-role="fold-line" data-line-type="fold" d="M 240 40 L 240 320" />
+      <path id="fold-line-09" data-box-role="fold-line" data-line-type="fold" d="M 20 320 L 240 320" />
+      <path id="fold-line-10" data-box-role="fold-line" data-line-type="fold" d="M 20 320 L 80 380" />
+      <path id="fold-line-11" data-box-role="fold-line" data-line-type="fold" d="M 240 320 L 240 380" />
+      <path id="fold-line-12" data-box-role="fold-line" data-line-type="fold" d="M 180 380 L 240 320" />
+      <path id="fold-line-13" data-box-role="fold-line" data-line-type="fold" d="M 320 0 L 320 40" />
+      <path id="fold-line-14" data-box-role="fold-line" data-line-type="fold" d="M 240 40 L 320 40" />
+      <path id="fold-line-15" data-box-role="fold-line" data-line-type="fold" d="M 320 40 L 320 320" />
+      <path id="fold-line-16" data-box-role="fold-line" data-line-type="fold" d="M 240 320 L 320 320" />
+      <path id="fold-line-17" data-box-role="fold-line" data-line-type="fold" d="M 320 320 L 320 380" />
+      <path id="fold-line-18" data-box-role="fold-line" data-line-type="fold" d="M 540 0 L 540 40" />
+      <path id="fold-line-19" data-box-role="fold-line" data-line-type="fold" d="M 320 40 L 540 40" />
+      <path id="fold-line-20" data-box-role="fold-line" data-line-type="fold" d="M 540 40 L 540 320" />
+      <path id="fold-line-21" data-box-role="fold-line" data-line-type="fold" d="M 320 320 L 540 320" />
+      <path id="fold-line-22" data-box-role="fold-line" data-line-type="fold" d="M 540 320 L 480.202 380" />
+      <path id="fold-line-23" data-box-role="fold-line" data-line-type="fold" d="M 320 320 L 380 380" />
+      <path id="fold-line-24" data-box-role="fold-line" data-line-type="fold" d="M 540 320 L 540 380" />
+      <path id="fold-line-25" data-box-role="fold-line" data-line-type="fold" d="M 540 40 L 619.73 40" />
+      <path id="fold-line-26" data-box-role="fold-line" data-line-type="fold" d="M 540 320 L 619.73 320" />
+      <path id="fold-line-27" data-box-role="fold-line" data-line-type="fold" d="M 579.865 280 L 280 280" />
+      <path id="fold-line-28" data-box-role="fold-line" data-line-type="fold" d="M 0 300 L 20 320" />
+      <path id="fold-line-29" data-box-role="fold-line" data-line-type="fold" d="M 240 320 L 280 280" />
+      <path id="fold-line-30" data-box-role="fold-line" data-line-type="fold" d="M 280 0 L 280 380" />
+      <path id="fold-line-31" data-box-role="fold-line" data-line-type="fold" d="M 280 280 L 320 320" />
+      <path id="fold-line-32" data-box-role="fold-line" data-line-type="fold" d="M 580 0 L 580 380" />
+      <path id="fold-line-33" data-box-role="fold-line" data-line-type="fold" d="M 540 320 L 579.865 280" />
+      <path id="fold-line-34" data-box-role="fold-line" data-line-type="fold" d="M 579.865 280 L 619.73 320" />
+    </g>
+    <g id="tab-shapes" class="tab-line" data-box-role="tab-shapes">
+
+    </g>
+  </g>
+
+  <g id="labels" class="label" data-box-role="labels" visibility="hidden">
+    <text x="8" y="24.7053" text-anchor="middle">Hlt</text>
+    <text x="8" y="152" text-anchor="middle">Hl</text>
+    <text x="8" y="343.295" text-anchor="middle">Hlb</text>
+    <text x="108" y="24" text-anchor="middle">Ht</text>
+    <text x="108" y="152" text-anchor="middle">H</text>
+    <text x="108" y="344" text-anchor="middle">Hb</text>
+    <text x="35" y="350" text-anchor="middle">Hbl</text>
+    <text x="225" y="350" text-anchor="middle">Hbr</text>
+    <text x="272" y="24" text-anchor="middle">Lt</text>
+    <text x="272" y="152" text-anchor="middle">L</text>
+    <text x="272" y="344" text-anchor="middle">Lb</text>
+    <text x="408" y="24" text-anchor="middle">Ft</text>
+    <text x="408" y="152" text-anchor="middle">F</text>
+    <text x="408.04" y="344" text-anchor="middle">Fb</text>
+    <text x="335" y="350" text-anchor="middle">Fbl</text>
+    <text x="525.051" y="350" text-anchor="middle">Fbr</text>
+    <text x="571.892" y="24" text-anchor="middle">Rt</text>
+    <text x="571.892" y="152" text-anchor="middle">R</text>
+    <text x="571.892" y="344" text-anchor="middle">Rb</text>
+  </g>
+
+  <g id="panels" data-box-role="panels" visibility="hidden">
+    <path id="panel-hlt" data-box-role="panel" data-panel-id="hlt" data-source-id="knifeFace_HLT" data-panel-type="tab" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M0,40 L0,3.5265396141692995 L20,0 L20,40 L0,40 Z" />
+    <path id="panel-hl" data-box-role="panel" data-panel-id="hl" data-source-id="knifeFace_HL" data-panel-type="flap" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M0,40 L20,40 L20,320 L0,320 L0,40 Z" />
+    <path id="panel-hlb" data-box-role="panel" data-panel-id="hlb" data-source-id="knifeFace_HLB" data-panel-type="flap" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M0,320 L20,320 L20,380 L0,376.4734603858307 L0,320 Z" />
+    <path id="panel-ht" data-box-role="panel" data-panel-id="ht" data-source-id="knifeFace_HT" data-panel-type="tab" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M20,40 L20,0 L240,0 L240,40 L20,40 Z" />
+    <path id="panel-h" data-box-role="panel" data-panel-id="h" data-source-id="knifeFace_H" data-panel-type="panel" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M20,40 L240,40 L240,320 L20,320 L20,40 Z" />
+    <path id="panel-hb" data-box-role="panel" data-panel-id="hb" data-source-id="knifeFace_HB" data-panel-type="flap" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M20,320 L240,320 L180,380 L80,380 L20,320 Z" />
+    <path id="panel-hbl" data-box-role="panel" data-panel-id="hbl" data-source-id="knifeFace_HBL" data-panel-type="flap" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M20,320 L80,380 L20,380 L20,320 Z" />
+    <path id="panel-hbr" data-box-role="panel" data-panel-id="hbr" data-source-id="knifeFace_HBR" data-panel-type="flap" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M240,320 L240,380 L180,380 L240,320 Z" />
+    <path id="panel-lt" data-box-role="panel" data-panel-id="lt" data-source-id="knifeFace_LT" data-panel-type="tab" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M240,40 L240,0 L320,0 L320,40 L240,40 Z" />
+    <path id="panel-l" data-box-role="panel" data-panel-id="l" data-source-id="knifeFace_L" data-panel-type="flap" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M240,40 L320,40 L320,320 L240,320 L240,40 Z" />
+    <path id="panel-lb" data-box-role="panel" data-panel-id="lb" data-source-id="knifeFace_LB" data-panel-type="flap" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M240,320 L320,320 L320,380 L240,380 L240,320 Z" />
+    <path id="panel-ft" data-box-role="panel" data-panel-id="ft" data-source-id="knifeFace_FT" data-panel-type="tab" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M320,40 L320,0 L540,0 L540,40 L320,40 Z" />
+    <path id="panel-f" data-box-role="panel" data-panel-id="f" data-source-id="knifeFace_F" data-panel-type="panel" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M320,40 L540,40 L540,320 L320,320 L320,40 Z" />
+    <path id="panel-fb" data-box-role="panel" data-panel-id="fb" data-source-id="knifeFace_FB" data-panel-type="flap" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M320,320 L540,320 L480.2025,380 L380,380 L320,320 Z" />
+    <path id="panel-fbl" data-box-role="panel" data-panel-id="fbl" data-source-id="knifeFace_FBL" data-panel-type="flap" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M320,320 L380,380 L320,380 L320,320 Z" />
+    <path id="panel-fbr" data-box-role="panel" data-panel-id="fbr" data-source-id="knifeFace_FBR" data-panel-type="flap" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M540,320 L540,380 L480.2025,380 L540,320 Z" />
+    <path id="panel-rt" data-box-role="panel" data-panel-id="rt" data-source-id="knifeFace_RT" data-panel-type="tab" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M540,40 L540,0 L619.73,0 L619.73,40 L540,40 Z" />
+    <path id="panel-r" data-box-role="panel" data-panel-id="r" data-source-id="knifeFace_R" data-panel-type="flap" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M540,40 L619.73,40 L619.73,320 L540,320 L540,40 Z" />
+    <path id="panel-rb" data-box-role="panel" data-panel-id="rb" data-source-id="knifeFace_RB" data-panel-type="flap" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M540,320 L619.73,320 L619.73,380 L540,380 L540,320 Z" />
+  </g>
+
+  <g id="artwork" data-box-role="artwork">
+    <g id="artwork-hlt" data-box-role="artwork-panel" data-panel-id="hlt" clip-path="url(#clip-hlt)"></g>
+    <g id="artwork-hl" data-box-role="artwork-panel" data-panel-id="hl" clip-path="url(#clip-hl)"></g>
+    <g id="artwork-hlb" data-box-role="artwork-panel" data-panel-id="hlb" clip-path="url(#clip-hlb)"></g>
+    <g id="artwork-ht" data-box-role="artwork-panel" data-panel-id="ht" clip-path="url(#clip-ht)"></g>
+    <g id="artwork-h" data-box-role="artwork-panel" data-panel-id="h" clip-path="url(#clip-h)"></g>
+    <g id="artwork-hb" data-box-role="artwork-panel" data-panel-id="hb" clip-path="url(#clip-hb)"></g>
+    <g id="artwork-hbl" data-box-role="artwork-panel" data-panel-id="hbl" clip-path="url(#clip-hbl)"></g>
+    <g id="artwork-hbr" data-box-role="artwork-panel" data-panel-id="hbr" clip-path="url(#clip-hbr)"></g>
+    <g id="artwork-lt" data-box-role="artwork-panel" data-panel-id="lt" clip-path="url(#clip-lt)"></g>
+    <g id="artwork-l" data-box-role="artwork-panel" data-panel-id="l" clip-path="url(#clip-l)"></g>
+    <g id="artwork-lb" data-box-role="artwork-panel" data-panel-id="lb" clip-path="url(#clip-lb)"></g>
+    <g id="artwork-ft" data-box-role="artwork-panel" data-panel-id="ft" clip-path="url(#clip-ft)"></g>
+    <g id="artwork-f" data-box-role="artwork-panel" data-panel-id="f" clip-path="url(#clip-f)"></g>
+    <g id="artwork-fb" data-box-role="artwork-panel" data-panel-id="fb" clip-path="url(#clip-fb)"></g>
+    <g id="artwork-fbl" data-box-role="artwork-panel" data-panel-id="fbl" clip-path="url(#clip-fbl)"></g>
+    <g id="artwork-fbr" data-box-role="artwork-panel" data-panel-id="fbr" clip-path="url(#clip-fbr)"></g>
+    <g id="artwork-rt" data-box-role="artwork-panel" data-panel-id="rt" clip-path="url(#clip-rt)"></g>
+    <g id="artwork-r" data-box-role="artwork-panel" data-panel-id="r" clip-path="url(#clip-r)"></g>
+    <g id="artwork-rb" data-box-role="artwork-panel" data-panel-id="rb" clip-path="url(#clip-rb)"></g>
+  </g>
+</svg>

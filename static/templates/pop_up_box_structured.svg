@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Structured_popupbox_Template"
+     xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 930 1350"
+     width="328.0833mm"
+     height="476.2500mm"
+     data-box-app="BoxBuilder"
+     data-box-version="1.0"
+     data-box-role="template"
+     data-unit="mm">
+  <title>Structured popupbox dieline</title>
+  <desc>Structured version of the uploaded popupbox SVG with visible cut/fold lines, hidden panel faces, metadata, and clipped artwork groups.</desc>
+
+  <metadata id="box-template-metadata" type="application/json"><![CDATA[
+{
+  "schema": "box-template-v1",
+  "source": {
+    "file": "popupbox_folding_pattern_structured.svg",
+    "viewBox": "0 0 930 1350",
+    "width": "328.0833mm",
+    "height": "476.2500mm",
+    "unit": "mm",
+    "note": "Structured from the uploaded popupbox dieline. Restyled to match the other BoxBuilder templates while preserving the original popupbox geometry."
+  },
+  "template": "popupbox",
+  "panels": [
+    {
+      "id": "main-panel-1",
+      "label": "Main Panel 1",
+      "type": "panel",
+      "foldParent": null,
+      "foldId": null,
+      "foldAngleDeg": 0,
+      "path": "M 309 52 L 621 52 L 621 362 L 309 362 Z",
+      "sourceId": "main-panel-1",
+      "displayLabel": "Main Panel 1",
+      "displayName": "Main Panel 1",
+      "standardName": "main-panel-1",
+      "isGlue": false,
+      "labelPosition": [
+        465,
+        207
+      ],
+      "labelLayout": {
+        "text": "Main Panel 1",
+        "x": 465,
+        "y": 207,
+        "fontSize": 4,
+        "rotationDeg": 0,
+        "maxWidth": 0,
+        "lineHeight": 1.2
+      },
+      "meshD": "M 309 52 L 621 52 L 621 362 L 309 362 Z",
+      "pathId": "panel-main-panel-1",
+      "clipPathId": "clip-main-panel-1",
+      "objectId": ""
+    },
+    {
+      "id": "main-panel-2",
+      "label": "Main Panel 2",
+      "type": "panel",
+      "foldParent": "main-panel-1",
+      "foldId": "source-path-7",
+      "foldAngleDeg": 90,
+      "path": "M 309 362 L 621 362 L 621 675 L 309 675 Z",
+      "sourceId": "main-panel-2",
+      "displayLabel": "Main Panel 2",
+      "displayName": "Main Panel 2",
+      "standardName": "main-panel-2",
+      "isGlue": false,
+      "labelPosition": [
+        465,
+        518.5
+      ],
+      "labelLayout": {
+        "text": "Main Panel 2",
+        "x": 465,
+        "y": 518.5,
+        "fontSize": 4,
+        "rotationDeg": 0,
+        "maxWidth": 0,
+        "lineHeight": 1.2
+      },
+      "meshD": "M 309 362 L 621 362 L 621 675 L 309 675 Z",
+      "pathId": "panel-main-panel-2",
+      "clipPathId": "clip-main-panel-2",
+      "objectId": ""
+    },
+    {
+      "id": "main-panel-3",
+      "label": "Main Panel 3",
+      "type": "panel",
+      "foldParent": "main-panel-2",
+      "foldId": "source-path-8",
+      "foldAngleDeg": 90,
+      "path": "M 309 675 L 621 675 L 621 986 L 309 986 Z",
+      "sourceId": "main-panel-3",
+      "displayLabel": "Main Panel 3",
+      "displayName": "Main Panel 3",
+      "standardName": "main-panel-3",
+      "isGlue": false,
+      "labelPosition": [
+        465,
+        830.5
+      ],
+      "labelLayout": {
+        "text": "Main Panel 3",
+        "x": 465,
+        "y": 830.5,
+        "fontSize": 4,
+        "rotationDeg": 0,
+        "maxWidth": 0,
+        "lineHeight": 1.2
+      },
+      "meshD": "M 309 675 L 621 675 L 621 986 L 309 986 Z",
+      "pathId": "panel-main-panel-3",
+      "clipPathId": "clip-main-panel-3",
+      "objectId": ""
+    },
+    {
+      "id": "main-panel-4",
+      "label": "Main Panel 4",
+      "type": "panel",
+      "foldParent": "main-panel-3",
+      "foldId": "source-path-9",
+      "foldAngleDeg": 90,
+      "path": "M 309 986 L 621 986 L 621 1300 L 309 1300 Z",
+      "sourceId": "main-panel-4",
+      "displayLabel": "Main Panel 4",
+      "displayName": "Main Panel 4",
+      "standardName": "main-panel-4",
+      "isGlue": false,
+      "labelPosition": [
+        465,
+        1143
+      ],
+      "labelLayout": {
+        "text": "Main Panel 4",
+        "x": 465,
+        "y": 1143,
+        "fontSize": 4,
+        "rotationDeg": 0,
+        "maxWidth": 0,
+        "lineHeight": 1.2
+      },
+      "meshD": "M 309 986 L 621 986 L 621 1300 L 309 1300 Z",
+      "pathId": "panel-main-panel-4",
+      "clipPathId": "clip-main-panel-4",
+      "objectId": ""
+    },
+    {
+      "id": "top-left-tab",
+      "label": "Top Left Tab",
+      "type": "panel",
+      "foldParent": "main-panel-1",
+      "foldId": null,
+      "foldAngleDeg": 0,
+      "path": "M20 1 L282 1 L309 52 L0 52 Z",
+      "sourceId": "top-left-tab",
+      "displayLabel": "Top Left Tab",
+      "displayName": "Top Left Tab",
+      "standardName": "top-left-tab",
+      "isGlue": false,
+      "labelPosition": [
+        155,
+        27
+      ],
+      "labelLayout": {
+        "text": "Top Left Tab",
+        "x": 155,
+        "y": 27,
+        "fontSize": 4,
+        "rotationDeg": 0,
+        "maxWidth": 0,
+        "lineHeight": 1.2
+      },
+      "meshD": "M20 1 L282 1 L309 52 L0 52 Z",
+      "pathId": "panel-top-left-tab",
+      "clipPathId": "clip-top-left-tab",
+      "objectId": ""
+    },
+    {
+      "id": "top-right-tab",
+      "label": "Top Right Tab",
+      "type": "panel",
+      "foldParent": "main-panel-1",
+      "foldId": null,
+      "foldAngleDeg": 0,
+      "path": "M643 1 L904 1 L930 52 L621 52 Z",
+      "sourceId": "top-right-tab",
+      "displayLabel": "Top Right Tab",
+      "displayName": "Top Right Tab",
+      "standardName": "top-right-tab",
+      "isGlue": false,
+      "labelPosition": [
+        775,
+        27
+      ],
+      "labelLayout": {
+        "text": "Top Right Tab",
+        "x": 775,
+        "y": 27,
+        "fontSize": 4,
+        "rotationDeg": 0,
+        "maxWidth": 0,
+        "lineHeight": 1.2
+      },
+      "meshD": "M643 1 L904 1 L930 52 L621 52 Z",
+      "pathId": "panel-top-right-tab",
+      "clipPathId": "clip-top-right-tab",
+      "objectId": ""
+    },
+    {
+      "id": "middle-left-tab",
+      "label": "Middle Left Tab",
+      "type": "panel",
+      "foldParent": "main-panel-3",
+      "foldId": null,
+      "foldAngleDeg": 0,
+      "path": "M24 623 L283 623 L309 675 L0 675 Z",
+      "sourceId": "middle-left-tab",
+      "displayLabel": "Middle Left Tab",
+      "displayName": "Middle Left Tab",
+      "standardName": "middle-left-tab",
+      "isGlue": false,
+      "labelPosition": [
+        155,
+        649
+      ],
+      "labelLayout": {
+        "text": "Middle Left Tab",
+        "x": 155,
+        "y": 649,
+        "fontSize": 4,
+        "rotationDeg": 0,
+        "maxWidth": 0,
+        "lineHeight": 1.2
+      },
+      "meshD": "M24 623 L283 623 L309 675 L0 675 Z",
+      "pathId": "panel-middle-left-tab",
+      "clipPathId": "clip-middle-left-tab",
+      "objectId": ""
+    },
+    {
+      "id": "middle-right-tab",
+      "label": "Middle Right Tab",
+      "type": "panel",
+      "foldParent": "main-panel-3",
+      "foldId": null,
+      "foldAngleDeg": 0,
+      "path": "M642 623 L904 623 L930 675 L621 675 Z",
+      "sourceId": "middle-right-tab",
+      "displayLabel": "Middle Right Tab",
+      "displayName": "Middle Right Tab",
+      "standardName": "middle-right-tab",
+      "isGlue": false,
+      "labelPosition": [
+        775,
+        649
+      ],
+      "labelLayout": {
+        "text": "Middle Right Tab",
+        "x": 775,
+        "y": 649,
+        "fontSize": 4,
+        "rotationDeg": 0,
+        "maxWidth": 0,
+        "lineHeight": 1.2
+      },
+      "meshD": "M642 623 L904 623 L930 675 L621 675 Z",
+      "pathId": "panel-middle-right-tab",
+      "clipPathId": "clip-middle-right-tab",
+      "objectId": ""
+    },
+    {
+      "id": "bottom-tab",
+      "label": "Bottom Tab",
+      "type": "panel",
+      "foldParent": "main-panel-4",
+      "foldId": null,
+      "foldAngleDeg": 0,
+      "path": "M309 1300 L621 1300 L596 1349 L333 1349 Z",
+      "sourceId": "bottom-tab",
+      "displayLabel": "Bottom Tab",
+      "displayName": "Bottom Tab",
+      "standardName": "bottom-tab",
+      "isGlue": false,
+      "labelPosition": [
+        465,
+        1326
+      ],
+      "labelLayout": {
+        "text": "Bottom Tab",
+        "x": 465,
+        "y": 1326,
+        "fontSize": 4,
+        "rotationDeg": 0,
+        "maxWidth": 0,
+        "lineHeight": 1.2
+      },
+      "meshD": "M309 1300 L621 1300 L596 1349 L333 1349 Z",
+      "pathId": "panel-bottom-tab",
+      "clipPathId": "clip-bottom-tab",
+      "objectId": ""
+    },
+    {
+      "id": "upper-left-side-flap",
+      "label": "Upper Left Side Flap",
+      "type": "panel",
+      "foldParent": "main-panel-1",
+      "foldId": "source-path-11",
+      "foldAngleDeg": 90,
+      "path": "M 0 52 L 110 263 L 155 263 L 155 207 L 309 361 L 309 52 Z",
+      "sourceId": "upper-left-side-flap",
+      "displayLabel": "Upper Left Side Flap",
+      "displayName": "Upper Left Side Flap",
+      "standardName": "upper-left-side-flap",
+      "isGlue": false,
+      "labelPosition": [
+        145,
+        190
+      ],
+      "labelLayout": {
+        "text": "Upper Left Side Flap",
+        "x": 145,
+        "y": 190,
+        "fontSize": 4,
+        "rotationDeg": 0,
+        "maxWidth": 0,
+        "lineHeight": 1.2
+      },
+      "meshD": "M 0 52 L 110 263 L 155 263 L 155 207 L 309 361 L 309 52 Z",
+      "pathId": "panel-upper-left-side-flap",
+      "clipPathId": "clip-upper-left-side-flap",
+      "objectId": ""
+    },
+    {
+      "id": "upper-right-side-flap",
+      "label": "Upper Right Side Flap",
+      "type": "panel",
+      "foldParent": "main-panel-1",
+      "foldId": "source-path-13",
+      "foldAngleDeg": -90,
+      "path": "M 621 52 L 930 52 L 849 207 L 779 207 L 621 361 Z",
+      "sourceId": "upper-right-side-flap",
+      "displayLabel": "Upper Right Side Flap",
+      "displayName": "Upper Right Side Flap",
+      "standardName": "upper-right-side-flap",
+      "isGlue": false,
+      "labelPosition": [
+        785,
+        190
+      ],
+      "labelLayout": {
+        "text": "Upper Right Side Flap",
+        "x": 785,
+        "y": 190,
+        "fontSize": 4,
+        "rotationDeg": 0,
+        "maxWidth": 0,
+        "lineHeight": 1.2
+      },
+      "meshD": "M 621 52 L 930 52 L 849 207 L 779 207 L 621 361 Z",
+      "pathId": "panel-upper-right-side-flap",
+      "clipPathId": "clip-upper-right-side-flap",
+      "objectId": ""
+    },
+    {
+      "id": "lower-left-side-flap",
+      "label": "Lower Left Side Flap",
+      "type": "panel",
+      "foldParent": "main-panel-3",
+      "foldId": "source-path-15",
+      "foldAngleDeg": 90,
+      "path": "M 0 675 L 80 829 L 155 829 L 309 986 L 309 675 Z",
+      "sourceId": "lower-left-side-flap",
+      "displayLabel": "Lower Left Side Flap",
+      "displayName": "Lower Left Side Flap",
+      "standardName": "lower-left-side-flap",
+      "isGlue": false,
+      "labelPosition": [
+        145,
+        815
+      ],
+      "labelLayout": {
+        "text": "Lower Left Side Flap",
+        "x": 145,
+        "y": 815,
+        "fontSize": 4,
+        "rotationDeg": 0,
+        "maxWidth": 0,
+        "lineHeight": 1.2
+      },
+      "meshD": "M 0 675 L 80 829 L 155 829 L 309 986 L 309 675 Z",
+      "pathId": "panel-lower-left-side-flap",
+      "clipPathId": "clip-lower-left-side-flap",
+      "objectId": ""
+    },
+    {
+      "id": "lower-right-side-flap",
+      "label": "Lower Right Side Flap",
+      "type": "panel",
+      "foldParent": "main-panel-3",
+      "foldId": "source-path-17",
+      "foldAngleDeg": -90,
+      "path": "M 621 675 L 930 675 L 819 885 L 779 885 L 779 829 L 621 986 Z",
+      "sourceId": "lower-right-side-flap",
+      "displayLabel": "Lower Right Side Flap",
+      "displayName": "Lower Right Side Flap",
+      "standardName": "lower-right-side-flap",
+      "isGlue": false,
+      "labelPosition": [
+        785,
+        815
+      ],
+      "labelLayout": {
+        "text": "Lower Right Side Flap",
+        "x": 785,
+        "y": 815,
+        "fontSize": 4,
+        "rotationDeg": 0,
+        "maxWidth": 0,
+        "lineHeight": 1.2
+      },
+      "meshD": "M 621 675 L 930 675 L 819 885 L 779 885 L 779 829 L 621 986 Z",
+      "pathId": "panel-lower-right-side-flap",
+      "clipPathId": "clip-lower-right-side-flap",
+      "objectId": ""
+    }
+  ],
+  "sourcePaths": [
+    {
+      "id": "source-path-1",
+      "class": "cut",
+      "d": "M20 1 L282 1 L309 52 L0 52 Z"
+    },
+    {
+      "id": "source-path-2",
+      "class": "cut",
+      "d": "M643 1 L904 1 L930 52 L621 52 Z"
+    },
+    {
+      "id": "source-path-3",
+      "class": "cut",
+      "d": "M24 623 L283 623 L309 675 L0 675 Z"
+    },
+    {
+      "id": "source-path-4",
+      "class": "cut",
+      "d": "M642 623 L904 623 L930 675 L621 675 Z"
+    },
+    {
+      "id": "source-path-5",
+      "class": "cut",
+      "d": "M309 1300 L621 1300 L596 1349 L333 1349 Z"
+    },
+    {
+      "id": "source-path-6",
+      "class": "cut",
+      "d": "M309 52 L621 52 L621 1300 L309 1300 Z"
+    },
+    {
+      "id": "source-path-7",
+      "class": "fold",
+      "d": "M309 362 L621 362"
+    },
+    {
+      "id": "source-path-8",
+      "class": "fold",
+      "d": "M0 675 L930 675"
+    },
+    {
+      "id": "source-path-9",
+      "class": "fold",
+      "d": "M309 986 L621 986"
+    },
+    {
+      "id": "source-path-10",
+      "class": "cut",
+      "d": "M0 52 L110 263 L155 263 L155 207 L309 361"
+    },
+    {
+      "id": "source-path-11",
+      "class": "fold",
+      "d": "M155 207 L309 52"
+    },
+    {
+      "id": "source-path-12",
+      "class": "cut",
+      "d": "M621 361 L779 207 L849 207 L930 52"
+    },
+    {
+      "id": "source-path-13",
+      "class": "fold",
+      "d": "M621 52 L779 207"
+    },
+    {
+      "id": "source-path-14",
+      "class": "cut",
+      "d": "M0 675 L80 829 L155 829 L309 986"
+    },
+    {
+      "id": "source-path-15",
+      "class": "fold",
+      "d": "M155 829 L309 675"
+    },
+    {
+      "id": "source-path-16",
+      "class": "cut",
+      "d": "M621 986 L779 829 L779 885 L819 885 L930 675"
+    },
+    {
+      "id": "source-path-17",
+      "class": "fold",
+      "d": "M621 675 L779 829"
+    }
+  ],
+  "cutPaths": [
+    {
+      "id": "source-path-1",
+      "class": "cut",
+      "d": "M20 1 L282 1 L309 52 L0 52 Z"
+    },
+    {
+      "id": "source-path-2",
+      "class": "cut",
+      "d": "M643 1 L904 1 L930 52 L621 52 Z"
+    },
+    {
+      "id": "source-path-3",
+      "class": "cut",
+      "d": "M24 623 L283 623 L309 675 L0 675 Z"
+    },
+    {
+      "id": "source-path-4",
+      "class": "cut",
+      "d": "M642 623 L904 623 L930 675 L621 675 Z"
+    },
+    {
+      "id": "source-path-5",
+      "class": "cut",
+      "d": "M309 1300 L621 1300 L596 1349 L333 1349 Z"
+    },
+    {
+      "id": "source-path-6",
+      "class": "cut",
+      "d": "M309 52 L621 52 L621 1300 L309 1300 Z"
+    },
+    {
+      "id": "source-path-10",
+      "class": "cut",
+      "d": "M0 52 L110 263 L155 263 L155 207 L309 361"
+    },
+    {
+      "id": "source-path-12",
+      "class": "cut",
+      "d": "M621 361 L779 207 L849 207 L930 52"
+    },
+    {
+      "id": "source-path-14",
+      "class": "cut",
+      "d": "M0 675 L80 829 L155 829 L309 986"
+    },
+    {
+      "id": "source-path-16",
+      "class": "cut",
+      "d": "M621 986 L779 829 L779 885 L819 885 L930 675"
+    }
+  ],
+  "foldPaths": [
+    {
+      "id": "source-path-7",
+      "class": "fold",
+      "d": "M309 362 L621 362"
+    },
+    {
+      "id": "source-path-8",
+      "class": "fold",
+      "d": "M0 675 L930 675"
+    },
+    {
+      "id": "source-path-9",
+      "class": "fold",
+      "d": "M309 986 L621 986"
+    },
+    {
+      "id": "source-path-11",
+      "class": "fold",
+      "d": "M155 207 L309 52"
+    },
+    {
+      "id": "source-path-13",
+      "class": "fold",
+      "d": "M621 52 L779 207"
+    },
+    {
+      "id": "source-path-15",
+      "class": "fold",
+      "d": "M155 829 L309 675"
+    },
+    {
+      "id": "source-path-17",
+      "class": "fold",
+      "d": "M621 675 L779 829"
+    }
+  ],
+  "tabPaths": [
+    {
+      "id": "source-path-1",
+      "class": "tab",
+      "d": "M20 1 L282 1 L309 52 L0 52 Z"
+    },
+    {
+      "id": "source-path-2",
+      "class": "tab",
+      "d": "M643 1 L904 1 L930 52 L621 52 Z"
+    },
+    {
+      "id": "source-path-3",
+      "class": "tab",
+      "d": "M24 623 L283 623 L309 675 L0 675 Z"
+    },
+    {
+      "id": "source-path-4",
+      "class": "tab",
+      "d": "M642 623 L904 623 L930 675 L621 675 Z"
+    },
+    {
+      "id": "source-path-5",
+      "class": "tab",
+      "d": "M309 1300 L621 1300 L596 1349 L333 1349 Z"
+    }
+  ],
+  "floorPanel": "main-panel-1"
+}
+  ]]></metadata>
+
+  <defs>
+    <clipPath id="clip-main-panel-1"><path d="M 309 52 L 621 52 L 621 362 L 309 362 Z" /></clipPath>
+    <clipPath id="clip-main-panel-2"><path d="M 309 362 L 621 362 L 621 675 L 309 675 Z" /></clipPath>
+    <clipPath id="clip-main-panel-3"><path d="M 309 675 L 621 675 L 621 986 L 309 986 Z" /></clipPath>
+    <clipPath id="clip-main-panel-4"><path d="M 309 986 L 621 986 L 621 1300 L 309 1300 Z" /></clipPath>
+    <clipPath id="clip-top-left-tab"><path d="M20 1 L282 1 L309 52 L0 52 Z" /></clipPath>
+    <clipPath id="clip-top-right-tab"><path d="M643 1 L904 1 L930 52 L621 52 Z" /></clipPath>
+    <clipPath id="clip-middle-left-tab"><path d="M24 623 L283 623 L309 675 L0 675 Z" /></clipPath>
+    <clipPath id="clip-middle-right-tab"><path d="M642 623 L904 623 L930 675 L621 675 Z" /></clipPath>
+    <clipPath id="clip-bottom-tab"><path d="M309 1300 L621 1300 L596 1349 L333 1349 Z" /></clipPath>
+    <clipPath id="clip-upper-left-side-flap"><path d="M 0 52 L 110 263 L 155 263 L 155 207 L 309 361 L 309 52 Z" /></clipPath>
+    <clipPath id="clip-upper-right-side-flap"><path d="M 621 52 L 930 52 L 849 207 L 779 207 L 621 361 Z" /></clipPath>
+    <clipPath id="clip-lower-left-side-flap"><path d="M 0 675 L 80 829 L 155 829 L 309 986 L 309 675 Z" /></clipPath>
+    <clipPath id="clip-lower-right-side-flap"><path d="M 621 675 L 930 675 L 819 885 L 779 885 L 779 829 L 621 986 Z" /></clipPath>
+    <style><![CDATA[
+      .cut-line { fill: none; stroke: #74001D; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; shape-rendering: geometricPrecision; }
+      .fold-line { fill: none; stroke: #00AEEF; stroke-width: 1.2; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; shape-rendering: geometricPrecision; }
+      .panel-preview { fill: rgba(116, 0, 29, 0.07); stroke: none; }
+      .label { font-family: Arial, sans-serif; font-size: 12px; fill: #333333; pointer-events: none; }
+    ]]></style>
+  </defs>
+
+  <g id="panel-preview" data-box-role="panel-preview" visibility="hidden">
+    <path id="preview-main-panel-1" class="panel-preview preview-main-panel" d="M 309 52 L 621 52 L 621 362 L 309 362 Z" />
+    <path id="preview-main-panel-2" class="panel-preview preview-main-panel" d="M 309 362 L 621 362 L 621 675 L 309 675 Z" />
+    <path id="preview-main-panel-3" class="panel-preview preview-main-panel" d="M 309 675 L 621 675 L 621 986 L 309 986 Z" />
+    <path id="preview-main-panel-4" class="panel-preview preview-main-panel" d="M 309 986 L 621 986 L 621 1300 L 309 1300 Z" />
+    <path id="preview-top-left-tab" class="panel-preview preview-tab" d="M20 1 L282 1 L309 52 L0 52 Z" />
+    <path id="preview-top-right-tab" class="panel-preview preview-tab" d="M643 1 L904 1 L930 52 L621 52 Z" />
+    <path id="preview-middle-left-tab" class="panel-preview preview-tab" d="M24 623 L283 623 L309 675 L0 675 Z" />
+    <path id="preview-middle-right-tab" class="panel-preview preview-tab" d="M642 623 L904 623 L930 675 L621 675 Z" />
+    <path id="preview-bottom-tab" class="panel-preview preview-tab" d="M309 1300 L621 1300 L596 1349 L333 1349 Z" />
+    <path id="preview-upper-left-side-flap" class="panel-preview preview-side-flap" d="M 0 52 L 110 263 L 155 263 L 155 207 L 309 361 L 309 52 Z" />
+    <path id="preview-upper-right-side-flap" class="panel-preview preview-side-flap" d="M 621 52 L 930 52 L 849 207 L 779 207 L 621 361 Z" />
+    <path id="preview-lower-left-side-flap" class="panel-preview preview-side-flap" d="M 0 675 L 80 829 L 155 829 L 309 986 L 309 675 Z" />
+    <path id="preview-lower-right-side-flap" class="panel-preview preview-side-flap" d="M 621 675 L 930 675 L 819 885 L 779 885 L 779 829 L 621 986 Z" />
+  </g>
+
+  <g id="dieline" data-box-role="dieline">
+    <g id="cut-lines" class="cut-line" data-box-role="cut-lines">
+      <path id="source-path-1" data-box-role="cut-line" data-line-type="cut" fill="none" stroke="#74001D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" d="M20 1 L282 1 L309 52 L0 52 Z" />
+      <path id="source-path-2" data-box-role="cut-line" data-line-type="cut" fill="none" stroke="#74001D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" d="M643 1 L904 1 L930 52 L621 52 Z" />
+      <path id="source-path-3" data-box-role="cut-line" data-line-type="cut" fill="none" stroke="#74001D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" d="M24 623 L283 623 L309 675 L0 675 Z" />
+      <path id="source-path-4" data-box-role="cut-line" data-line-type="cut" fill="none" stroke="#74001D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" d="M642 623 L904 623 L930 675 L621 675 Z" />
+      <path id="source-path-5" data-box-role="cut-line" data-line-type="cut" fill="none" stroke="#74001D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" d="M309 1300 L621 1300 L596 1349 L333 1349 Z" />
+      <path id="source-path-6" data-box-role="cut-line" data-line-type="cut" fill="none" stroke="#74001D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" d="M309 52 L621 52 L621 1300 L309 1300 Z" />
+      <path id="source-path-10" data-box-role="cut-line" data-line-type="cut" fill="none" stroke="#74001D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" d="M0 52 L110 263 L155 263 L155 207 L309 361" />
+      <path id="source-path-12" data-box-role="cut-line" data-line-type="cut" fill="none" stroke="#74001D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" d="M621 361 L779 207 L849 207 L930 52" />
+      <path id="source-path-14" data-box-role="cut-line" data-line-type="cut" fill="none" stroke="#74001D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" d="M0 675 L80 829 L155 829 L309 986" />
+      <path id="source-path-16" data-box-role="cut-line" data-line-type="cut" fill="none" stroke="#74001D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" d="M621 986 L779 829 L779 885 L819 885 L930 675" />
+    </g>
+    <g id="fold-lines" class="fold-line" data-box-role="fold-lines">
+      <path id="source-path-7" data-box-role="fold-line" data-line-type="fold" fill="none" stroke="#00AEEF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" d="M309 362 L621 362" />
+      <path id="source-path-8" data-box-role="fold-line" data-line-type="fold" fill="none" stroke="#00AEEF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" d="M0 675 L930 675" />
+      <path id="source-path-9" data-box-role="fold-line" data-line-type="fold" fill="none" stroke="#00AEEF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" d="M309 986 L621 986" />
+      <path id="source-path-11" data-box-role="fold-line" data-line-type="fold" fill="none" stroke="#00AEEF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" d="M155 207 L309 52" />
+      <path id="source-path-13" data-box-role="fold-line" data-line-type="fold" fill="none" stroke="#00AEEF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" d="M621 52 L779 207" />
+      <path id="source-path-15" data-box-role="fold-line" data-line-type="fold" fill="none" stroke="#00AEEF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" d="M155 829 L309 675" />
+      <path id="source-path-17" data-box-role="fold-line" data-line-type="fold" fill="none" stroke="#00AEEF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" d="M621 675 L779 829" />
+    </g>
+  </g>
+
+  <g id="labels" class="label" data-box-role="labels" visibility="hidden">
+    <text x="465" y="207" text-anchor="middle" data-label-panel-id="main-panel-1">Main Panel 1</text>
+    <text x="465" y="518.5" text-anchor="middle" data-label-panel-id="main-panel-2">Main Panel 2</text>
+    <text x="465" y="830.5" text-anchor="middle" data-label-panel-id="main-panel-3">Main Panel 3</text>
+    <text x="465" y="1143" text-anchor="middle" data-label-panel-id="main-panel-4">Main Panel 4</text>
+    <text x="155" y="27" text-anchor="middle" data-label-panel-id="top-left-tab">Top Left Tab</text>
+    <text x="775" y="27" text-anchor="middle" data-label-panel-id="top-right-tab">Top Right Tab</text>
+    <text x="155" y="649" text-anchor="middle" data-label-panel-id="middle-left-tab">Middle Left Tab</text>
+    <text x="775" y="649" text-anchor="middle" data-label-panel-id="middle-right-tab">Middle Right Tab</text>
+    <text x="465" y="1326" text-anchor="middle" data-label-panel-id="bottom-tab">Bottom Tab</text>
+    <text x="145" y="190" text-anchor="middle" data-label-panel-id="upper-left-side-flap">Upper Left Side Flap</text>
+    <text x="785" y="190" text-anchor="middle" data-label-panel-id="upper-right-side-flap">Upper Right Side Flap</text>
+    <text x="145" y="815" text-anchor="middle" data-label-panel-id="lower-left-side-flap">Lower Left Side Flap</text>
+    <text x="785" y="815" text-anchor="middle" data-label-panel-id="lower-right-side-flap">Lower Right Side Flap</text>
+  </g>
+
+  <g id="panels" data-box-role="panels" visibility="hidden">
+    <path id="panel-main-panel-1" data-box-role="panel" data-panel-id="main-panel-1" data-panel-type="panel" data-panel-standard-name="main-panel-1" data-panel-display-name="Main Panel 1" data-panel-is-glue="false" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M 309 52 L 621 52 L 621 362 L 309 362 Z"/>
+    <path id="panel-main-panel-2" data-box-role="panel" data-panel-id="main-panel-2" data-panel-type="panel" data-panel-standard-name="main-panel-2" data-panel-display-name="Main Panel 2" data-panel-is-glue="false" data-fold-parent="main-panel-1" data-fold-id="source-path-7" data-fold-angle-deg="90" d="M 309 362 L 621 362 L 621 675 L 309 675 Z"/>
+    <path id="panel-main-panel-3" data-box-role="panel" data-panel-id="main-panel-3" data-panel-type="panel" data-panel-standard-name="main-panel-3" data-panel-display-name="Main Panel 3" data-panel-is-glue="false" data-fold-parent="main-panel-2" data-fold-id="source-path-8" data-fold-angle-deg="90" d="M 309 675 L 621 675 L 621 986 L 309 986 Z"/>
+    <path id="panel-main-panel-4" data-box-role="panel" data-panel-id="main-panel-4" data-panel-type="panel" data-panel-standard-name="main-panel-4" data-panel-display-name="Main Panel 4" data-panel-is-glue="false" data-fold-parent="main-panel-3" data-fold-id="source-path-9" data-fold-angle-deg="90" d="M 309 986 L 621 986 L 621 1300 L 309 1300 Z"/>
+    <path id="panel-top-left-tab" data-box-role="panel" data-panel-id="top-left-tab" data-panel-type="panel" data-panel-standard-name="top-left-tab" data-panel-display-name="Top Left Tab" data-panel-is-glue="false" data-fold-parent="main-panel-1" data-fold-id="" data-fold-angle-deg="0" d="M20 1 L282 1 L309 52 L0 52 Z"/>
+    <path id="panel-top-right-tab" data-box-role="panel" data-panel-id="top-right-tab" data-panel-type="panel" data-panel-standard-name="top-right-tab" data-panel-display-name="Top Right Tab" data-panel-is-glue="false" data-fold-parent="main-panel-1" data-fold-id="" data-fold-angle-deg="0" d="M643 1 L904 1 L930 52 L621 52 Z"/>
+    <path id="panel-middle-left-tab" data-box-role="panel" data-panel-id="middle-left-tab" data-panel-type="panel" data-panel-standard-name="middle-left-tab" data-panel-display-name="Middle Left Tab" data-panel-is-glue="false" data-fold-parent="main-panel-3" data-fold-id="" data-fold-angle-deg="0" d="M24 623 L283 623 L309 675 L0 675 Z"/>
+    <path id="panel-middle-right-tab" data-box-role="panel" data-panel-id="middle-right-tab" data-panel-type="panel" data-panel-standard-name="middle-right-tab" data-panel-display-name="Middle Right Tab" data-panel-is-glue="false" data-fold-parent="main-panel-3" data-fold-id="" data-fold-angle-deg="0" d="M642 623 L904 623 L930 675 L621 675 Z"/>
+    <path id="panel-bottom-tab" data-box-role="panel" data-panel-id="bottom-tab" data-panel-type="panel" data-panel-standard-name="bottom-tab" data-panel-display-name="Bottom Tab" data-panel-is-glue="false" data-fold-parent="main-panel-4" data-fold-id="" data-fold-angle-deg="0" d="M309 1300 L621 1300 L596 1349 L333 1349 Z"/>
+    <path id="panel-upper-left-side-flap" data-box-role="panel" data-panel-id="upper-left-side-flap" data-panel-type="panel" data-panel-standard-name="upper-left-side-flap" data-panel-display-name="Upper Left Side Flap" data-panel-is-glue="false" data-fold-parent="main-panel-1" data-fold-id="source-path-11" data-fold-angle-deg="90" d="M 0 52 L 110 263 L 155 263 L 155 207 L 309 361 L 309 52 Z"/>
+    <path id="panel-upper-right-side-flap" data-box-role="panel" data-panel-id="upper-right-side-flap" data-panel-type="panel" data-panel-standard-name="upper-right-side-flap" data-panel-display-name="Upper Right Side Flap" data-panel-is-glue="false" data-fold-parent="main-panel-1" data-fold-id="source-path-13" data-fold-angle-deg="-90" d="M 621 52 L 930 52 L 849 207 L 779 207 L 621 361 Z"/>
+    <path id="panel-lower-left-side-flap" data-box-role="panel" data-panel-id="lower-left-side-flap" data-panel-type="panel" data-panel-standard-name="lower-left-side-flap" data-panel-display-name="Lower Left Side Flap" data-panel-is-glue="false" data-fold-parent="main-panel-3" data-fold-id="source-path-15" data-fold-angle-deg="90" d="M 0 675 L 80 829 L 155 829 L 309 986 L 309 675 Z"/>
+    <path id="panel-lower-right-side-flap" data-box-role="panel" data-panel-id="lower-right-side-flap" data-panel-type="panel" data-panel-standard-name="lower-right-side-flap" data-panel-display-name="Lower Right Side Flap" data-panel-is-glue="false" data-fold-parent="main-panel-3" data-fold-id="source-path-17" data-fold-angle-deg="-90" d="M 621 675 L 930 675 L 819 885 L 779 885 L 779 829 L 621 986 Z"/>
+  </g>
+
+  <g id="artwork" data-box-role="artwork">
+    <g id="artwork-main-panel-1" data-box-role="artwork-panel" data-panel-id="main-panel-1" clip-path="url(#clip-main-panel-1)"></g>
+    <g id="artwork-main-panel-2" data-box-role="artwork-panel" data-panel-id="main-panel-2" clip-path="url(#clip-main-panel-2)"></g>
+    <g id="artwork-main-panel-3" data-box-role="artwork-panel" data-panel-id="main-panel-3" clip-path="url(#clip-main-panel-3)"></g>
+    <g id="artwork-main-panel-4" data-box-role="artwork-panel" data-panel-id="main-panel-4" clip-path="url(#clip-main-panel-4)"></g>
+    <g id="artwork-top-left-tab" data-box-role="artwork-panel" data-panel-id="top-left-tab" clip-path="url(#clip-top-left-tab)"></g>
+    <g id="artwork-top-right-tab" data-box-role="artwork-panel" data-panel-id="top-right-tab" clip-path="url(#clip-top-right-tab)"></g>
+    <g id="artwork-middle-left-tab" data-box-role="artwork-panel" data-panel-id="middle-left-tab" clip-path="url(#clip-middle-left-tab)"></g>
+    <g id="artwork-middle-right-tab" data-box-role="artwork-panel" data-panel-id="middle-right-tab" clip-path="url(#clip-middle-right-tab)"></g>
+    <g id="artwork-bottom-tab" data-box-role="artwork-panel" data-panel-id="bottom-tab" clip-path="url(#clip-bottom-tab)"></g>
+    <g id="artwork-upper-left-side-flap" data-box-role="artwork-panel" data-panel-id="upper-left-side-flap" clip-path="url(#clip-upper-left-side-flap)"></g>
+    <g id="artwork-upper-right-side-flap" data-box-role="artwork-panel" data-panel-id="upper-right-side-flap" clip-path="url(#clip-upper-right-side-flap)"></g>
+    <g id="artwork-lower-left-side-flap" data-box-role="artwork-panel" data-panel-id="lower-left-side-flap" clip-path="url(#clip-lower-left-side-flap)"></g>
+    <g id="artwork-lower-right-side-flap" data-box-role="artwork-panel" data-panel-id="lower-right-side-flap" clip-path="url(#clip-lower-right-side-flap)"></g>
+  </g>
+</svg>

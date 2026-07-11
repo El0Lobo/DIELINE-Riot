@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120mm" height="90mm" viewBox="0 0 120 90">
+  <defs>
+    <marker id="arrow" markerWidth="4" markerHeight="4" refX="2" refY="2" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L4,2 L0,4 Z" fill="#333"/>
+    </marker>
+    <marker id="arrow-rev" markerWidth="4" markerHeight="4" refX="2" refY="2" orient="auto-start-reverse" markerUnits="strokeWidth">
+      <path d="M0,0 L4,2 L0,4 Z" fill="#333"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="1.2" dy="1.8" stdDeviation="1.4" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+    <linearGradient id="chipGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe27a"/>
+      <stop offset="0.45" stop-color="#f2b90f"/>
+      <stop offset="1" stop-color="#fff3a8"/>
+    </linearGradient>
+    <linearGradient id="magStripe" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2c2c2c"/>
+      <stop offset="0.5" stop-color="#111"/>
+      <stop offset="1" stop-color="#2b2b2b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Front side layer -->
+  <g id="frontside-layer">
+    <!-- Card: 85.6 × 54.0 mm, corner radius 3.175 mm -->
+    <g id="frontside-card" transform="translate(20 18)">
+      <rect x="0" y="0" width="85.6" height="54" rx="3.175" ry="3.175" fill="#fff" stroke="#d8d8d8" stroke-width="0.35" filter="url(#shadow)"/>
+
+      <!-- Chip: left offset 8.636 mm; right edge 21.59 mm from card left; width 12.954 mm -->
+      <g id="chip" transform="translate(8.636 18.034)">
+        <rect x="0" y="0" width="12.954" height="11.684" rx="1.6" fill="url(#chipGold)" stroke="#6f5a1f" stroke-width="0.45"/>
+        <path d="M5.15 0.45 v10.784" fill="none" stroke="#7a641e" stroke-width="0.35"/>
+        <path d="M7.80 0.45 v10.784" fill="none" stroke="#7a641e" stroke-width="0.35"/>
+        <path d="M0.55 3.25 h3.1 q1.55 0 1.55 1.55 v2.05 q0 1.55-1.55 1.55 h-3.1" fill="none" stroke="#7a641e" stroke-width="0.35"/>
+        <path d="M12.40 3.25 h-3.1 q-1.55 0-1.55 1.55 v2.05 q0 1.55 1.55 1.55 h3.1" fill="none" stroke="#7a641e" stroke-width="0.35"/>
+        <path d="M0.6 2.1 h3.35 q1.55 0 1.55 1.45 v4.55 q0 1.45-1.55 1.45 h-3.35" fill="none" stroke="#b78610" stroke-width="0.32" opacity="0.7"/>
+        <path d="M12.35 2.1 h-3.35 q-1.55 0-1.55 1.45 v4.55 q0 1.45 1.55 1.45 h3.35" fill="none" stroke="#b78610" stroke-width="0.32" opacity="0.7"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Back side layer (hidden by default). Toggle display:none/block as needed. -->
+  <g id="backside-layer" style="display:none">
+    <g id="backside-card" transform="translate(20 18)">
+      <rect x="0" y="0" width="85.6" height="54" rx="3.175" ry="3.175" fill="#fff" stroke="#d8d8d8" stroke-width="0.35" filter="url(#shadow)"/>
+      <!-- Magnetic stripe: full width, 9.52 mm high, top edge 5.66 mm from top -->
+      <rect x="0" y="5.66" width="85.6" height="9.52" fill="url(#magStripe)"/>
+    </g>
+  </g>
+
+  <g id="dimensions" fill="none" stroke="#333" stroke-width="0.28" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 12 V18 M105.6 12 V18"/>
+    <path d="M20 14 H105.6" marker-start="url(#arrow-rev)" marker-end="url(#arrow)"/>
+
+    <path d="M108.6 18 H113 M108.6 72 H113"/>
+    <path d="M111.2 18 V72" marker-start="url(#arrow-rev)" marker-end="url(#arrow)"/>
+
+    <path d="M20 72 V82 M28.636 47.718 V82"/>
+    <path d="M20 78 H28.636" marker-start="url(#arrow-rev)" marker-end="url(#arrow)"/>
+
+    <path d="M41.59 47.718 V84"/>
+    <path d="M20 83 H41.59" marker-start="url(#arrow-rev)" marker-end="url(#arrow)"/>
+
+    <path d="M13.5 18 H20 M13.5 36.034 H28.636 M13.5 47.718 H28.636"/>
+    <path d="M16 18 V47.718" marker-start="url(#arrow-rev)" marker-end="url(#arrow)"/>
+    <path d="M18.7 18 V36.034" marker-start="url(#arrow-rev)" marker-end="url(#arrow)"/>
+
+    <path d="M103.2 74.5 L113.8 82.3 H102.5"/>
+  </g>
+
+  <g font-family="monospace" font-size="3.3" fill="#333">
+    <text x="62.8" y="11.5" text-anchor="middle">85.6 mm</text>
+    <text x="116" y="48" text-anchor="middle" transform="rotate(90 116 48)">54.0 mm</text>
+    <text x="24.3" y="76.3" text-anchor="middle">8.6 mm</text>
+    <text x="30.8" y="88" text-anchor="middle">21.6 mm</text>
+    <text x="10" y="34" text-anchor="middle" transform="rotate(-90 10 34)">29.7 mm</text>
+    <text x="13" y="27" text-anchor="middle" transform="rotate(-90 13 27)">18.0 mm</text>
+    <text x="96" y="85">R 3.2 mm</text>
+  </g>
+</svg>

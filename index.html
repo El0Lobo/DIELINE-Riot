@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="DIELINE Riot is a static dieline builder for exportable SVG box nets with synchronized 3D folding preview." />
+<title>DIELINE Riot</title>
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://unpkg.com/three@0.173.0/build/three.module.js",
+    "three/addons/": "https://unpkg.com/three@0.173.0/examples/jsm/"
+  }
+}
+</script>
+<link rel="stylesheet" href="./static/style.css" />
+</head>
+<body>
+<svg aria-hidden="true" class="icon-sprite" style="position:absolute;width:0;height:0;overflow:hidden">
+  <symbol id="icon-mailer" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5">
+    <path d="M1.5 12.5v2l8 4 14-7v-2l-8-4-14 7z" fill="none" stroke="currentColor"></path>
+    <path d="M1.5 12.5l8 4 14-7M9.5 16.5v2" fill="none" stroke="currentColor" stroke-width=".5"></path>
+    <path d="M3.5 13.5l11-1.5 3-5.5" fill="none" stroke="currentColor" stroke-width=".5"></path>
+  </symbol>
+  <symbol id="icon-cardbox" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5">
+    <path d="M6.5 21.5l4 2 10-5v-15l-4-2-10 5v15z"></path>
+    <path d="M6.5 6.5l4 2 10-5M10.5 8.5v15" stroke-width=".5"></path>
+  </symbol>
+  <symbol id="icon-envelope" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5">
+    <path fill="none" stroke="currentColor" d="M265.602 9.521h19v13.063h-19z" transform="matrix(1 0 0 .9936 -263.102 -3.94)"></path>
+    <path d="M265.602 9.5l9 6.552 9-6.531" fill="none" stroke="currentColor" stroke-width=".49" transform="matrix(1.05556 0 0 .9936 -277.858 -1.952)"></path>
+    <path d="M273.102 17l-7.5 5.584M276.102 17l7.5 5.584" fill="none" stroke="currentColor" stroke-width=".49" transform="matrix(1.05556 0 0 .9936 -277.858 -3.94)"></path>
+  </symbol>
+  <symbol id="icon-shallowbox" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5">
+    <path d="M1.5 15.5l10 5 12-6v-5l-10-5-12 6v5z" fill="none" stroke="currentColor"></path>
+    <path d="M1.5 10.5l10 5 12-6M11.5 15.5v5" fill="none" stroke="currentColor" stroke-width=".5"></path>
+    <path d="M333.631 6.4c.19.273.29.503.29.85 0 .966-.856 1.75-1.909 1.75a1.969 1.969 0 0 1-1.532-.705" fill="none" stroke="currentColor" stroke-width=".29" transform="matrix(.69924 .34823 -.76067 1.52742 -209.021 -114.457)"></path>
+  </symbol>
+  <symbol id="icon-milkcarton" viewBox="0 0 24 24" stroke-linejoin="round" stroke-miterlimit="1.5">
+    <path d="M4.5 9v10.5l8 4 8-4V9l-4-2.5v-2l-8-4v2L4.5 9z" fill="none" stroke="currentColor"></path>
+    <path d="M4.5 9l8 4 8-4M12.5 13v10.5M12.5 13l4-6.5M8.5 2.5l8 4" fill="none" stroke="currentColor" stroke-width=".45"></path>
+  </symbol>
+  <symbol id="icon-giftbox" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5">
+    <path d="M1.5 18.5l10 5 12-6v-11l-10-5-12 6v11z" fill="none" stroke="currentColor"></path>
+    <path d="M1.5 7.5l10 5 12-6M11.5 12.5v11" fill="none" stroke="currentColor" stroke-width=".5"></path>
+    <path d="M333.631 6.4c.19.273.29.503.29.85 0 .966-.856 1.75-1.909 1.75a1.969 1.969 0 0 1-1.532-.705" fill="none" stroke="currentColor" stroke-width=".29" transform="matrix(.91451 .40455 -.8837 1.99767 -279.709 -139.38)"></path>
+  </symbol>
+  <symbol id="icon-boxlid" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5">
+    <path d="M1.5 12l1 .5v7l8 4 10-5v-7l1-.5 L21.5 11V6l-9-4.5L1.5 7v5z"></path>
+    <path d="M2.5 12.5l8 4 10-5" stroke-width=".5"></path>
+    <path d="M10.5 23.5v-9M1.5 7l9 4.5 11-5.5M10.5 11.5v3" stroke-width=".5"></path>
+  </symbol>
+  <symbol id="icon-pillowpack" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5">
+    <path d="M.6 12.45a2.034 2.034 0 0 1-.1-.06c1.374-2.21 3.369-4.158 5.588-5.25 2.22-1.092 4.215-1.108 5.589-.25-.032.051 11.463 5.775 11.823 6l-.052.084.052.026-.101.05c-1.37 2.144-3.322 4.025-5.487 5.09-2.123 1.045-4.041 1.105-5.406.357l-.006.003-12-6 .1-.05z" fill="none" stroke="currentColor"></path>
+    <path d="M489.877 10a7.48 7.48 0 0 1 5.588-2.5 7.48 7.48 0 0 1 5.588 2.5 7.48 7.48 0 0 1-5.588 2.5 7.48 7.48 0 0 1-5.588-2.5z" fill="none" stroke="currentColor" stroke-width=".63" transform="matrix(1 -.4921 0 1 -477.553 249.459)"></path>
+  </symbol>
+  <symbol id="icon-matchbox" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5">
+    <path d="M1.499 11.226L12.999 17l8-4m-8 4v4" stroke="currentColor" stroke-width=".5"></path>
+    <path d="M13.499 16.732l3 1.555 7-3.787" stroke="currentColor" stroke-width=".51"></path>
+    <path d="M9.499 7.226L20.999 13v.525l2.5 1.305v3.974l-7 3.522-3-1.576-.5.25-11.5-5.774v-4l8-4z" stroke="currentColor"></path>
+    <path d="M13.499 20.75l-.5-.25M20.999 13.525l-.8-.42" stroke="currentColor" stroke-linecap="butt"></path>
+    <path d="M16.499 18.288v4.038" stroke="currentColor" stroke-width=".51"></path>
+    <path d="M19.177 16.839l-2.988-1.494" stroke="currentColor" stroke-width=".5"></path>
+  </symbol>
+  <symbol id="icon-counterdisplay" viewBox="0 0 24 24" fill="none" fill-rule="evenodd" stroke="currentColor" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.5">
+    <path d="M3.491 4.5l6-3 10 14.5v3.5l-6 3-10-5v-13z"></path>
+    <path d="M19.491 16l-6 2.5v4M3.491 4.5l10 14M15.653 17.581l-4.477-2.239M9.491 1.5V13" fill="none" stroke="currentColor" stroke-width=".5"></path>
+  </symbol>
+  <symbol id="icon-flat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5">
+    <path d="M4.5 2.5h15a2 2 0 0 1 2 2v15a2 2 0 0 1-2 2h-15a2 2 0 0 1-2-2v-15a2 2 0 0 1 2-2z"></path>
+    <path d="M8 7.5h8M8 12h8M8 16.5h5" stroke-width=".6"></path>
+  </symbol>
+  <symbol id="icon-button" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5">
+    <circle cx="12" cy="12" r="8.5"></circle>
+    <circle cx="12" cy="12" r="5.5" stroke-width=".55" stroke-dasharray="1.2 1.4"></circle>
+    <circle cx="9.7" cy="9.8" r=".8" fill="currentColor" stroke="none"></circle>
+    <circle cx="14.3" cy="9.8" r=".8" fill="currentColor" stroke="none"></circle>
+    <circle cx="9.7" cy="14.2" r=".8" fill="currentColor" stroke="none"></circle>
+    <circle cx="14.3" cy="14.2" r=".8" fill="currentColor" stroke="none"></circle>
+  </symbol>
+  <symbol id="icon-hangtab" viewBox="0 0 99 144" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.5">
+    <path d="M 20,12 H 79 A 8,8,0,0,1,87,20 V 124 A 8,8,0,0,1,79,132 H 20 A 8,8,0,0,1,12,124 V 20 A 8,8,0,0,1,20,12 Z M 40.5,22 H 46.62 A 3,3,0,0,1,52.38,22 H 58.5 A 3,3,0,0,1,61.5,25 V 25 A 3,3,0,0,1,58.5,28 H 40.5 A 3,3,0,0,1,37.5,25 V 25 A 3,3,0,0,1,40.5,22 Z" fill="currentColor" fill-opacity=".12" stroke="currentColor" stroke-width="4"></path>
+  </symbol>
+  <symbol id="icon-tag" viewBox="0 0 25.00068 21.15788">
+    <polygon points="17.641 0.5 6.078 0.5 2.869 10.514 6.078 20.528 17.641 20.528 20.84 10.514 17.641 0.5" fill="none" stroke="currentColor" stroke-miterlimit="10"></polygon>
+    <circle cx="11.85959" cy="3.95715" r="1.36139" fill="none" stroke="currentColor" stroke-miterlimit="10"></circle>
+  </symbol>
+  <symbol id="icon-cards" viewBox="-0.45 0 25.90068 21.15788">
+    <g transform="translate(-0.08 0.18) scale(1.07)">
+      <path d="M21.02582,10.98962a1.5966,1.5966,0,0,0-2.17864-.686,1.6192,1.6192,0,0,0-.94178-.70013,1.7269,1.7269,0,0,0-2.0713,1.28255,3.83179,3.83179,0,0,0,.61044,2.164c.28635.549.82814,1.48648,1.239,1.5966a.475.475,0,0,0,.12281.0145,4.60446,4.60446,0,0,0,1.74846-.77773c.65454-.41615,1.46531-1.02618,1.61063-1.56876A1.825,1.825,0,0,0,21.02582,10.98962Zm-.62554,1.11995A3.25132,3.25132,0,0,1,19.23187,13.149a6.474,6.474,0,0,1-1.33587.70476,6.47059,6.47059,0,0,1-.80455-1.27829,3.25166,3.25166,0,0,1-.49218-1.48435.96839.96839,0,0,1,.8973-.74914.78789.78789,0,0,1,.20379.02682.85636.85636,0,0,1,.59905.64144.3961.3961,0,0,0,.66877.17923.85663.85663,0,0,1,.83967-.256.82561.82561,0,0,1,.51663.42459A1.0354,1.0354,0,0,1,20.40028,12.10957Z" fill="currentColor"></path>
+      <path d="M6.4889,15.675l-.17783-.80983A.85886.85886,0,0,0,5.599,14.4255c-.27033-.03279-.47077.04406-.5119.17943a.19873.19873,0,0,0,.00051.11181l.23729.864c.04432.16138.1976.26549.45385.34335a1.16992,1.16992,0,0,0,.19875.04217c.27033.03279.47077-.04406.5119-.17943A.19885.19885,0,0,0,6.4889,15.675Zm1.48618-2.61547c-.14537-.54266-.95608-1.15265-1.61063-1.5688-.52266-.33225-1.46026-.87265-1.87127-.76314-.41073.11008-.95261,1.04754-1.239,1.5966a3.83165,3.83165,0,0,0-.61044,2.16392,1.761,1.761,0,0,0,1.66373,1.33629,1.57215,1.57215,0,0,0,.40753-.05379,1.61888,1.61888,0,0,0,.94177-.70013,1.59662,1.59662,0,0,0,2.17865-.686A1.82469,1.82469,0,0,0,7.97508,13.05951Zm-.841.95646a.82577.82577,0,0,1-.51663.42459.85689.85689,0,0,1-.83967-.256.39609.39609,0,0,0-.66877.17929.85632.85632,0,0,1-.59905.64144.93535.93535,0,0,1-1.10109-.72223,3.25182,3.25182,0,0,1,.49217-1.4844,6.46641,6.46641,0,0,1,.80446-1.27824,6.47176,6.47176,0,0,1,1.336.70476,3.25127,3.25127,0,0,1,1.1684,1.03943A1.03508,1.03508,0,0,1,7.13407,14.016Z" fill="currentColor"></path>
+      <path d="M5.94224,14.946,5.686,14.17736a.25623.25623,0,1,0-.48616.162l.25622.76866a.25623.25623,0,1,0,.48616-.162Z" fill="currentColor"></path>
+      <path d="M22.25737,6.95921,18.32545,5.902V5.69575a2.00591,2.00591,0,0,0-2.007-1.981H11.54106A1.98331,1.98331,0,0,0,9.60072,5.29928H5.599a2.025,2.025,0,0,0-2.02961,1.9794v.69226l-2.113.57278a1.9746,1.9746,0,0,0-1.38794,2.4245L2.12588,18.6234a1.98437,1.98437,0,0,0,2.4296,1.39944L9.1709,18.78638a1.98221,1.98221,0,0,0,1.40069-2.4245l-.337-1.25841a1.96882,1.96882,0,0,0,1.30534.49532h1.57186a1.98181,1.98181,0,0,0,1.44187,1.603l4.61464,1.2365a1.96783,1.96783,0,0,0,1.50116-.19772,1.965,1.965,0,0,0,.9238-1.20181l2.05783-7.65513A1.978,1.978,0,0,0,22.25737,6.95921ZM4.3617,7.27868A1.23224,1.23224,0,0,1,5.599,6.09151H9.51145v6.49707L8.49606,8.70669A1.94725,1.94725,0,0,0,7.5863,7.50554a2.01361,2.01361,0,0,0-1.52136-.19833l-1.7032.45141V7.27868Zm4.605,10.74239L4.352,19.25752a1.189,1.189,0,0,1-1.45474-.8392L.84611,10.76318A1.189,1.189,0,0,1,1.68624,9.309L6.30088,8.07258a1.18866,1.18866,0,0,1,1.45475.8392l2.05115,7.65514A1.189,1.189,0,0,1,8.96665,18.02107Zm4.18667-3.2437-.0063.02909H11.53986a1.23154,1.23154,0,0,1-1.23618-1.18716V5.69417A1.23224,1.23224,0,0,1,11.541,4.507H16.3184a1.21284,1.21284,0,0,1,1.21468,1.18874v.00032a1.99436,1.99436,0,0,0-2.322,1.42612l-.07139.25391-.91045-1.13592a.39738.39738,0,0,0-.61985,0l-2.377,2.971a.39609.39609,0,0,0-.00009.49495l2.37678,2.971a.38964.38964,0,0,0,.08608.0775ZM14.882,8.32612l-.9382,3.50118-1.8949-2.36863,1.86956-2.33685Zm7.99722.85255-2.05115,7.65514a1.1895,1.1895,0,0,1-1.45475.8393L14.75867,16.4366a1.18911,1.18911,0,0,1-.877-1.0694.37637.37637,0,0,0,.01575-.28611c.00588-.03289.01227-.06579.02107-.09858L15.6802,8.40779a.3966.3966,0,0,0,.03567-.13328l.25378-.94719a1.18952,1.18952,0,0,1,1.45475-.83925l4.61454,1.23645A1.18893,1.18893,0,0,1,22.87921,9.17867Z" fill="currentColor"></path>
+    </g>
+  </symbol>
+  <symbol id="icon-creditcard" viewBox="0 0 25.00068 21.15788">
+    <rect x="0.79029" y="4.42033" width="22.13861" height="13.99699" rx="1.6007" fill="none" stroke="currentColor" stroke-miterlimit="10"></rect>
+    <rect x="3.03766" y="6.58761" width="4.53492" height="3.57004" rx="0.93488" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="0.5"></rect>
+    <line x1="3.97254" y1="6.58761" x2="3.97254" y2="10.15765" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="0.5"></line>
+    <line x1="7.57258" y1="7.52249" x2="3.73088" y2="7.52249" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="0.5"></line>
+    <line x1="7.57258" y1="9.22277" x2="3.97254" y2="9.22277" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="0.5"></line>
+    <line x1="5.77256" y1="7.52249" x2="5.77256" y2="9.22277" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="0.5"></line>
+    <line x1="3.97254" y1="8.37263" x2="5.77256" y2="8.37263" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="0.5"></line>
+    <line x1="6.64177" y1="7.52249" x2="6.64177" y2="9.22277" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="0.5"></line>
+    <line x1="5.30512" y1="6.58761" x2="5.30512" y2="7.52249" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="0.5"></line>
+    <line x1="5.77256" y1="9.22277" x2="5.77256" y2="10.15765" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="0.5"></line>
+  </symbol>
+  <symbol id="icon-businesscard" viewBox="0 0 25.00068 21.15788">
+    <rect x="1.9291" y="4.2356" width="19.86098" height="12.55697" fill="none" stroke="currentColor" stroke-miterlimit="10"></rect>
+  </symbol>
+</svg>
+
+<main class="shell">
+  <header class="topbar">
+    <div class="brand-block">
+      <div class="masthead">
+        <p class="eyebrow">Production box dielines</p>
+        <div class="brand-row">
+          <img class="brand-logo" src="./static/assets/DIELINE%20Riot.png" alt="DIELINE Riot" />
+        </div>
+      </div>
+      <div class="hero-facts" aria-label="Product capabilities">
+        <span>Print-ready SVG export</span>
+        <span>Live change tracking</span>
+        <span>Live folded preview</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="template-row">
+    <div class="template-column">
+      <div id="templatePicker" class="template-picker" role="tablist" aria-label="Box templates"></div>
+      <div id="templateVariantField" class="template-variant-field" hidden>
+        <label class="field template-variant-select">Variants
+          <select id="templateVariantPicker" aria-label="Template variant"></select>
+        </label>
+      </div>
+      <div class="template-header sr-only">
+        <div>
+          <p class="section-label">Template Library</p>
+          <h2 id="templateTitle" class="template-heading">Boxmaker</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="workspace">
+    <aside class="panel controls">
+      <div class="panel-heading">
+        <h2>Build Parameters</h2>
+        <p>Millimetres stay canonical internally. Switch units without losing precision, then export the same structure you preview here.</p>
+      </div>
+
+      <div class="field-group">
+        <p class="section-label">Units</p>
+        <div class="units">
+          <label><input type="radio" name="unit" value="mm" checked> mm</label>
+          <label><input type="radio" name="unit" value="cm"> cm</label>
+        </div>
+      </div>
+
+      <div id="templatePrimaryGroup" class="field-group"></div>
+      <div id="templateOptionalGroup" class="field-group"></div>
+
+      <div class="field-group">
+        <p class="section-label">Preview Surface</p>
+        <label class="field">Surface Texture
+          <select id="paperStock">
+          </select>
+        </label>
+        <label class="field">Texture Scale
+          <input id="textureScale" type="number" min="0.25" max="4" step="0.05" value="1">
+        </label>
+        <label id="materialPresetField" class="field">Material
+          <select id="materialPreset">
+            <option value="strong-paper" selected>Strong paper</option>
+            <option value="folding-board">Folding board</option>
+            <option value="light-cardboard">Light cardboard</option>
+            <option value="custom">Custom thickness</option>
+          </select>
+        </label>
+        <label class="field">Material Thickness
+          <input id="materialThickness" data-global-param-key="T" data-unit-kind="length" type="number" min="0" step="0.1">
+        </label>
+      </div>
+
+      <div class="actions">
+        <button id="downloadSvg">Download SVG</button>
+        <button class="secondary" id="copySvg">Copy SVG</button>
+      </div>
+      <div id="status" class="status">SVG exports keep panel metadata, fold relationships, and clip-safe artwork groups intact.</div>
+      <input id="artworkImageInput" type="file" accept="image/*" multiple hidden>
+      <input id="fontFileInput" type="file" accept=".ttf,.otf,.woff,.woff2,font/ttf,font/otf,font/woff,font/woff2" hidden>
+    </aside>
+
+    <section class="panel preview">
+
+      <div class="stage-block">
+        <div class="stage-header">
+          <div>
+            <p class="section-label">2D Output</p>
+            <h3 id="stageTemplateName">Structured SVG</h3>
+          </div>
+          <div class="stage-tools">
+            <button type="button" id="toggleLabelLayoutWorkbench" class="secondary stage-panel-toggle" aria-controls="labelLayoutWorkbench" aria-expanded="false">Show layout</button>
+            <div class="checks stage-checks">
+              <label><input id="showPanels" type="checkbox"> show panel fill</label>
+              <label><input id="showLabels" type="checkbox"> show labels</label>
+            </div>
+          </div>
+        </div>
+        <div class="svg-workbench" id="previewWorkbench" data-edit-mode="false">
+          <div class="preview-stage-surface">
+            <div class="svg-stage" id="preview" data-preview-side="outside"></div>
+            <div class="checks stage-checks preview-stage-controls" id="previewStageControls">
+              <div class="preview-zoom" aria-label="Preview zoom">
+                <button type="button" class="zoom-button" id="previewZoomOut" aria-label="Zoom out">-</button>
+                <button type="button" class="zoom-button zoom-reset" id="previewZoomReset" aria-label="Reset zoom"><span id="previewZoomValue">100%</span></button>
+                <button type="button" class="zoom-button" id="previewZoomIn" aria-label="Zoom in">+</button>
+              </div>
+              <div class="view-switch" id="previewSideSwitch" aria-label="Preview side">
+                <button type="button" class="view-switch-button" data-preview-side="outside" aria-pressed="true">outside</button>
+                <button type="button" class="view-switch-button" data-preview-side="inside" aria-pressed="false">inside</button>
+              </div>
+            </div>
+            <div id="previewEditOverlay" class="preview-edit-overlay" hidden></div>
+            <div id="previewLayerOverlay" class="preview-layer-overlay" hidden></div>
+          </div>
+          <aside id="labelLayoutWorkbench" class="label-layout-workbench" aria-live="polite" hidden></aside>
+        </div>
+      </div>
+
+      <div class="model-card">
+        <div class="stage-header">
+          <div>
+            <p class="section-label">3D Output</p>
+            <h3>Folded Model</h3>
+          </div>
+          <div class="stage-tools">
+            <button type="button" id="toggleFoldPlanPanel" class="secondary stage-panel-toggle" aria-controls="foldPlanPanel" aria-expanded="false">Show plan</button>
+          </div>
+        </div>
+        <div class="fold-control">
+          <div class="fold-control-header">
+            <label for="foldProgress" class="section-label">Animation Progress</label>
+            <label class="fold-control-toggle"><input id="showModelLabels" type="checkbox"> show printed labels</label>
+          </div>
+          <input id="foldProgress" class="fold-slider" type="range" min="0" max="100" value="100" />
+        </div>
+        <div class="model-transform-controls">
+          <div class="model-transform-row">
+            <label class="field model-auto-assemble-field">
+              <span>Auto assemble</span>
+              <input id="autoAssembleModel" type="checkbox">
+            </label>
+          </div>
+        </div>
+        <div class="model-workbench" id="modelWorkbench">
+          <div class="model-stage" id="model3d"></div>
+          <aside class="fold-plan-panel" id="foldPlanPanel" hidden>
+            <div class="fold-directions">
+              <div class="fold-directions-header">
+                <p class="section-label">Animation Plan</p>
+                <div class="fold-plan-actions">
+                  <button type="button" id="captureAssembledDefault" class="secondary">Capture Assembled Default</button>
+                  <button type="button" id="addModelRotationStep" class="secondary">Add Model Rotation</button>
+                  <button type="button" id="addObjectMoveStep" class="secondary">Add Object Move</button>
+                </div>
+              </div>
+              <div id="assemblyPlanControls" class="fold-direction-list"></div>
+            </div>
+          </aside>
+        </div>
+        
+        <div class="template-refiner">
+
+          <div id="templateRefinementControls" class="refinement-controls"></div>
+          <details class="refinement-collapsible template-changes-collapsible">
+            <summary>Template Changes</summary>
+            <textarea id="structuredSvgOutput" class="refinement-summary structured-svg-output" aria-label="Template Changes" spellcheck="false" readonly></textarea>
+            <div class="actions refinement-actions">
+              <button id="copyStructuredSvgOutput" type="button">Copy Changes</button>
+              <button id="exportPrintReadySvg" type="button">Export Print-Ready SVG</button>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+  </section>
+</main>
+
+<script type="module" src="./static/app.js"></script>
+</body>
+</html>

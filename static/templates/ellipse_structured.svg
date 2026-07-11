@@ -1,0 +1,1442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Structured_Ellipse_Box_Template"
+     xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 815 1160"
+     width="287.6660mm"
+     height="409.4000mm"
+     data-box-app="BoxBuilder"
+     data-box-version="1.0"
+     data-box-role="template"
+     data-unit="mm">
+  <title>Structured elliptical box dieline</title>
+  <desc>Structured version of the uploaded elliptical box SVG with visible cut/fold/construction lines, hidden panel faces, metadata, and clipped artwork groups.</desc>
+
+  <metadata id="box-template-metadata" type="application/json"><![CDATA[
+{
+  "schema": "box-template-v1",
+  "source": {
+    "file": "ellipse-70x80x60_mm___7jpyyy2z.svg",
+    "viewBox": "0 0 815 1160",
+    "width": "287.6660mm",
+    "height": "409.4000mm",
+    "unit": "mm",
+    "note": "Structured from the uploaded Templatemaker elliptical box dieline. The many small segment flaps and elliptical end caps are represented explicitly for mapping/folding."
+  },
+  "template": "elliptical-box",
+  "nominalDimensions": {
+    "lengthMm": 70,
+    "widthMm": 80,
+    "heightMm": 60
+  },
+  "objects": [
+    {
+      "id": "ellipse-box",
+      "label": "Elliptical Box",
+      "basePanel": "upper-body-wrap",
+      "panelIds": [
+        "upper-body-wrap",
+        "upper-joint-flap",
+        "upper-flap-00",
+        "upper-flap-01",
+        "upper-flap-02",
+        "upper-flap-03",
+        "upper-flap-04",
+        "upper-flap-05",
+        "upper-flap-06",
+        "upper-flap-07",
+        "upper-flap-08",
+        "upper-flap-09",
+        "upper-flap-10",
+        "upper-flap-11",
+        "upper-flap-12",
+        "upper-flap-13",
+        "upper-flap-14",
+        "upper-flap-15",
+        "upper-flap-16",
+        "upper-flap-17",
+        "upper-flap-18",
+        "upper-flap-19",
+        "upper-ellipse-end-1",
+        "upper-ellipse-end-2",
+        "lower-body-wrap",
+        "lower-joint-flap",
+        "lower-flap-00",
+        "lower-flap-01",
+        "lower-flap-02",
+        "lower-flap-03",
+        "lower-flap-04",
+        "lower-flap-05",
+        "lower-flap-06",
+        "lower-flap-07",
+        "lower-flap-08",
+        "lower-flap-09",
+        "lower-flap-10",
+        "lower-flap-11",
+        "lower-flap-12",
+        "lower-flap-13",
+        "lower-flap-14",
+        "lower-flap-15",
+        "lower-flap-16",
+        "lower-flap-17",
+        "lower-flap-18",
+        "lower-flap-19",
+        "lower-ellipse-end-1",
+        "lower-ellipse-end-2"
+      ]
+    }
+  ],
+  "panels": [
+    {
+      "id": "upper-body-wrap",
+      "objectId": "ellipse-box",
+      "label": "Upper Body Wrap",
+      "type": "curved-wall-strip",
+      "foldParent": null,
+      "foldId": null,
+      "foldAngleDeg": 0,
+      "path": "M 70.87 70.36 L 697.42 70.36 L 697.42 268.79 L 70.87 268.79 Z"
+    },
+    {
+      "id": "upper-joint-flap",
+      "objectId": "ellipse-box",
+      "label": "Upper Joint Flap",
+      "type": "glue-flap",
+      "foldParent": "upper-body-wrap",
+      "foldId": "merged-construction-thin-joint-flap-1",
+      "foldAngleDeg": 0,
+      "path": "M 697.42 70.36 L 725.77 80.68 L 725.77 258.47 L 697.42 268.79 Z"
+    },
+    {
+      "id": "upper-flap-00",
+      "objectId": "ellipse-box",
+      "label": "Upper Flap 1",
+      "type": "segment-flap",
+      "foldParent": "upper-body-wrap",
+      "foldId": "merged-fold-flap-i-0-flap-1",
+      "foldAngleDeg": 90,
+      "path": "M 70.87 268.79 L 81.18 297.13 L 91.88 297.13 L 102.19 268.79 Z"
+    },
+    {
+      "id": "upper-flap-01",
+      "objectId": "ellipse-box",
+      "label": "Upper Flap 2",
+      "type": "segment-flap",
+      "foldParent": "upper-body-wrap",
+      "foldId": "merged-fold-flap-i-1-flap-1",
+      "foldAngleDeg": 90,
+      "path": "M 102.19 268.79 L 112.51 297.13 L 123.2 297.13 L 133.52 268.79 Z"
+    },
+    {
+      "id": "upper-flap-02",
+      "objectId": "ellipse-box",
+      "label": "Upper Flap 3",
+      "type": "segment-flap",
+      "foldParent": "upper-body-wrap",
+      "foldId": "merged-fold-flap-i-2-flap-1",
+      "foldAngleDeg": 90,
+      "path": "M 133.52 268.79 L 143.84 297.13 L 154.53 297.13 L 164.85 268.79 Z"
+    },
+    {
+      "id": "upper-flap-03",
+      "objectId": "ellipse-box",
+      "label": "Upper Flap 4",
+      "type": "segment-flap",
+      "foldParent": "upper-body-wrap",
+      "foldId": "merged-fold-flap-i-3-flap-1",
+      "foldAngleDeg": 90,
+      "path": "M 164.85 268.79 L 175.17 297.13 L 185.86 297.13 L 196.18 268.79 Z"
+    },
+    {
+      "id": "upper-flap-04",
+      "objectId": "ellipse-box",
+      "label": "Upper Flap 5",
+      "type": "segment-flap",
+      "foldParent": "upper-body-wrap",
+      "foldId": "merged-fold-flap-i-4-flap-1",
+      "foldAngleDeg": 90,
+      "path": "M 196.18 268.79 L 206.49 297.13 L 217.19 297.13 L 227.51 268.79 Z"
+    },
+    {
+      "id": "upper-flap-05",
+      "objectId": "ellipse-box",
+      "label": "Upper Flap 6",
+      "type": "segment-flap",
+      "foldParent": "upper-body-wrap",
+      "foldId": "merged-fold-flap-i-5-flap-1",
+      "foldAngleDeg": 90,
+      "path": "M 227.51 268.79 L 237.82 297.13 L 248.52 297.13 L 258.83 268.79 Z"
+    },
+    {
+      "id": "upper-flap-06",
+      "objectId": "ellipse-box",
+      "label": "Upper Flap 7",
+      "type": "segment-flap",
+      "foldParent": "upper-body-wrap",
+      "foldId": "merged-fold-flap-i-6-flap-1",
+      "foldAngleDeg": 90,
+      "path": "M 258.83 268.79 L 269.15 297.13 L 279.84 297.13 L 290.16 268.79 Z"
+    },
+    {
+      "id": "upper-flap-07",
+      "objectId": "ellipse-box",
+      "label": "Upper Flap 8",
+      "type": "segment-flap",
+      "foldParent": "upper-body-wrap",
+      "foldId": "merged-fold-flap-i-7-flap-1",
+      "foldAngleDeg": 90,
+      "path": "M 290.16 268.79 L 300.48 297.13 L 311.17 297.13 L 321.49 268.79 Z"
+    },
+    {
+      "id": "upper-flap-08",
+      "objectId": "ellipse-box",
+      "label": "Upper Flap 9",
+      "type": "segment-flap",
+      "foldParent": "upper-body-wrap",
+      "foldId": "merged-fold-flap-i-8-flap-1",
+      "foldAngleDeg": 90,
+      "path": "M 321.49 268.79 L 331.81 297.13 L 342.5 297.13 L 352.82 268.79 Z"
+    },
+    {
+      "id": "upper-flap-09",
+      "objectId": "ellipse-box",
+      "label": "Upper Flap 10",
+      "type": "segment-flap",
+      "foldParent": "upper-body-wrap",
+      "foldId": "merged-fold-flap-i-9-flap-1",
+      "foldAngleDeg": 90,
+      "path": "M 352.82 268.79 L 363.13 297.13 L 373.83 297.13 L 384.14 268.79 Z"
+    },
+    {
+      "id": "upper-flap-10",
+      "objectId": "ellipse-box",
+      "label": "Upper Flap 11",
+      "type": "segment-flap",
+      "foldParent": "upper-body-wrap",
+      "foldId": "merged-fold-flap-i-10-flap-1",
+      "foldAngleDeg": 90,
+      "path": "M 384.14 268.79 L 394.46 297.13 L 405.15 297.13 L 415.47 268.79 Z"
+    },
+    {
+      "id": "upper-flap-11",
+      "objectId": "ellipse-box",
+      "label": "Upper Flap 12",
+      "type": "segment-flap",
+      "foldParent": "upper-body-wrap",
+      "foldId": "merged-fold-flap-i-11-flap-1",
+      "foldAngleDeg": 90,
+      "path": "M 415.47 268.79 L 425.79 297.13 L 436.48 297.13 L 446.8 268.79 Z"
+    },
+    {
+      "id": "upper-flap-12",
+      "objectId": "ellipse-box",
+      "label": "Upper Flap 13",
+      "type": "segment-flap",
+      "foldParent": "upper-body-wrap",
+      "foldId": "merged-fold-flap-i-12-flap-1",
+      "foldAngleDeg": 90,
+      "path": "M 446.8 268.79 L 457.12 297.13 L 467.81 297.13 L 478.13 268.79 Z"
+    },
+    {
+      "id": "upper-flap-13",
+      "objectId": "ellipse-box",
+      "label": "Upper Flap 14",
+      "type": "segment-flap",
+      "foldParent": "upper-body-wrap",
+      "foldId": "merged-fold-flap-i-13-flap-1",
+      "foldAngleDeg": 90,
+      "path": "M 478.13 268.79 L 488.44 297.13 L 499.14 297.13 L 509.46 268.79 Z"
+    },
+    {
+      "id": "upper-flap-14",
+      "objectId": "ellipse-box",
+      "label": "Upper Flap 15",
+      "type": "segment-flap",
+      "foldParent": "upper-body-wrap",
+      "foldId": "merged-fold-flap-i-14-flap-1",
+      "foldAngleDeg": 90,
+      "path": "M 509.46 268.79 L 519.77 297.13 L 530.47 297.13 L 540.78 268.79 Z"
+    },
+    {
+      "id": "upper-flap-15",
+      "objectId": "ellipse-box",
+      "label": "Upper Flap 16",
+      "type": "segment-flap",
+      "foldParent": "upper-body-wrap",
+      "foldId": "merged-fold-flap-i-15-flap-1",
+      "foldAngleDeg": 90,
+      "path": "M 540.78 268.79 L 551.1 297.13 L 561.79 297.13 L 572.11 268.79 Z"
+    },
+    {
+      "id": "upper-flap-16",
+      "objectId": "ellipse-box",
+      "label": "Upper Flap 17",
+      "type": "segment-flap",
+      "foldParent": "upper-body-wrap",
+      "foldId": "merged-fold-flap-i-16-flap-1",
+      "foldAngleDeg": 90,
+      "path": "M 572.11 268.79 L 582.43 297.13 L 593.12 297.13 L 603.44 268.79 Z"
+    },
+    {
+      "id": "upper-flap-17",
+      "objectId": "ellipse-box",
+      "label": "Upper Flap 18",
+      "type": "segment-flap",
+      "foldParent": "upper-body-wrap",
+      "foldId": "merged-fold-flap-i-17-flap-1",
+      "foldAngleDeg": 90,
+      "path": "M 603.44 268.79 L 613.76 297.13 L 624.45 297.13 L 634.77 268.79 Z"
+    },
+    {
+      "id": "upper-flap-18",
+      "objectId": "ellipse-box",
+      "label": "Upper Flap 19",
+      "type": "segment-flap",
+      "foldParent": "upper-body-wrap",
+      "foldId": "merged-fold-flap-i-18-flap-1",
+      "foldAngleDeg": 90,
+      "path": "M 634.77 268.79 L 645.08 297.13 L 655.78 297.13 L 666.09 268.79 Z"
+    },
+    {
+      "id": "upper-flap-19",
+      "objectId": "ellipse-box",
+      "label": "Upper Flap 20",
+      "type": "segment-flap",
+      "foldParent": "upper-body-wrap",
+      "foldId": "merged-fold-flap-i-19-flap-1",
+      "foldAngleDeg": 90,
+      "path": "M 666.09 268.79 L 676.41 297.13 L 687.1 297.13 L 697.42 268.79 Z"
+    },
+    {
+      "id": "upper-ellipse-end-1",
+      "objectId": "ellipse-box",
+      "label": "Upper Ellipse End 1",
+      "type": "ellipse-end-cap",
+      "foldParent": "upper-body-wrap",
+      "foldId": null,
+      "foldAngleDeg": 90,
+      "path": "M 238.11 482.8 L 238.11 482.8 L 237.71 471.83 L 236.5 460.96 L 234.51 450.3 L 231.74 439.95 L 228.24 430.02 L 224.02 420.6 L 219.13 411.77 L 213.62 403.63 L 207.54 396.25 L 200.95 389.7 L 193.91 384.06 L 186.49 379.36 L 178.76 375.66 L 170.8 372.99 L 162.68 371.37 L 154.49 370.83 L 146.29 371.37 L 138.17 372.99 L 130.21 375.66 L 122.49 379.36 L 115.07 384.06 L 108.03 389.7 L 101.44 396.25 L 95.36 403.63 L 89.85 411.77 L 84.96 420.6 L 80.74 430.02 L 77.23 439.95 L 74.47 450.3 L 72.47 460.96 L 71.27 471.83 L 70.87 482.8 L 71.27 493.78 L 72.47 504.65 L 74.47 515.31 L 77.23 525.65 L 80.74 535.58 L 84.96 545.01 L 89.85 553.84 L 95.36 561.98 L 101.44 569.36 L 108.03 575.9 L 115.07 581.55 L 122.49 586.25 L 130.21 589.95 L 138.17 592.62 L 146.29 594.23 L 154.49 594.77 L 162.68 594.23 L 170.8 592.62 L 178.76 589.95 L 186.49 586.25 L 193.91 581.55 L 200.95 575.9 L 207.54 569.36 L 213.62 561.98 L 219.13 553.84 L 224.02 545.01 L 228.24 535.58 L 231.74 525.65 L 234.51 515.31 L 236.5 504.65 L 237.71 493.78 L 238.11 482.8 Z"
+    },
+    {
+      "id": "upper-ellipse-end-2",
+      "objectId": "ellipse-box",
+      "label": "Upper Ellipse End 2",
+      "type": "ellipse-end-cap",
+      "foldParent": "upper-body-wrap",
+      "foldId": null,
+      "foldAngleDeg": 90,
+      "path": "M 481.89 482.8 L 481.89 482.8 L 481.47 471.55 L 480.23 460.41 L 478.17 449.48 L 475.31 438.87 L 471.68 428.69 L 467.32 419.02 L 462.26 409.97 L 456.57 401.63 L 450.28 394.06 L 443.47 387.35 L 436.19 381.56 L 428.52 376.74 L 420.53 372.94 L 412.3 370.21 L 403.91 368.55 L 395.43 368.0 L 386.96 368.55 L 378.57 370.21 L 370.34 372.94 L 362.35 376.74 L 354.68 381.56 L 347.4 387.35 L 340.59 394.06 L 334.3 401.63 L 328.6 409.97 L 323.55 419.02 L 319.19 428.69 L 315.56 438.87 L 312.7 449.48 L 310.64 460.41 L 309.39 471.55 L 308.98 482.8 L 309.39 494.06 L 310.64 505.2 L 312.7 516.13 L 315.56 526.74 L 319.19 536.92 L 323.55 546.58 L 328.6 555.63 L 334.3 563.98 L 340.59 571.55 L 347.4 578.26 L 354.68 584.05 L 362.35 588.87 L 370.34 592.66 L 378.57 595.4 L 386.96 597.05 L 395.43 597.61 L 403.91 597.05 L 412.3 595.4 L 420.53 592.66 L 428.52 588.87 L 436.19 584.05 L 443.47 578.26 L 450.28 571.55 L 456.57 563.98 L 462.26 555.63 L 467.32 546.58 L 471.68 536.92 L 475.31 526.74 L 478.17 516.13 L 480.23 505.2 L 481.47 494.06 L 481.89 482.8 Z"
+    },
+    {
+      "id": "lower-body-wrap",
+      "objectId": "ellipse-box",
+      "label": "Lower Body Wrap",
+      "type": "curved-wall-strip",
+      "foldParent": "upper-body-wrap",
+      "foldId": null,
+      "foldAngleDeg": 0,
+      "path": "M 70.87 668.47 L 716.22 668.47 L 716.22 753.51 L 70.87 753.51 Z"
+    },
+    {
+      "id": "lower-joint-flap",
+      "objectId": "ellipse-box",
+      "label": "Lower Joint Flap",
+      "type": "glue-flap",
+      "foldParent": "lower-body-wrap",
+      "foldId": "merged-construction-thin-anonymous-path-2",
+      "foldAngleDeg": 0,
+      "path": "M 716.22 668.47 L 744.56 678.79 L 744.56 743.19 L 716.22 753.51 Z"
+    },
+    {
+      "id": "lower-flap-00",
+      "objectId": "ellipse-box",
+      "label": "Lower Flap 1",
+      "type": "segment-flap",
+      "foldParent": "lower-body-wrap",
+      "foldId": "merged-fold-anonymous-path-21",
+      "foldAngleDeg": 90,
+      "path": "M 70.87 753.51 L 81.18 781.86 L 92.82 781.86 L 103.13 753.51 Z"
+    },
+    {
+      "id": "lower-flap-01",
+      "objectId": "ellipse-box",
+      "label": "Lower Flap 2",
+      "type": "segment-flap",
+      "foldParent": "lower-body-wrap",
+      "foldId": "merged-fold-anonymous-path-22",
+      "foldAngleDeg": 90,
+      "path": "M 103.13 753.51 L 113.45 781.86 L 125.08 781.86 L 135.4 753.51 Z"
+    },
+    {
+      "id": "lower-flap-02",
+      "objectId": "ellipse-box",
+      "label": "Lower Flap 3",
+      "type": "segment-flap",
+      "foldParent": "lower-body-wrap",
+      "foldId": "merged-fold-anonymous-path-23",
+      "foldAngleDeg": 90,
+      "path": "M 135.4 753.51 L 145.72 781.86 L 157.35 781.86 L 167.67 753.51 Z"
+    },
+    {
+      "id": "lower-flap-03",
+      "objectId": "ellipse-box",
+      "label": "Lower Flap 4",
+      "type": "segment-flap",
+      "foldParent": "lower-body-wrap",
+      "foldId": "merged-fold-anonymous-path-24",
+      "foldAngleDeg": 90,
+      "path": "M 167.67 753.51 L 177.99 781.86 L 189.62 781.86 L 199.94 753.51 Z"
+    },
+    {
+      "id": "lower-flap-04",
+      "objectId": "ellipse-box",
+      "label": "Lower Flap 5",
+      "type": "segment-flap",
+      "foldParent": "lower-body-wrap",
+      "foldId": "merged-fold-anonymous-path-25",
+      "foldAngleDeg": 90,
+      "path": "M 199.94 753.51 L 210.25 781.86 L 221.89 781.86 L 232.2 753.51 Z"
+    },
+    {
+      "id": "lower-flap-05",
+      "objectId": "ellipse-box",
+      "label": "Lower Flap 6",
+      "type": "segment-flap",
+      "foldParent": "lower-body-wrap",
+      "foldId": "merged-fold-anonymous-path-26",
+      "foldAngleDeg": 90,
+      "path": "M 232.2 753.51 L 242.52 781.86 L 254.15 781.86 L 264.47 753.51 Z"
+    },
+    {
+      "id": "lower-flap-06",
+      "objectId": "ellipse-box",
+      "label": "Lower Flap 7",
+      "type": "segment-flap",
+      "foldParent": "lower-body-wrap",
+      "foldId": "merged-fold-anonymous-path-27",
+      "foldAngleDeg": 90,
+      "path": "M 264.47 753.51 L 274.79 781.86 L 286.42 781.86 L 296.74 753.51 Z"
+    },
+    {
+      "id": "lower-flap-07",
+      "objectId": "ellipse-box",
+      "label": "Lower Flap 8",
+      "type": "segment-flap",
+      "foldParent": "lower-body-wrap",
+      "foldId": "merged-fold-anonymous-path-28",
+      "foldAngleDeg": 90,
+      "path": "M 296.74 753.51 L 307.06 781.86 L 318.69 781.86 L 329.01 753.51 Z"
+    },
+    {
+      "id": "lower-flap-08",
+      "objectId": "ellipse-box",
+      "label": "Lower Flap 9",
+      "type": "segment-flap",
+      "foldParent": "lower-body-wrap",
+      "foldId": "merged-fold-anonymous-path-29",
+      "foldAngleDeg": 90,
+      "path": "M 329.01 753.51 L 339.32 781.86 L 350.96 781.86 L 361.27 753.51 Z"
+    },
+    {
+      "id": "lower-flap-09",
+      "objectId": "ellipse-box",
+      "label": "Lower Flap 10",
+      "type": "segment-flap",
+      "foldParent": "lower-body-wrap",
+      "foldId": "merged-fold-anonymous-path-30",
+      "foldAngleDeg": 90,
+      "path": "M 361.27 753.51 L 371.59 781.86 L 383.23 781.86 L 393.54 753.51 Z"
+    },
+    {
+      "id": "lower-flap-10",
+      "objectId": "ellipse-box",
+      "label": "Lower Flap 11",
+      "type": "segment-flap",
+      "foldParent": "lower-body-wrap",
+      "foldId": "merged-fold-anonymous-path-31",
+      "foldAngleDeg": 90,
+      "path": "M 393.54 753.51 L 403.86 781.86 L 415.49 781.86 L 425.81 753.51 Z"
+    },
+    {
+      "id": "lower-flap-11",
+      "objectId": "ellipse-box",
+      "label": "Lower Flap 12",
+      "type": "segment-flap",
+      "foldParent": "lower-body-wrap",
+      "foldId": "merged-fold-anonymous-path-32",
+      "foldAngleDeg": 90,
+      "path": "M 425.81 753.51 L 436.13 781.86 L 447.76 781.86 L 458.08 753.51 Z"
+    },
+    {
+      "id": "lower-flap-12",
+      "objectId": "ellipse-box",
+      "label": "Lower Flap 13",
+      "type": "segment-flap",
+      "foldParent": "lower-body-wrap",
+      "foldId": "merged-fold-anonymous-path-33",
+      "foldAngleDeg": 90,
+      "path": "M 458.08 753.51 L 468.39 781.86 L 480.03 781.86 L 490.35 753.51 Z"
+    },
+    {
+      "id": "lower-flap-13",
+      "objectId": "ellipse-box",
+      "label": "Lower Flap 14",
+      "type": "segment-flap",
+      "foldParent": "lower-body-wrap",
+      "foldId": "merged-fold-anonymous-path-34",
+      "foldAngleDeg": 90,
+      "path": "M 490.35 753.51 L 500.66 781.86 L 512.3 781.86 L 522.61 753.51 Z"
+    },
+    {
+      "id": "lower-flap-14",
+      "objectId": "ellipse-box",
+      "label": "Lower Flap 15",
+      "type": "segment-flap",
+      "foldParent": "lower-body-wrap",
+      "foldId": "merged-fold-anonymous-path-35",
+      "foldAngleDeg": 90,
+      "path": "M 522.61 753.51 L 532.93 781.86 L 544.56 781.86 L 554.88 753.51 Z"
+    },
+    {
+      "id": "lower-flap-15",
+      "objectId": "ellipse-box",
+      "label": "Lower Flap 16",
+      "type": "segment-flap",
+      "foldParent": "lower-body-wrap",
+      "foldId": "merged-fold-anonymous-path-36",
+      "foldAngleDeg": 90,
+      "path": "M 554.88 753.51 L 565.2 781.86 L 576.83 781.86 L 587.15 753.51 Z"
+    },
+    {
+      "id": "lower-flap-16",
+      "objectId": "ellipse-box",
+      "label": "Lower Flap 17",
+      "type": "segment-flap",
+      "foldParent": "lower-body-wrap",
+      "foldId": "merged-fold-anonymous-path-37",
+      "foldAngleDeg": 90,
+      "path": "M 587.15 753.51 L 597.47 781.86 L 609.1 781.86 L 619.42 753.51 Z"
+    },
+    {
+      "id": "lower-flap-17",
+      "objectId": "ellipse-box",
+      "label": "Lower Flap 18",
+      "type": "segment-flap",
+      "foldParent": "lower-body-wrap",
+      "foldId": "merged-fold-anonymous-path-38",
+      "foldAngleDeg": 90,
+      "path": "M 619.42 753.51 L 629.73 781.86 L 641.37 781.86 L 651.68 753.51 Z"
+    },
+    {
+      "id": "lower-flap-18",
+      "objectId": "ellipse-box",
+      "label": "Lower Flap 19",
+      "type": "segment-flap",
+      "foldParent": "lower-body-wrap",
+      "foldId": "merged-fold-anonymous-path-39",
+      "foldAngleDeg": 90,
+      "path": "M 651.68 753.51 L 662.0 781.86 L 673.63 781.86 L 683.95 753.51 Z"
+    },
+    {
+      "id": "lower-flap-19",
+      "objectId": "ellipse-box",
+      "label": "Lower Flap 20",
+      "type": "segment-flap",
+      "foldParent": "lower-body-wrap",
+      "foldId": "merged-fold-anonymous-path-40",
+      "foldAngleDeg": 90,
+      "path": "M 683.95 753.51 L 694.27 781.86 L 705.9 781.86 L 716.22 753.51 Z"
+    },
+    {
+      "id": "lower-ellipse-end-1",
+      "objectId": "ellipse-box",
+      "label": "Lower Ellipse End 1",
+      "type": "ellipse-end-cap",
+      "foldParent": "lower-body-wrap",
+      "foldId": null,
+      "foldAngleDeg": 90,
+      "path": "M 243.21 970.93 L 243.21 970.93 L 242.8 959.62 L 241.56 948.42 L 239.5 937.44 L 236.65 926.78 L 233.04 916.54 L 228.69 906.83 L 223.65 897.74 L 217.97 889.35 L 211.71 881.75 L 204.91 875.0 L 197.66 869.18 L 190.02 864.34 L 182.05 860.53 L 173.85 857.78 L 165.49 856.11 L 157.04 855.56 L 148.59 856.11 L 140.23 857.78 L 132.02 860.53 L 124.06 864.34 L 116.42 869.18 L 109.16 875.0 L 102.37 881.75 L 96.11 889.35 L 90.43 897.74 L 85.39 906.83 L 81.04 916.54 L 77.43 926.78 L 74.58 937.44 L 72.52 948.42 L 71.28 959.62 L 70.87 970.93 L 71.28 982.24 L 72.52 993.44 L 74.58 1004.42 L 77.43 1015.08 L 81.04 1025.31 L 85.39 1035.03 L 90.43 1044.12 L 96.11 1052.51 L 102.37 1060.11 L 109.16 1066.86 L 116.42 1072.68 L 124.06 1077.52 L 132.02 1081.33 L 140.23 1084.08 L 148.59 1085.74 L 157.04 1086.3 L 165.49 1085.74 L 173.85 1084.08 L 182.05 1081.33 L 190.02 1077.52 L 197.66 1072.68 L 204.91 1066.86 L 211.71 1060.11 L 217.97 1052.51 L 223.65 1044.12 L 228.69 1035.03 L 233.04 1025.31 L 236.65 1015.08 L 239.5 1004.42 L 241.56 993.44 L 242.8 982.24 L 243.21 970.93 Z"
+    },
+    {
+      "id": "lower-ellipse-end-2",
+      "objectId": "ellipse-box",
+      "label": "Lower Ellipse End 2",
+      "type": "ellipse-end-cap",
+      "foldParent": "lower-body-wrap",
+      "foldId": null,
+      "foldAngleDeg": 90,
+      "path": "M 492.09 970.93 L 492.09 970.93 L 491.67 959.34 L 490.38 947.87 L 488.26 936.62 L 485.32 925.69 L 481.58 915.21 L 477.09 905.26 L 471.89 895.94 L 466.02 887.35 L 459.55 879.56 L 452.54 872.65 L 445.04 866.68 L 437.15 861.72 L 428.92 857.81 L 420.45 855.0 L 411.81 853.29 L 403.09 852.72 L 394.36 853.29 L 385.72 855.0 L 377.25 857.81 L 369.02 861.72 L 361.13 866.68 L 353.64 872.65 L 346.62 879.56 L 340.15 887.35 L 334.28 895.94 L 329.08 905.26 L 324.59 915.21 L 320.85 925.69 L 317.91 936.62 L 315.79 947.87 L 314.51 959.34 L 314.08 970.93 L 314.51 982.52 L 315.79 993.99 L 317.91 1005.24 L 320.85 1016.16 L 324.59 1026.65 L 329.08 1036.6 L 334.28 1045.92 L 340.15 1054.51 L 346.62 1062.3 L 353.64 1069.21 L 361.13 1075.18 L 369.02 1080.14 L 377.25 1084.04 L 385.72 1086.86 L 394.36 1088.56 L 403.09 1089.13 L 411.81 1088.56 L 420.45 1086.86 L 428.92 1084.04 L 437.15 1080.14 L 445.04 1075.18 L 452.54 1069.21 L 459.55 1062.3 L 466.02 1054.51 L 471.89 1045.92 L 477.09 1036.6 L 481.58 1026.65 L 485.32 1016.16 L 488.26 1005.24 L 490.38 993.99 L 491.67 982.52 L 492.09 970.93 Z"
+    }
+  ],
+  "constructionPaths": [
+    {
+      "id": "merged-construction-thin-joint-flap-1",
+      "role": "construction",
+      "d": "M 697.42 268.79 L 697.42 70.36"
+    },
+    {
+      "id": "merged-construction-thin-anonymous-path-2",
+      "role": "construction",
+      "d": "M 716.22 753.51 L 716.22 668.47"
+    }
+  ],
+  "folds": [
+    {
+      "id": "merged-fold-flap-i-0-flap-1",
+      "role": "fold",
+      "d": "M 70.87 268.79 L 102.19 268.79"
+    },
+    {
+      "id": "merged-fold-flap-i-1-flap-1",
+      "role": "fold",
+      "d": "M 102.19 268.79 L 133.52 268.79"
+    },
+    {
+      "id": "merged-fold-flap-i-2-flap-1",
+      "role": "fold",
+      "d": "M 133.52 268.79 L 164.85 268.79"
+    },
+    {
+      "id": "merged-fold-flap-i-3-flap-1",
+      "role": "fold",
+      "d": "M 164.85 268.79 L 196.18 268.79"
+    },
+    {
+      "id": "merged-fold-flap-i-4-flap-1",
+      "role": "fold",
+      "d": "M 196.18 268.79 L 227.51 268.79"
+    },
+    {
+      "id": "merged-fold-flap-i-5-flap-1",
+      "role": "fold",
+      "d": "M 227.51 268.79 L 258.83 268.79"
+    },
+    {
+      "id": "merged-fold-flap-i-6-flap-1",
+      "role": "fold",
+      "d": "M 258.83 268.79 L 290.16 268.79"
+    },
+    {
+      "id": "merged-fold-flap-i-7-flap-1",
+      "role": "fold",
+      "d": "M 290.16 268.79 L 321.49 268.79"
+    },
+    {
+      "id": "merged-fold-flap-i-8-flap-1",
+      "role": "fold",
+      "d": "M 321.49 268.79 L 352.82 268.79"
+    },
+    {
+      "id": "merged-fold-flap-i-9-flap-1",
+      "role": "fold",
+      "d": "M 352.82 268.79 L 384.14 268.79"
+    },
+    {
+      "id": "merged-fold-flap-i-10-flap-1",
+      "role": "fold",
+      "d": "M 384.14 268.79 L 415.47 268.79"
+    },
+    {
+      "id": "merged-fold-flap-i-11-flap-1",
+      "role": "fold",
+      "d": "M 415.47 268.79 L 446.8 268.79"
+    },
+    {
+      "id": "merged-fold-flap-i-12-flap-1",
+      "role": "fold",
+      "d": "M 446.8 268.79 L 478.13 268.79"
+    },
+    {
+      "id": "merged-fold-flap-i-13-flap-1",
+      "role": "fold",
+      "d": "M 478.13 268.79 L 509.46 268.79"
+    },
+    {
+      "id": "merged-fold-flap-i-14-flap-1",
+      "role": "fold",
+      "d": "M 509.46 268.79 L 540.78 268.79"
+    },
+    {
+      "id": "merged-fold-flap-i-15-flap-1",
+      "role": "fold",
+      "d": "M 540.78 268.79 L 572.11 268.79"
+    },
+    {
+      "id": "merged-fold-flap-i-16-flap-1",
+      "role": "fold",
+      "d": "M 572.11 268.79 L 603.44 268.79"
+    },
+    {
+      "id": "merged-fold-flap-i-17-flap-1",
+      "role": "fold",
+      "d": "M 603.44 268.79 L 634.77 268.79"
+    },
+    {
+      "id": "merged-fold-flap-i-18-flap-1",
+      "role": "fold",
+      "d": "M 634.77 268.79 L 666.09 268.79"
+    },
+    {
+      "id": "merged-fold-flap-i-19-flap-1",
+      "role": "fold",
+      "d": "M 666.09 268.79 L 697.42 268.79"
+    },
+    {
+      "id": "merged-fold-anonymous-path-21",
+      "role": "fold",
+      "d": "M 70.87 753.51 L 103.13 753.51"
+    },
+    {
+      "id": "merged-fold-anonymous-path-22",
+      "role": "fold",
+      "d": "M 103.13 753.51 L 135.4 753.51"
+    },
+    {
+      "id": "merged-fold-anonymous-path-23",
+      "role": "fold",
+      "d": "M 135.4 753.51 L 167.67 753.51"
+    },
+    {
+      "id": "merged-fold-anonymous-path-24",
+      "role": "fold",
+      "d": "M 167.67 753.51 L 199.94 753.51"
+    },
+    {
+      "id": "merged-fold-anonymous-path-25",
+      "role": "fold",
+      "d": "M 199.94 753.51 L 232.2 753.51"
+    },
+    {
+      "id": "merged-fold-anonymous-path-26",
+      "role": "fold",
+      "d": "M 232.2 753.51 L 264.47 753.51"
+    },
+    {
+      "id": "merged-fold-anonymous-path-27",
+      "role": "fold",
+      "d": "M 264.47 753.51 L 296.74 753.51"
+    },
+    {
+      "id": "merged-fold-anonymous-path-28",
+      "role": "fold",
+      "d": "M 296.74 753.51 L 329.01 753.51"
+    },
+    {
+      "id": "merged-fold-anonymous-path-29",
+      "role": "fold",
+      "d": "M 329.01 753.51 L 361.27 753.51"
+    },
+    {
+      "id": "merged-fold-anonymous-path-30",
+      "role": "fold",
+      "d": "M 361.27 753.51 L 393.54 753.51"
+    },
+    {
+      "id": "merged-fold-anonymous-path-31",
+      "role": "fold",
+      "d": "M 393.54 753.51 L 425.81 753.51"
+    },
+    {
+      "id": "merged-fold-anonymous-path-32",
+      "role": "fold",
+      "d": "M 425.81 753.51 L 458.08 753.51"
+    },
+    {
+      "id": "merged-fold-anonymous-path-33",
+      "role": "fold",
+      "d": "M 458.08 753.51 L 490.35 753.51"
+    },
+    {
+      "id": "merged-fold-anonymous-path-34",
+      "role": "fold",
+      "d": "M 490.35 753.51 L 522.61 753.51"
+    },
+    {
+      "id": "merged-fold-anonymous-path-35",
+      "role": "fold",
+      "d": "M 522.61 753.51 L 554.88 753.51"
+    },
+    {
+      "id": "merged-fold-anonymous-path-36",
+      "role": "fold",
+      "d": "M 554.88 753.51 L 587.15 753.51"
+    },
+    {
+      "id": "merged-fold-anonymous-path-37",
+      "role": "fold",
+      "d": "M 587.15 753.51 L 619.42 753.51"
+    },
+    {
+      "id": "merged-fold-anonymous-path-38",
+      "role": "fold",
+      "d": "M 619.42 753.51 L 651.68 753.51"
+    },
+    {
+      "id": "merged-fold-anonymous-path-39",
+      "role": "fold",
+      "d": "M 651.68 753.51 L 683.95 753.51"
+    },
+    {
+      "id": "merged-fold-anonymous-path-40",
+      "role": "fold",
+      "d": "M 683.95 753.51 L 716.22 753.51"
+    }
+  ],
+  "cutPaths": [
+    {
+      "id": "merged-cut-height",
+      "role": "cut",
+      "d": "M 70.87 70.36 L 70.87 268.79"
+    },
+    {
+      "id": "merged-cut-flap-i-0",
+      "role": "cut",
+      "d": "M 70.87 268.79 L 81.18 297.13 L 91.88 297.13 L 102.19 268.79"
+    },
+    {
+      "id": "merged-cut-flap-i-1",
+      "role": "cut",
+      "d": "M 102.19 268.79 L 112.51 297.13 L 123.2 297.13 L 133.52 268.79"
+    },
+    {
+      "id": "merged-cut-flap-i-2",
+      "role": "cut",
+      "d": "M 133.52 268.79 L 143.84 297.13 L 154.53 297.13 L 164.85 268.79"
+    },
+    {
+      "id": "merged-cut-flap-i-3",
+      "role": "cut",
+      "d": "M 164.85 268.79 L 175.17 297.13 L 185.86 297.13 L 196.18 268.79"
+    },
+    {
+      "id": "merged-cut-flap-i-4",
+      "role": "cut",
+      "d": "M 196.18 268.79 L 206.49 297.13 L 217.19 297.13 L 227.51 268.79"
+    },
+    {
+      "id": "merged-cut-flap-i-5",
+      "role": "cut",
+      "d": "M 227.51 268.79 L 237.82 297.13 L 248.52 297.13 L 258.83 268.79"
+    },
+    {
+      "id": "merged-cut-flap-i-6",
+      "role": "cut",
+      "d": "M 258.83 268.79 L 269.15 297.13 L 279.84 297.13 L 290.16 268.79"
+    },
+    {
+      "id": "merged-cut-flap-i-7",
+      "role": "cut",
+      "d": "M 290.16 268.79 L 300.48 297.13 L 311.17 297.13 L 321.49 268.79"
+    },
+    {
+      "id": "merged-cut-flap-i-8",
+      "role": "cut",
+      "d": "M 321.49 268.79 L 331.81 297.13 L 342.5 297.13 L 352.82 268.79"
+    },
+    {
+      "id": "merged-cut-flap-i-9",
+      "role": "cut",
+      "d": "M 352.82 268.79 L 363.13 297.13 L 373.83 297.13 L 384.14 268.79"
+    },
+    {
+      "id": "merged-cut-flap-i-10",
+      "role": "cut",
+      "d": "M 384.14 268.79 L 394.46 297.13 L 405.15 297.13 L 415.47 268.79"
+    },
+    {
+      "id": "merged-cut-flap-i-11",
+      "role": "cut",
+      "d": "M 415.47 268.79 L 425.79 297.13 L 436.48 297.13 L 446.8 268.79"
+    },
+    {
+      "id": "merged-cut-flap-i-12",
+      "role": "cut",
+      "d": "M 446.8 268.79 L 457.12 297.13 L 467.81 297.13 L 478.13 268.79"
+    },
+    {
+      "id": "merged-cut-flap-i-13",
+      "role": "cut",
+      "d": "M 478.13 268.79 L 488.44 297.13 L 499.14 297.13 L 509.46 268.79"
+    },
+    {
+      "id": "merged-cut-flap-i-14",
+      "role": "cut",
+      "d": "M 509.46 268.79 L 519.77 297.13 L 530.47 297.13 L 540.78 268.79"
+    },
+    {
+      "id": "merged-cut-flap-i-15",
+      "role": "cut",
+      "d": "M 540.78 268.79 L 551.1 297.13 L 561.79 297.13 L 572.11 268.79"
+    },
+    {
+      "id": "merged-cut-flap-i-16",
+      "role": "cut",
+      "d": "M 572.11 268.79 L 582.43 297.13 L 593.12 297.13 L 603.44 268.79"
+    },
+    {
+      "id": "merged-cut-flap-i-17",
+      "role": "cut",
+      "d": "M 603.44 268.79 L 613.76 297.13 L 624.45 297.13 L 634.77 268.79"
+    },
+    {
+      "id": "merged-cut-flap-i-18",
+      "role": "cut",
+      "d": "M 634.77 268.79 L 645.08 297.13 L 655.78 297.13 L 666.09 268.79"
+    },
+    {
+      "id": "merged-cut-flap-i-19",
+      "role": "cut",
+      "d": "M 666.09 268.79 L 676.41 297.13 L 687.1 297.13 L 697.42 268.79"
+    },
+    {
+      "id": "merged-cut-joint",
+      "role": "cut",
+      "d": "M 697.42 268.79 L 725.77 258.47 L 725.77 80.68 L 697.42 70.36 L 70.87 70.36"
+    },
+    {
+      "id": "merged-cut-ellipse-1-ellipse-1",
+      "role": "cut",
+      "d": "M 238.11 482.8 L 238.11 482.8 L 237.71 471.83 L 236.5 460.96 L 234.51 450.3 L 231.74 439.95 L 228.24 430.02 L 224.02 420.6 L 219.13 411.77 L 213.62 403.63 L 207.54 396.25 L 200.95 389.7 L 193.91 384.06 L 186.49 379.36 L 178.76 375.66 L 170.8 372.99 L 162.68 371.37 L 154.49 370.83 L 146.29 371.37 L 138.17 372.99 L 130.21 375.66 L 122.49 379.36 L 115.07 384.06 L 108.03 389.7 L 101.44 396.25 L 95.36 403.63 L 89.85 411.77 L 84.96 420.6 L 80.74 430.02 L 77.23 439.95 L 74.47 450.3 L 72.47 460.96 L 71.27 471.83 L 70.87 482.8 L 71.27 493.78 L 72.47 504.65 L 74.47 515.31 L 77.23 525.65 L 80.74 535.58 L 84.96 545.01 L 89.85 553.84 L 95.36 561.98 L 101.44 569.36 L 108.03 575.9 L 115.07 581.55 L 122.49 586.25 L 130.21 589.95 L 138.17 592.62 L 146.29 594.23 L 154.49 594.77 L 162.68 594.23 L 170.8 592.62 L 178.76 589.95 L 186.49 586.25 L 193.91 581.55 L 200.95 575.9 L 207.54 569.36 L 213.62 561.98 L 219.13 553.84 L 224.02 545.01 L 228.24 535.58 L 231.74 525.65 L 234.51 515.31 L 236.5 504.65 L 237.71 493.78 L 238.11 482.8"
+    },
+    {
+      "id": "merged-cut-ellipse-2-ellipse-1",
+      "role": "cut",
+      "d": "M 481.89 482.8 L 481.89 482.8 L 481.47 471.55 L 480.23 460.41 L 478.17 449.48 L 475.31 438.87 L 471.68 428.69 L 467.32 419.02 L 462.26 409.97 L 456.57 401.63 L 450.28 394.06 L 443.47 387.35 L 436.19 381.56 L 428.52 376.74 L 420.53 372.94 L 412.3 370.21 L 403.91 368.55 L 395.43 368.0 L 386.96 368.55 L 378.57 370.21 L 370.34 372.94 L 362.35 376.74 L 354.68 381.56 L 347.4 387.35 L 340.59 394.06 L 334.3 401.63 L 328.6 409.97 L 323.55 419.02 L 319.19 428.69 L 315.56 438.87 L 312.7 449.48 L 310.64 460.41 L 309.39 471.55 L 308.98 482.8 L 309.39 494.06 L 310.64 505.2 L 312.7 516.13 L 315.56 526.74 L 319.19 536.92 L 323.55 546.58 L 328.6 555.63 L 334.3 563.98 L 340.59 571.55 L 347.4 578.26 L 354.68 584.05 L 362.35 588.87 L 370.34 592.66 L 378.57 595.4 L 386.96 597.05 L 395.43 597.61 L 403.91 597.05 L 412.3 595.4 L 420.53 592.66 L 428.52 588.87 L 436.19 584.05 L 443.47 578.26 L 450.28 571.55 L 456.57 563.98 L 462.26 555.63 L 467.32 546.58 L 471.68 536.92 L 475.31 526.74 L 478.17 516.13 L 480.23 505.2 L 481.47 494.06 L 481.89 482.8"
+    },
+    {
+      "id": "merged-cut-anonymous-path-27",
+      "role": "cut",
+      "d": "M 70.87 668.47 L 70.87 753.51"
+    },
+    {
+      "id": "merged-cut-anonymous-path-28",
+      "role": "cut",
+      "d": "M 70.87 753.51 L 81.18 781.86 L 92.82 781.86 L 103.13 753.51"
+    },
+    {
+      "id": "merged-cut-anonymous-path-29",
+      "role": "cut",
+      "d": "M 103.13 753.51 L 113.45 781.86 L 125.08 781.86 L 135.4 753.51"
+    },
+    {
+      "id": "merged-cut-anonymous-path-30",
+      "role": "cut",
+      "d": "M 135.4 753.51 L 145.72 781.86 L 157.35 781.86 L 167.67 753.51"
+    },
+    {
+      "id": "merged-cut-anonymous-path-31",
+      "role": "cut",
+      "d": "M 167.67 753.51 L 177.99 781.86 L 189.62 781.86 L 199.94 753.51"
+    },
+    {
+      "id": "merged-cut-anonymous-path-32",
+      "role": "cut",
+      "d": "M 199.94 753.51 L 210.25 781.86 L 221.89 781.86 L 232.2 753.51"
+    },
+    {
+      "id": "merged-cut-anonymous-path-33",
+      "role": "cut",
+      "d": "M 232.2 753.51 L 242.52 781.86 L 254.15 781.86 L 264.47 753.51"
+    },
+    {
+      "id": "merged-cut-anonymous-path-34",
+      "role": "cut",
+      "d": "M 264.47 753.51 L 274.79 781.86 L 286.42 781.86 L 296.74 753.51"
+    },
+    {
+      "id": "merged-cut-anonymous-path-35",
+      "role": "cut",
+      "d": "M 296.74 753.51 L 307.06 781.86 L 318.69 781.86 L 329.01 753.51"
+    },
+    {
+      "id": "merged-cut-anonymous-path-36",
+      "role": "cut",
+      "d": "M 329.01 753.51 L 339.32 781.86 L 350.96 781.86 L 361.27 753.51"
+    },
+    {
+      "id": "merged-cut-anonymous-path-37",
+      "role": "cut",
+      "d": "M 361.27 753.51 L 371.59 781.86 L 383.23 781.86 L 393.54 753.51"
+    },
+    {
+      "id": "merged-cut-anonymous-path-38",
+      "role": "cut",
+      "d": "M 393.54 753.51 L 403.86 781.86 L 415.49 781.86 L 425.81 753.51"
+    },
+    {
+      "id": "merged-cut-anonymous-path-39",
+      "role": "cut",
+      "d": "M 425.81 753.51 L 436.13 781.86 L 447.76 781.86 L 458.08 753.51"
+    },
+    {
+      "id": "merged-cut-anonymous-path-40",
+      "role": "cut",
+      "d": "M 458.08 753.51 L 468.39 781.86 L 480.03 781.86 L 490.35 753.51"
+    },
+    {
+      "id": "merged-cut-anonymous-path-41",
+      "role": "cut",
+      "d": "M 490.35 753.51 L 500.66 781.86 L 512.3 781.86 L 522.61 753.51"
+    },
+    {
+      "id": "merged-cut-anonymous-path-42",
+      "role": "cut",
+      "d": "M 522.61 753.51 L 532.93 781.86 L 544.56 781.86 L 554.88 753.51"
+    },
+    {
+      "id": "merged-cut-anonymous-path-43",
+      "role": "cut",
+      "d": "M 554.88 753.51 L 565.2 781.86 L 576.83 781.86 L 587.15 753.51"
+    },
+    {
+      "id": "merged-cut-anonymous-path-44",
+      "role": "cut",
+      "d": "M 587.15 753.51 L 597.47 781.86 L 609.1 781.86 L 619.42 753.51"
+    },
+    {
+      "id": "merged-cut-anonymous-path-45",
+      "role": "cut",
+      "d": "M 619.42 753.51 L 629.73 781.86 L 641.37 781.86 L 651.68 753.51"
+    },
+    {
+      "id": "merged-cut-anonymous-path-46",
+      "role": "cut",
+      "d": "M 651.68 753.51 L 662.0 781.86 L 673.63 781.86 L 683.95 753.51"
+    },
+    {
+      "id": "merged-cut-anonymous-path-47",
+      "role": "cut",
+      "d": "M 683.95 753.51 L 694.27 781.86 L 705.9 781.86 L 716.22 753.51"
+    },
+    {
+      "id": "merged-cut-anonymous-path-48",
+      "role": "cut",
+      "d": "M 716.22 753.51 L 744.56 743.19 L 744.56 678.79 L 716.22 668.47 L 70.87 668.47"
+    },
+    {
+      "id": "merged-cut-anonymous-path-50",
+      "role": "cut",
+      "d": "M 243.21 970.93 L 243.21 970.93 L 242.8 959.62 L 241.56 948.42 L 239.5 937.44 L 236.65 926.78 L 233.04 916.54 L 228.69 906.83 L 223.65 897.74 L 217.97 889.35 L 211.71 881.75 L 204.91 875.0 L 197.66 869.18 L 190.02 864.34 L 182.05 860.53 L 173.85 857.78 L 165.49 856.11 L 157.04 855.56 L 148.59 856.11 L 140.23 857.78 L 132.02 860.53 L 124.06 864.34 L 116.42 869.18 L 109.16 875.0 L 102.37 881.75 L 96.11 889.35 L 90.43 897.74 L 85.39 906.83 L 81.04 916.54 L 77.43 926.78 L 74.58 937.44 L 72.52 948.42 L 71.28 959.62 L 70.87 970.93 L 71.28 982.24 L 72.52 993.44 L 74.58 1004.42 L 77.43 1015.08 L 81.04 1025.31 L 85.39 1035.03 L 90.43 1044.12 L 96.11 1052.51 L 102.37 1060.11 L 109.16 1066.86 L 116.42 1072.68 L 124.06 1077.52 L 132.02 1081.33 L 140.23 1084.08 L 148.59 1085.74 L 157.04 1086.3 L 165.49 1085.74 L 173.85 1084.08 L 182.05 1081.33 L 190.02 1077.52 L 197.66 1072.68 L 204.91 1066.86 L 211.71 1060.11 L 217.97 1052.51 L 223.65 1044.12 L 228.69 1035.03 L 233.04 1025.31 L 236.65 1015.08 L 239.5 1004.42 L 241.56 993.44 L 242.8 982.24 L 243.21 970.93"
+    },
+    {
+      "id": "merged-cut-anonymous-path-52",
+      "role": "cut",
+      "d": "M 492.09 970.93 L 492.09 970.93 L 491.67 959.34 L 490.38 947.87 L 488.26 936.62 L 485.32 925.69 L 481.58 915.21 L 477.09 905.26 L 471.89 895.94 L 466.02 887.35 L 459.55 879.56 L 452.54 872.65 L 445.04 866.68 L 437.15 861.72 L 428.92 857.81 L 420.45 855.0 L 411.81 853.29 L 403.09 852.72 L 394.36 853.29 L 385.72 855.0 L 377.25 857.81 L 369.02 861.72 L 361.13 866.68 L 353.64 872.65 L 346.62 879.56 L 340.15 887.35 L 334.28 895.94 L 329.08 905.26 L 324.59 915.21 L 320.85 925.69 L 317.91 936.62 L 315.79 947.87 L 314.51 959.34 L 314.08 970.93 L 314.51 982.52 L 315.79 993.99 L 317.91 1005.24 L 320.85 1016.16 L 324.59 1026.65 L 329.08 1036.6 L 334.28 1045.92 L 340.15 1054.51 L 346.62 1062.3 L 353.64 1069.21 L 361.13 1075.18 L 369.02 1080.14 L 377.25 1084.04 L 385.72 1086.86 L 394.36 1088.56 L 403.09 1089.13 L 411.81 1088.56 L 420.45 1086.86 L 428.92 1084.04 L 437.15 1080.14 L 445.04 1075.18 L 452.54 1069.21 L 459.55 1062.3 L 466.02 1054.51 L 471.89 1045.92 L 477.09 1036.6 L 481.58 1026.65 L 485.32 1016.16 L 488.26 1005.24 L 490.38 993.99 L 491.67 982.52 L 492.09 970.93"
+    }
+  ]
+}
+  ]]></metadata>
+
+  <defs>
+    <clipPath id="clip-upper-body-wrap"><path d="M 70.87 70.36 L 697.42 70.36 L 697.42 268.79 L 70.87 268.79 Z" /></clipPath>
+    <clipPath id="clip-upper-joint-flap"><path d="M 697.42 70.36 L 725.77 80.68 L 725.77 258.47 L 697.42 268.79 Z" /></clipPath>
+    <clipPath id="clip-upper-flap-00"><path d="M 70.87 268.79 L 81.18 297.13 L 91.88 297.13 L 102.19 268.79 Z" /></clipPath>
+    <clipPath id="clip-upper-flap-01"><path d="M 102.19 268.79 L 112.51 297.13 L 123.2 297.13 L 133.52 268.79 Z" /></clipPath>
+    <clipPath id="clip-upper-flap-02"><path d="M 133.52 268.79 L 143.84 297.13 L 154.53 297.13 L 164.85 268.79 Z" /></clipPath>
+    <clipPath id="clip-upper-flap-03"><path d="M 164.85 268.79 L 175.17 297.13 L 185.86 297.13 L 196.18 268.79 Z" /></clipPath>
+    <clipPath id="clip-upper-flap-04"><path d="M 196.18 268.79 L 206.49 297.13 L 217.19 297.13 L 227.51 268.79 Z" /></clipPath>
+    <clipPath id="clip-upper-flap-05"><path d="M 227.51 268.79 L 237.82 297.13 L 248.52 297.13 L 258.83 268.79 Z" /></clipPath>
+    <clipPath id="clip-upper-flap-06"><path d="M 258.83 268.79 L 269.15 297.13 L 279.84 297.13 L 290.16 268.79 Z" /></clipPath>
+    <clipPath id="clip-upper-flap-07"><path d="M 290.16 268.79 L 300.48 297.13 L 311.17 297.13 L 321.49 268.79 Z" /></clipPath>
+    <clipPath id="clip-upper-flap-08"><path d="M 321.49 268.79 L 331.81 297.13 L 342.5 297.13 L 352.82 268.79 Z" /></clipPath>
+    <clipPath id="clip-upper-flap-09"><path d="M 352.82 268.79 L 363.13 297.13 L 373.83 297.13 L 384.14 268.79 Z" /></clipPath>
+    <clipPath id="clip-upper-flap-10"><path d="M 384.14 268.79 L 394.46 297.13 L 405.15 297.13 L 415.47 268.79 Z" /></clipPath>
+    <clipPath id="clip-upper-flap-11"><path d="M 415.47 268.79 L 425.79 297.13 L 436.48 297.13 L 446.8 268.79 Z" /></clipPath>
+    <clipPath id="clip-upper-flap-12"><path d="M 446.8 268.79 L 457.12 297.13 L 467.81 297.13 L 478.13 268.79 Z" /></clipPath>
+    <clipPath id="clip-upper-flap-13"><path d="M 478.13 268.79 L 488.44 297.13 L 499.14 297.13 L 509.46 268.79 Z" /></clipPath>
+    <clipPath id="clip-upper-flap-14"><path d="M 509.46 268.79 L 519.77 297.13 L 530.47 297.13 L 540.78 268.79 Z" /></clipPath>
+    <clipPath id="clip-upper-flap-15"><path d="M 540.78 268.79 L 551.1 297.13 L 561.79 297.13 L 572.11 268.79 Z" /></clipPath>
+    <clipPath id="clip-upper-flap-16"><path d="M 572.11 268.79 L 582.43 297.13 L 593.12 297.13 L 603.44 268.79 Z" /></clipPath>
+    <clipPath id="clip-upper-flap-17"><path d="M 603.44 268.79 L 613.76 297.13 L 624.45 297.13 L 634.77 268.79 Z" /></clipPath>
+    <clipPath id="clip-upper-flap-18"><path d="M 634.77 268.79 L 645.08 297.13 L 655.78 297.13 L 666.09 268.79 Z" /></clipPath>
+    <clipPath id="clip-upper-flap-19"><path d="M 666.09 268.79 L 676.41 297.13 L 687.1 297.13 L 697.42 268.79 Z" /></clipPath>
+    <clipPath id="clip-upper-ellipse-end-1"><path d="M 238.11 482.8 L 238.11 482.8 L 237.71 471.83 L 236.5 460.96 L 234.51 450.3 L 231.74 439.95 L 228.24 430.02 L 224.02 420.6 L 219.13 411.77 L 213.62 403.63 L 207.54 396.25 L 200.95 389.7 L 193.91 384.06 L 186.49 379.36 L 178.76 375.66 L 170.8 372.99 L 162.68 371.37 L 154.49 370.83 L 146.29 371.37 L 138.17 372.99 L 130.21 375.66 L 122.49 379.36 L 115.07 384.06 L 108.03 389.7 L 101.44 396.25 L 95.36 403.63 L 89.85 411.77 L 84.96 420.6 L 80.74 430.02 L 77.23 439.95 L 74.47 450.3 L 72.47 460.96 L 71.27 471.83 L 70.87 482.8 L 71.27 493.78 L 72.47 504.65 L 74.47 515.31 L 77.23 525.65 L 80.74 535.58 L 84.96 545.01 L 89.85 553.84 L 95.36 561.98 L 101.44 569.36 L 108.03 575.9 L 115.07 581.55 L 122.49 586.25 L 130.21 589.95 L 138.17 592.62 L 146.29 594.23 L 154.49 594.77 L 162.68 594.23 L 170.8 592.62 L 178.76 589.95 L 186.49 586.25 L 193.91 581.55 L 200.95 575.9 L 207.54 569.36 L 213.62 561.98 L 219.13 553.84 L 224.02 545.01 L 228.24 535.58 L 231.74 525.65 L 234.51 515.31 L 236.5 504.65 L 237.71 493.78 L 238.11 482.8 Z" /></clipPath>
+    <clipPath id="clip-upper-ellipse-end-2"><path d="M 481.89 482.8 L 481.89 482.8 L 481.47 471.55 L 480.23 460.41 L 478.17 449.48 L 475.31 438.87 L 471.68 428.69 L 467.32 419.02 L 462.26 409.97 L 456.57 401.63 L 450.28 394.06 L 443.47 387.35 L 436.19 381.56 L 428.52 376.74 L 420.53 372.94 L 412.3 370.21 L 403.91 368.55 L 395.43 368.0 L 386.96 368.55 L 378.57 370.21 L 370.34 372.94 L 362.35 376.74 L 354.68 381.56 L 347.4 387.35 L 340.59 394.06 L 334.3 401.63 L 328.6 409.97 L 323.55 419.02 L 319.19 428.69 L 315.56 438.87 L 312.7 449.48 L 310.64 460.41 L 309.39 471.55 L 308.98 482.8 L 309.39 494.06 L 310.64 505.2 L 312.7 516.13 L 315.56 526.74 L 319.19 536.92 L 323.55 546.58 L 328.6 555.63 L 334.3 563.98 L 340.59 571.55 L 347.4 578.26 L 354.68 584.05 L 362.35 588.87 L 370.34 592.66 L 378.57 595.4 L 386.96 597.05 L 395.43 597.61 L 403.91 597.05 L 412.3 595.4 L 420.53 592.66 L 428.52 588.87 L 436.19 584.05 L 443.47 578.26 L 450.28 571.55 L 456.57 563.98 L 462.26 555.63 L 467.32 546.58 L 471.68 536.92 L 475.31 526.74 L 478.17 516.13 L 480.23 505.2 L 481.47 494.06 L 481.89 482.8 Z" /></clipPath>
+    <clipPath id="clip-lower-body-wrap"><path d="M 70.87 668.47 L 716.22 668.47 L 716.22 753.51 L 70.87 753.51 Z" /></clipPath>
+    <clipPath id="clip-lower-joint-flap"><path d="M 716.22 668.47 L 744.56 678.79 L 744.56 743.19 L 716.22 753.51 Z" /></clipPath>
+    <clipPath id="clip-lower-flap-00"><path d="M 70.87 753.51 L 81.18 781.86 L 92.82 781.86 L 103.13 753.51 Z" /></clipPath>
+    <clipPath id="clip-lower-flap-01"><path d="M 103.13 753.51 L 113.45 781.86 L 125.08 781.86 L 135.4 753.51 Z" /></clipPath>
+    <clipPath id="clip-lower-flap-02"><path d="M 135.4 753.51 L 145.72 781.86 L 157.35 781.86 L 167.67 753.51 Z" /></clipPath>
+    <clipPath id="clip-lower-flap-03"><path d="M 167.67 753.51 L 177.99 781.86 L 189.62 781.86 L 199.94 753.51 Z" /></clipPath>
+    <clipPath id="clip-lower-flap-04"><path d="M 199.94 753.51 L 210.25 781.86 L 221.89 781.86 L 232.2 753.51 Z" /></clipPath>
+    <clipPath id="clip-lower-flap-05"><path d="M 232.2 753.51 L 242.52 781.86 L 254.15 781.86 L 264.47 753.51 Z" /></clipPath>
+    <clipPath id="clip-lower-flap-06"><path d="M 264.47 753.51 L 274.79 781.86 L 286.42 781.86 L 296.74 753.51 Z" /></clipPath>
+    <clipPath id="clip-lower-flap-07"><path d="M 296.74 753.51 L 307.06 781.86 L 318.69 781.86 L 329.01 753.51 Z" /></clipPath>
+    <clipPath id="clip-lower-flap-08"><path d="M 329.01 753.51 L 339.32 781.86 L 350.96 781.86 L 361.27 753.51 Z" /></clipPath>
+    <clipPath id="clip-lower-flap-09"><path d="M 361.27 753.51 L 371.59 781.86 L 383.23 781.86 L 393.54 753.51 Z" /></clipPath>
+    <clipPath id="clip-lower-flap-10"><path d="M 393.54 753.51 L 403.86 781.86 L 415.49 781.86 L 425.81 753.51 Z" /></clipPath>
+    <clipPath id="clip-lower-flap-11"><path d="M 425.81 753.51 L 436.13 781.86 L 447.76 781.86 L 458.08 753.51 Z" /></clipPath>
+    <clipPath id="clip-lower-flap-12"><path d="M 458.08 753.51 L 468.39 781.86 L 480.03 781.86 L 490.35 753.51 Z" /></clipPath>
+    <clipPath id="clip-lower-flap-13"><path d="M 490.35 753.51 L 500.66 781.86 L 512.3 781.86 L 522.61 753.51 Z" /></clipPath>
+    <clipPath id="clip-lower-flap-14"><path d="M 522.61 753.51 L 532.93 781.86 L 544.56 781.86 L 554.88 753.51 Z" /></clipPath>
+    <clipPath id="clip-lower-flap-15"><path d="M 554.88 753.51 L 565.2 781.86 L 576.83 781.86 L 587.15 753.51 Z" /></clipPath>
+    <clipPath id="clip-lower-flap-16"><path d="M 587.15 753.51 L 597.47 781.86 L 609.1 781.86 L 619.42 753.51 Z" /></clipPath>
+    <clipPath id="clip-lower-flap-17"><path d="M 619.42 753.51 L 629.73 781.86 L 641.37 781.86 L 651.68 753.51 Z" /></clipPath>
+    <clipPath id="clip-lower-flap-18"><path d="M 651.68 753.51 L 662.0 781.86 L 673.63 781.86 L 683.95 753.51 Z" /></clipPath>
+    <clipPath id="clip-lower-flap-19"><path d="M 683.95 753.51 L 694.27 781.86 L 705.9 781.86 L 716.22 753.51 Z" /></clipPath>
+    <clipPath id="clip-lower-ellipse-end-1"><path d="M 243.21 970.93 L 243.21 970.93 L 242.8 959.62 L 241.56 948.42 L 239.5 937.44 L 236.65 926.78 L 233.04 916.54 L 228.69 906.83 L 223.65 897.74 L 217.97 889.35 L 211.71 881.75 L 204.91 875.0 L 197.66 869.18 L 190.02 864.34 L 182.05 860.53 L 173.85 857.78 L 165.49 856.11 L 157.04 855.56 L 148.59 856.11 L 140.23 857.78 L 132.02 860.53 L 124.06 864.34 L 116.42 869.18 L 109.16 875.0 L 102.37 881.75 L 96.11 889.35 L 90.43 897.74 L 85.39 906.83 L 81.04 916.54 L 77.43 926.78 L 74.58 937.44 L 72.52 948.42 L 71.28 959.62 L 70.87 970.93 L 71.28 982.24 L 72.52 993.44 L 74.58 1004.42 L 77.43 1015.08 L 81.04 1025.31 L 85.39 1035.03 L 90.43 1044.12 L 96.11 1052.51 L 102.37 1060.11 L 109.16 1066.86 L 116.42 1072.68 L 124.06 1077.52 L 132.02 1081.33 L 140.23 1084.08 L 148.59 1085.74 L 157.04 1086.3 L 165.49 1085.74 L 173.85 1084.08 L 182.05 1081.33 L 190.02 1077.52 L 197.66 1072.68 L 204.91 1066.86 L 211.71 1060.11 L 217.97 1052.51 L 223.65 1044.12 L 228.69 1035.03 L 233.04 1025.31 L 236.65 1015.08 L 239.5 1004.42 L 241.56 993.44 L 242.8 982.24 L 243.21 970.93 Z" /></clipPath>
+    <clipPath id="clip-lower-ellipse-end-2"><path d="M 492.09 970.93 L 492.09 970.93 L 491.67 959.34 L 490.38 947.87 L 488.26 936.62 L 485.32 925.69 L 481.58 915.21 L 477.09 905.26 L 471.89 895.94 L 466.02 887.35 L 459.55 879.56 L 452.54 872.65 L 445.04 866.68 L 437.15 861.72 L 428.92 857.81 L 420.45 855.0 L 411.81 853.29 L 403.09 852.72 L 394.36 853.29 L 385.72 855.0 L 377.25 857.81 L 369.02 861.72 L 361.13 866.68 L 353.64 872.65 L 346.62 879.56 L 340.15 887.35 L 334.28 895.94 L 329.08 905.26 L 324.59 915.21 L 320.85 925.69 L 317.91 936.62 L 315.79 947.87 L 314.51 959.34 L 314.08 970.93 L 314.51 982.52 L 315.79 993.99 L 317.91 1005.24 L 320.85 1016.16 L 324.59 1026.65 L 329.08 1036.6 L 334.28 1045.92 L 340.15 1054.51 L 346.62 1062.3 L 353.64 1069.21 L 361.13 1075.18 L 369.02 1080.14 L 377.25 1084.04 L 385.72 1086.86 L 394.36 1088.56 L 403.09 1089.13 L 411.81 1088.56 L 420.45 1086.86 L 428.92 1084.04 L 437.15 1080.14 L 445.04 1075.18 L 452.54 1069.21 L 459.55 1062.3 L 466.02 1054.51 L 471.89 1045.92 L 477.09 1036.6 L 481.58 1026.65 L 485.32 1016.16 L 488.26 1005.24 L 490.38 993.99 L 491.67 982.52 L 492.09 970.93 Z" /></clipPath>
+    <pattern id="glueHatch" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+      <rect width="6" height="6" fill="transparent" />
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#d41a5a" stroke-width="0.8" />
+    </pattern>
+    <style><![CDATA[
+      .cut-line { fill: none; stroke: #d41a5a; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+      .fold-line { fill: none; stroke: #00adee; stroke-width: 0.75; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+      .construction-line { fill: none; stroke: #d7d8d6; stroke-width: 1.3; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+      .panel-preview { fill: rgba(212, 26, 90, 0.07); stroke: none; }
+      .preview-glue-flap { fill: url(#glueHatch); opacity: 0.75; }
+      .preview-ellipse-end-cap { fill: rgba(0, 173, 238, 0.08); }
+      .label { font-family: Arial, sans-serif; font-size: 11px; fill: #333333; pointer-events: none; }
+    ]]></style>
+  </defs>
+
+  <g id="panel-preview" data-box-role="panel-preview" visibility="hidden">
+    <path id="preview-upper-body-wrap" class="panel-preview preview-curved-wall-strip" d="M 70.87 70.36 L 697.42 70.36 L 697.42 268.79 L 70.87 268.79 Z" />
+    <path id="preview-upper-joint-flap" class="panel-preview preview-glue-flap" d="M 697.42 70.36 L 725.77 80.68 L 725.77 258.47 L 697.42 268.79 Z" />
+    <path id="preview-upper-flap-00" class="panel-preview preview-segment-flap" d="M 70.87 268.79 L 81.18 297.13 L 91.88 297.13 L 102.19 268.79 Z" />
+    <path id="preview-upper-flap-01" class="panel-preview preview-segment-flap" d="M 102.19 268.79 L 112.51 297.13 L 123.2 297.13 L 133.52 268.79 Z" />
+    <path id="preview-upper-flap-02" class="panel-preview preview-segment-flap" d="M 133.52 268.79 L 143.84 297.13 L 154.53 297.13 L 164.85 268.79 Z" />
+    <path id="preview-upper-flap-03" class="panel-preview preview-segment-flap" d="M 164.85 268.79 L 175.17 297.13 L 185.86 297.13 L 196.18 268.79 Z" />
+    <path id="preview-upper-flap-04" class="panel-preview preview-segment-flap" d="M 196.18 268.79 L 206.49 297.13 L 217.19 297.13 L 227.51 268.79 Z" />
+    <path id="preview-upper-flap-05" class="panel-preview preview-segment-flap" d="M 227.51 268.79 L 237.82 297.13 L 248.52 297.13 L 258.83 268.79 Z" />
+    <path id="preview-upper-flap-06" class="panel-preview preview-segment-flap" d="M 258.83 268.79 L 269.15 297.13 L 279.84 297.13 L 290.16 268.79 Z" />
+    <path id="preview-upper-flap-07" class="panel-preview preview-segment-flap" d="M 290.16 268.79 L 300.48 297.13 L 311.17 297.13 L 321.49 268.79 Z" />
+    <path id="preview-upper-flap-08" class="panel-preview preview-segment-flap" d="M 321.49 268.79 L 331.81 297.13 L 342.5 297.13 L 352.82 268.79 Z" />
+    <path id="preview-upper-flap-09" class="panel-preview preview-segment-flap" d="M 352.82 268.79 L 363.13 297.13 L 373.83 297.13 L 384.14 268.79 Z" />
+    <path id="preview-upper-flap-10" class="panel-preview preview-segment-flap" d="M 384.14 268.79 L 394.46 297.13 L 405.15 297.13 L 415.47 268.79 Z" />
+    <path id="preview-upper-flap-11" class="panel-preview preview-segment-flap" d="M 415.47 268.79 L 425.79 297.13 L 436.48 297.13 L 446.8 268.79 Z" />
+    <path id="preview-upper-flap-12" class="panel-preview preview-segment-flap" d="M 446.8 268.79 L 457.12 297.13 L 467.81 297.13 L 478.13 268.79 Z" />
+    <path id="preview-upper-flap-13" class="panel-preview preview-segment-flap" d="M 478.13 268.79 L 488.44 297.13 L 499.14 297.13 L 509.46 268.79 Z" />
+    <path id="preview-upper-flap-14" class="panel-preview preview-segment-flap" d="M 509.46 268.79 L 519.77 297.13 L 530.47 297.13 L 540.78 268.79 Z" />
+    <path id="preview-upper-flap-15" class="panel-preview preview-segment-flap" d="M 540.78 268.79 L 551.1 297.13 L 561.79 297.13 L 572.11 268.79 Z" />
+    <path id="preview-upper-flap-16" class="panel-preview preview-segment-flap" d="M 572.11 268.79 L 582.43 297.13 L 593.12 297.13 L 603.44 268.79 Z" />
+    <path id="preview-upper-flap-17" class="panel-preview preview-segment-flap" d="M 603.44 268.79 L 613.76 297.13 L 624.45 297.13 L 634.77 268.79 Z" />
+    <path id="preview-upper-flap-18" class="panel-preview preview-segment-flap" d="M 634.77 268.79 L 645.08 297.13 L 655.78 297.13 L 666.09 268.79 Z" />
+    <path id="preview-upper-flap-19" class="panel-preview preview-segment-flap" d="M 666.09 268.79 L 676.41 297.13 L 687.1 297.13 L 697.42 268.79 Z" />
+    <path id="preview-upper-ellipse-end-1" class="panel-preview preview-ellipse-end-cap" d="M 238.11 482.8 L 238.11 482.8 L 237.71 471.83 L 236.5 460.96 L 234.51 450.3 L 231.74 439.95 L 228.24 430.02 L 224.02 420.6 L 219.13 411.77 L 213.62 403.63 L 207.54 396.25 L 200.95 389.7 L 193.91 384.06 L 186.49 379.36 L 178.76 375.66 L 170.8 372.99 L 162.68 371.37 L 154.49 370.83 L 146.29 371.37 L 138.17 372.99 L 130.21 375.66 L 122.49 379.36 L 115.07 384.06 L 108.03 389.7 L 101.44 396.25 L 95.36 403.63 L 89.85 411.77 L 84.96 420.6 L 80.74 430.02 L 77.23 439.95 L 74.47 450.3 L 72.47 460.96 L 71.27 471.83 L 70.87 482.8 L 71.27 493.78 L 72.47 504.65 L 74.47 515.31 L 77.23 525.65 L 80.74 535.58 L 84.96 545.01 L 89.85 553.84 L 95.36 561.98 L 101.44 569.36 L 108.03 575.9 L 115.07 581.55 L 122.49 586.25 L 130.21 589.95 L 138.17 592.62 L 146.29 594.23 L 154.49 594.77 L 162.68 594.23 L 170.8 592.62 L 178.76 589.95 L 186.49 586.25 L 193.91 581.55 L 200.95 575.9 L 207.54 569.36 L 213.62 561.98 L 219.13 553.84 L 224.02 545.01 L 228.24 535.58 L 231.74 525.65 L 234.51 515.31 L 236.5 504.65 L 237.71 493.78 L 238.11 482.8 Z" />
+    <path id="preview-upper-ellipse-end-2" class="panel-preview preview-ellipse-end-cap" d="M 481.89 482.8 L 481.89 482.8 L 481.47 471.55 L 480.23 460.41 L 478.17 449.48 L 475.31 438.87 L 471.68 428.69 L 467.32 419.02 L 462.26 409.97 L 456.57 401.63 L 450.28 394.06 L 443.47 387.35 L 436.19 381.56 L 428.52 376.74 L 420.53 372.94 L 412.3 370.21 L 403.91 368.55 L 395.43 368.0 L 386.96 368.55 L 378.57 370.21 L 370.34 372.94 L 362.35 376.74 L 354.68 381.56 L 347.4 387.35 L 340.59 394.06 L 334.3 401.63 L 328.6 409.97 L 323.55 419.02 L 319.19 428.69 L 315.56 438.87 L 312.7 449.48 L 310.64 460.41 L 309.39 471.55 L 308.98 482.8 L 309.39 494.06 L 310.64 505.2 L 312.7 516.13 L 315.56 526.74 L 319.19 536.92 L 323.55 546.58 L 328.6 555.63 L 334.3 563.98 L 340.59 571.55 L 347.4 578.26 L 354.68 584.05 L 362.35 588.87 L 370.34 592.66 L 378.57 595.4 L 386.96 597.05 L 395.43 597.61 L 403.91 597.05 L 412.3 595.4 L 420.53 592.66 L 428.52 588.87 L 436.19 584.05 L 443.47 578.26 L 450.28 571.55 L 456.57 563.98 L 462.26 555.63 L 467.32 546.58 L 471.68 536.92 L 475.31 526.74 L 478.17 516.13 L 480.23 505.2 L 481.47 494.06 L 481.89 482.8 Z" />
+    <path id="preview-lower-body-wrap" class="panel-preview preview-curved-wall-strip" d="M 70.87 668.47 L 716.22 668.47 L 716.22 753.51 L 70.87 753.51 Z" />
+    <path id="preview-lower-joint-flap" class="panel-preview preview-glue-flap" d="M 716.22 668.47 L 744.56 678.79 L 744.56 743.19 L 716.22 753.51 Z" />
+    <path id="preview-lower-flap-00" class="panel-preview preview-segment-flap" d="M 70.87 753.51 L 81.18 781.86 L 92.82 781.86 L 103.13 753.51 Z" />
+    <path id="preview-lower-flap-01" class="panel-preview preview-segment-flap" d="M 103.13 753.51 L 113.45 781.86 L 125.08 781.86 L 135.4 753.51 Z" />
+    <path id="preview-lower-flap-02" class="panel-preview preview-segment-flap" d="M 135.4 753.51 L 145.72 781.86 L 157.35 781.86 L 167.67 753.51 Z" />
+    <path id="preview-lower-flap-03" class="panel-preview preview-segment-flap" d="M 167.67 753.51 L 177.99 781.86 L 189.62 781.86 L 199.94 753.51 Z" />
+    <path id="preview-lower-flap-04" class="panel-preview preview-segment-flap" d="M 199.94 753.51 L 210.25 781.86 L 221.89 781.86 L 232.2 753.51 Z" />
+    <path id="preview-lower-flap-05" class="panel-preview preview-segment-flap" d="M 232.2 753.51 L 242.52 781.86 L 254.15 781.86 L 264.47 753.51 Z" />
+    <path id="preview-lower-flap-06" class="panel-preview preview-segment-flap" d="M 264.47 753.51 L 274.79 781.86 L 286.42 781.86 L 296.74 753.51 Z" />
+    <path id="preview-lower-flap-07" class="panel-preview preview-segment-flap" d="M 296.74 753.51 L 307.06 781.86 L 318.69 781.86 L 329.01 753.51 Z" />
+    <path id="preview-lower-flap-08" class="panel-preview preview-segment-flap" d="M 329.01 753.51 L 339.32 781.86 L 350.96 781.86 L 361.27 753.51 Z" />
+    <path id="preview-lower-flap-09" class="panel-preview preview-segment-flap" d="M 361.27 753.51 L 371.59 781.86 L 383.23 781.86 L 393.54 753.51 Z" />
+    <path id="preview-lower-flap-10" class="panel-preview preview-segment-flap" d="M 393.54 753.51 L 403.86 781.86 L 415.49 781.86 L 425.81 753.51 Z" />
+    <path id="preview-lower-flap-11" class="panel-preview preview-segment-flap" d="M 425.81 753.51 L 436.13 781.86 L 447.76 781.86 L 458.08 753.51 Z" />
+    <path id="preview-lower-flap-12" class="panel-preview preview-segment-flap" d="M 458.08 753.51 L 468.39 781.86 L 480.03 781.86 L 490.35 753.51 Z" />
+    <path id="preview-lower-flap-13" class="panel-preview preview-segment-flap" d="M 490.35 753.51 L 500.66 781.86 L 512.3 781.86 L 522.61 753.51 Z" />
+    <path id="preview-lower-flap-14" class="panel-preview preview-segment-flap" d="M 522.61 753.51 L 532.93 781.86 L 544.56 781.86 L 554.88 753.51 Z" />
+    <path id="preview-lower-flap-15" class="panel-preview preview-segment-flap" d="M 554.88 753.51 L 565.2 781.86 L 576.83 781.86 L 587.15 753.51 Z" />
+    <path id="preview-lower-flap-16" class="panel-preview preview-segment-flap" d="M 587.15 753.51 L 597.47 781.86 L 609.1 781.86 L 619.42 753.51 Z" />
+    <path id="preview-lower-flap-17" class="panel-preview preview-segment-flap" d="M 619.42 753.51 L 629.73 781.86 L 641.37 781.86 L 651.68 753.51 Z" />
+    <path id="preview-lower-flap-18" class="panel-preview preview-segment-flap" d="M 651.68 753.51 L 662.0 781.86 L 673.63 781.86 L 683.95 753.51 Z" />
+    <path id="preview-lower-flap-19" class="panel-preview preview-segment-flap" d="M 683.95 753.51 L 694.27 781.86 L 705.9 781.86 L 716.22 753.51 Z" />
+    <path id="preview-lower-ellipse-end-1" class="panel-preview preview-ellipse-end-cap" d="M 243.21 970.93 L 243.21 970.93 L 242.8 959.62 L 241.56 948.42 L 239.5 937.44 L 236.65 926.78 L 233.04 916.54 L 228.69 906.83 L 223.65 897.74 L 217.97 889.35 L 211.71 881.75 L 204.91 875.0 L 197.66 869.18 L 190.02 864.34 L 182.05 860.53 L 173.85 857.78 L 165.49 856.11 L 157.04 855.56 L 148.59 856.11 L 140.23 857.78 L 132.02 860.53 L 124.06 864.34 L 116.42 869.18 L 109.16 875.0 L 102.37 881.75 L 96.11 889.35 L 90.43 897.74 L 85.39 906.83 L 81.04 916.54 L 77.43 926.78 L 74.58 937.44 L 72.52 948.42 L 71.28 959.62 L 70.87 970.93 L 71.28 982.24 L 72.52 993.44 L 74.58 1004.42 L 77.43 1015.08 L 81.04 1025.31 L 85.39 1035.03 L 90.43 1044.12 L 96.11 1052.51 L 102.37 1060.11 L 109.16 1066.86 L 116.42 1072.68 L 124.06 1077.52 L 132.02 1081.33 L 140.23 1084.08 L 148.59 1085.74 L 157.04 1086.3 L 165.49 1085.74 L 173.85 1084.08 L 182.05 1081.33 L 190.02 1077.52 L 197.66 1072.68 L 204.91 1066.86 L 211.71 1060.11 L 217.97 1052.51 L 223.65 1044.12 L 228.69 1035.03 L 233.04 1025.31 L 236.65 1015.08 L 239.5 1004.42 L 241.56 993.44 L 242.8 982.24 L 243.21 970.93 Z" />
+    <path id="preview-lower-ellipse-end-2" class="panel-preview preview-ellipse-end-cap" d="M 492.09 970.93 L 492.09 970.93 L 491.67 959.34 L 490.38 947.87 L 488.26 936.62 L 485.32 925.69 L 481.58 915.21 L 477.09 905.26 L 471.89 895.94 L 466.02 887.35 L 459.55 879.56 L 452.54 872.65 L 445.04 866.68 L 437.15 861.72 L 428.92 857.81 L 420.45 855.0 L 411.81 853.29 L 403.09 852.72 L 394.36 853.29 L 385.72 855.0 L 377.25 857.81 L 369.02 861.72 L 361.13 866.68 L 353.64 872.65 L 346.62 879.56 L 340.15 887.35 L 334.28 895.94 L 329.08 905.26 L 324.59 915.21 L 320.85 925.69 L 317.91 936.62 L 315.79 947.87 L 314.51 959.34 L 314.08 970.93 L 314.51 982.52 L 315.79 993.99 L 317.91 1005.24 L 320.85 1016.16 L 324.59 1026.65 L 329.08 1036.6 L 334.28 1045.92 L 340.15 1054.51 L 346.62 1062.3 L 353.64 1069.21 L 361.13 1075.18 L 369.02 1080.14 L 377.25 1084.04 L 385.72 1086.86 L 394.36 1088.56 L 403.09 1089.13 L 411.81 1088.56 L 420.45 1086.86 L 428.92 1084.04 L 437.15 1080.14 L 445.04 1075.18 L 452.54 1069.21 L 459.55 1062.3 L 466.02 1054.51 L 471.89 1045.92 L 477.09 1036.6 L 481.58 1026.65 L 485.32 1016.16 L 488.26 1005.24 L 490.38 993.99 L 491.67 982.52 L 492.09 970.93 Z" />
+  </g>
+
+  <g id="dieline" data-box-role="dieline">
+      <path id="merged-construction-thin-joint-flap-1" class="construction-line" data-box-role="construction-line" data-line-type="construction" d="M 697.42 268.79 L 697.42 70.36" />
+      <path id="merged-construction-thin-anonymous-path-2" class="construction-line" data-box-role="construction-line" data-line-type="construction" d="M 716.22 753.51 L 716.22 668.47" />
+      <path id="merged-fold-flap-i-0-flap-1" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 70.87 268.79 L 102.19 268.79" />
+      <path id="merged-fold-flap-i-1-flap-1" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 102.19 268.79 L 133.52 268.79" />
+      <path id="merged-fold-flap-i-2-flap-1" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 133.52 268.79 L 164.85 268.79" />
+      <path id="merged-fold-flap-i-3-flap-1" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 164.85 268.79 L 196.18 268.79" />
+      <path id="merged-fold-flap-i-4-flap-1" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 196.18 268.79 L 227.51 268.79" />
+      <path id="merged-fold-flap-i-5-flap-1" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 227.51 268.79 L 258.83 268.79" />
+      <path id="merged-fold-flap-i-6-flap-1" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 258.83 268.79 L 290.16 268.79" />
+      <path id="merged-fold-flap-i-7-flap-1" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 290.16 268.79 L 321.49 268.79" />
+      <path id="merged-fold-flap-i-8-flap-1" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 321.49 268.79 L 352.82 268.79" />
+      <path id="merged-fold-flap-i-9-flap-1" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 352.82 268.79 L 384.14 268.79" />
+      <path id="merged-fold-flap-i-10-flap-1" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 384.14 268.79 L 415.47 268.79" />
+      <path id="merged-fold-flap-i-11-flap-1" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 415.47 268.79 L 446.8 268.79" />
+      <path id="merged-fold-flap-i-12-flap-1" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 446.8 268.79 L 478.13 268.79" />
+      <path id="merged-fold-flap-i-13-flap-1" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 478.13 268.79 L 509.46 268.79" />
+      <path id="merged-fold-flap-i-14-flap-1" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 509.46 268.79 L 540.78 268.79" />
+      <path id="merged-fold-flap-i-15-flap-1" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 540.78 268.79 L 572.11 268.79" />
+      <path id="merged-fold-flap-i-16-flap-1" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 572.11 268.79 L 603.44 268.79" />
+      <path id="merged-fold-flap-i-17-flap-1" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 603.44 268.79 L 634.77 268.79" />
+      <path id="merged-fold-flap-i-18-flap-1" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 634.77 268.79 L 666.09 268.79" />
+      <path id="merged-fold-flap-i-19-flap-1" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 666.09 268.79 L 697.42 268.79" />
+      <path id="merged-fold-anonymous-path-21" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 70.87 753.51 L 103.13 753.51" />
+      <path id="merged-fold-anonymous-path-22" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 103.13 753.51 L 135.4 753.51" />
+      <path id="merged-fold-anonymous-path-23" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 135.4 753.51 L 167.67 753.51" />
+      <path id="merged-fold-anonymous-path-24" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 167.67 753.51 L 199.94 753.51" />
+      <path id="merged-fold-anonymous-path-25" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 199.94 753.51 L 232.2 753.51" />
+      <path id="merged-fold-anonymous-path-26" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 232.2 753.51 L 264.47 753.51" />
+      <path id="merged-fold-anonymous-path-27" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 264.47 753.51 L 296.74 753.51" />
+      <path id="merged-fold-anonymous-path-28" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 296.74 753.51 L 329.01 753.51" />
+      <path id="merged-fold-anonymous-path-29" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 329.01 753.51 L 361.27 753.51" />
+      <path id="merged-fold-anonymous-path-30" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 361.27 753.51 L 393.54 753.51" />
+      <path id="merged-fold-anonymous-path-31" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 393.54 753.51 L 425.81 753.51" />
+      <path id="merged-fold-anonymous-path-32" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 425.81 753.51 L 458.08 753.51" />
+      <path id="merged-fold-anonymous-path-33" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 458.08 753.51 L 490.35 753.51" />
+      <path id="merged-fold-anonymous-path-34" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 490.35 753.51 L 522.61 753.51" />
+      <path id="merged-fold-anonymous-path-35" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 522.61 753.51 L 554.88 753.51" />
+      <path id="merged-fold-anonymous-path-36" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 554.88 753.51 L 587.15 753.51" />
+      <path id="merged-fold-anonymous-path-37" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 587.15 753.51 L 619.42 753.51" />
+      <path id="merged-fold-anonymous-path-38" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 619.42 753.51 L 651.68 753.51" />
+      <path id="merged-fold-anonymous-path-39" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 651.68 753.51 L 683.95 753.51" />
+      <path id="merged-fold-anonymous-path-40" class="fold-line" data-box-role="fold-line" data-line-type="fold" d="M 683.95 753.51 L 716.22 753.51" />
+      <path id="merged-cut-height" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 70.87 70.36 L 70.87 268.79" />
+      <path id="merged-cut-flap-i-0" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 70.87 268.79 L 81.18 297.13 L 91.88 297.13 L 102.19 268.79" />
+      <path id="merged-cut-flap-i-1" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 102.19 268.79 L 112.51 297.13 L 123.2 297.13 L 133.52 268.79" />
+      <path id="merged-cut-flap-i-2" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 133.52 268.79 L 143.84 297.13 L 154.53 297.13 L 164.85 268.79" />
+      <path id="merged-cut-flap-i-3" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 164.85 268.79 L 175.17 297.13 L 185.86 297.13 L 196.18 268.79" />
+      <path id="merged-cut-flap-i-4" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 196.18 268.79 L 206.49 297.13 L 217.19 297.13 L 227.51 268.79" />
+      <path id="merged-cut-flap-i-5" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 227.51 268.79 L 237.82 297.13 L 248.52 297.13 L 258.83 268.79" />
+      <path id="merged-cut-flap-i-6" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 258.83 268.79 L 269.15 297.13 L 279.84 297.13 L 290.16 268.79" />
+      <path id="merged-cut-flap-i-7" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 290.16 268.79 L 300.48 297.13 L 311.17 297.13 L 321.49 268.79" />
+      <path id="merged-cut-flap-i-8" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 321.49 268.79 L 331.81 297.13 L 342.5 297.13 L 352.82 268.79" />
+      <path id="merged-cut-flap-i-9" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 352.82 268.79 L 363.13 297.13 L 373.83 297.13 L 384.14 268.79" />
+      <path id="merged-cut-flap-i-10" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 384.14 268.79 L 394.46 297.13 L 405.15 297.13 L 415.47 268.79" />
+      <path id="merged-cut-flap-i-11" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 415.47 268.79 L 425.79 297.13 L 436.48 297.13 L 446.8 268.79" />
+      <path id="merged-cut-flap-i-12" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 446.8 268.79 L 457.12 297.13 L 467.81 297.13 L 478.13 268.79" />
+      <path id="merged-cut-flap-i-13" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 478.13 268.79 L 488.44 297.13 L 499.14 297.13 L 509.46 268.79" />
+      <path id="merged-cut-flap-i-14" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 509.46 268.79 L 519.77 297.13 L 530.47 297.13 L 540.78 268.79" />
+      <path id="merged-cut-flap-i-15" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 540.78 268.79 L 551.1 297.13 L 561.79 297.13 L 572.11 268.79" />
+      <path id="merged-cut-flap-i-16" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 572.11 268.79 L 582.43 297.13 L 593.12 297.13 L 603.44 268.79" />
+      <path id="merged-cut-flap-i-17" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 603.44 268.79 L 613.76 297.13 L 624.45 297.13 L 634.77 268.79" />
+      <path id="merged-cut-flap-i-18" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 634.77 268.79 L 645.08 297.13 L 655.78 297.13 L 666.09 268.79" />
+      <path id="merged-cut-flap-i-19" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 666.09 268.79 L 676.41 297.13 L 687.1 297.13 L 697.42 268.79" />
+      <path id="merged-cut-joint" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 697.42 268.79 L 725.77 258.47 L 725.77 80.68 L 697.42 70.36 L 70.87 70.36" />
+      <path id="merged-cut-ellipse-1-ellipse-1" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 238.11 482.8 L 238.11 482.8 L 237.71 471.83 L 236.5 460.96 L 234.51 450.3 L 231.74 439.95 L 228.24 430.02 L 224.02 420.6 L 219.13 411.77 L 213.62 403.63 L 207.54 396.25 L 200.95 389.7 L 193.91 384.06 L 186.49 379.36 L 178.76 375.66 L 170.8 372.99 L 162.68 371.37 L 154.49 370.83 L 146.29 371.37 L 138.17 372.99 L 130.21 375.66 L 122.49 379.36 L 115.07 384.06 L 108.03 389.7 L 101.44 396.25 L 95.36 403.63 L 89.85 411.77 L 84.96 420.6 L 80.74 430.02 L 77.23 439.95 L 74.47 450.3 L 72.47 460.96 L 71.27 471.83 L 70.87 482.8 L 71.27 493.78 L 72.47 504.65 L 74.47 515.31 L 77.23 525.65 L 80.74 535.58 L 84.96 545.01 L 89.85 553.84 L 95.36 561.98 L 101.44 569.36 L 108.03 575.9 L 115.07 581.55 L 122.49 586.25 L 130.21 589.95 L 138.17 592.62 L 146.29 594.23 L 154.49 594.77 L 162.68 594.23 L 170.8 592.62 L 178.76 589.95 L 186.49 586.25 L 193.91 581.55 L 200.95 575.9 L 207.54 569.36 L 213.62 561.98 L 219.13 553.84 L 224.02 545.01 L 228.24 535.58 L 231.74 525.65 L 234.51 515.31 L 236.5 504.65 L 237.71 493.78 L 238.11 482.8" />
+      <path id="merged-cut-ellipse-2-ellipse-1" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 481.89 482.8 L 481.89 482.8 L 481.47 471.55 L 480.23 460.41 L 478.17 449.48 L 475.31 438.87 L 471.68 428.69 L 467.32 419.02 L 462.26 409.97 L 456.57 401.63 L 450.28 394.06 L 443.47 387.35 L 436.19 381.56 L 428.52 376.74 L 420.53 372.94 L 412.3 370.21 L 403.91 368.55 L 395.43 368.0 L 386.96 368.55 L 378.57 370.21 L 370.34 372.94 L 362.35 376.74 L 354.68 381.56 L 347.4 387.35 L 340.59 394.06 L 334.3 401.63 L 328.6 409.97 L 323.55 419.02 L 319.19 428.69 L 315.56 438.87 L 312.7 449.48 L 310.64 460.41 L 309.39 471.55 L 308.98 482.8 L 309.39 494.06 L 310.64 505.2 L 312.7 516.13 L 315.56 526.74 L 319.19 536.92 L 323.55 546.58 L 328.6 555.63 L 334.3 563.98 L 340.59 571.55 L 347.4 578.26 L 354.68 584.05 L 362.35 588.87 L 370.34 592.66 L 378.57 595.4 L 386.96 597.05 L 395.43 597.61 L 403.91 597.05 L 412.3 595.4 L 420.53 592.66 L 428.52 588.87 L 436.19 584.05 L 443.47 578.26 L 450.28 571.55 L 456.57 563.98 L 462.26 555.63 L 467.32 546.58 L 471.68 536.92 L 475.31 526.74 L 478.17 516.13 L 480.23 505.2 L 481.47 494.06 L 481.89 482.8" />
+      <path id="merged-cut-anonymous-path-27" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 70.87 668.47 L 70.87 753.51" />
+      <path id="merged-cut-anonymous-path-28" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 70.87 753.51 L 81.18 781.86 L 92.82 781.86 L 103.13 753.51" />
+      <path id="merged-cut-anonymous-path-29" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 103.13 753.51 L 113.45 781.86 L 125.08 781.86 L 135.4 753.51" />
+      <path id="merged-cut-anonymous-path-30" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 135.4 753.51 L 145.72 781.86 L 157.35 781.86 L 167.67 753.51" />
+      <path id="merged-cut-anonymous-path-31" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 167.67 753.51 L 177.99 781.86 L 189.62 781.86 L 199.94 753.51" />
+      <path id="merged-cut-anonymous-path-32" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 199.94 753.51 L 210.25 781.86 L 221.89 781.86 L 232.2 753.51" />
+      <path id="merged-cut-anonymous-path-33" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 232.2 753.51 L 242.52 781.86 L 254.15 781.86 L 264.47 753.51" />
+      <path id="merged-cut-anonymous-path-34" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 264.47 753.51 L 274.79 781.86 L 286.42 781.86 L 296.74 753.51" />
+      <path id="merged-cut-anonymous-path-35" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 296.74 753.51 L 307.06 781.86 L 318.69 781.86 L 329.01 753.51" />
+      <path id="merged-cut-anonymous-path-36" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 329.01 753.51 L 339.32 781.86 L 350.96 781.86 L 361.27 753.51" />
+      <path id="merged-cut-anonymous-path-37" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 361.27 753.51 L 371.59 781.86 L 383.23 781.86 L 393.54 753.51" />
+      <path id="merged-cut-anonymous-path-38" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 393.54 753.51 L 403.86 781.86 L 415.49 781.86 L 425.81 753.51" />
+      <path id="merged-cut-anonymous-path-39" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 425.81 753.51 L 436.13 781.86 L 447.76 781.86 L 458.08 753.51" />
+      <path id="merged-cut-anonymous-path-40" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 458.08 753.51 L 468.39 781.86 L 480.03 781.86 L 490.35 753.51" />
+      <path id="merged-cut-anonymous-path-41" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 490.35 753.51 L 500.66 781.86 L 512.3 781.86 L 522.61 753.51" />
+      <path id="merged-cut-anonymous-path-42" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 522.61 753.51 L 532.93 781.86 L 544.56 781.86 L 554.88 753.51" />
+      <path id="merged-cut-anonymous-path-43" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 554.88 753.51 L 565.2 781.86 L 576.83 781.86 L 587.15 753.51" />
+      <path id="merged-cut-anonymous-path-44" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 587.15 753.51 L 597.47 781.86 L 609.1 781.86 L 619.42 753.51" />
+      <path id="merged-cut-anonymous-path-45" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 619.42 753.51 L 629.73 781.86 L 641.37 781.86 L 651.68 753.51" />
+      <path id="merged-cut-anonymous-path-46" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 651.68 753.51 L 662.0 781.86 L 673.63 781.86 L 683.95 753.51" />
+      <path id="merged-cut-anonymous-path-47" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 683.95 753.51 L 694.27 781.86 L 705.9 781.86 L 716.22 753.51" />
+      <path id="merged-cut-anonymous-path-48" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 716.22 753.51 L 744.56 743.19 L 744.56 678.79 L 716.22 668.47 L 70.87 668.47" />
+      <path id="merged-cut-anonymous-path-50" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 243.21 970.93 L 243.21 970.93 L 242.8 959.62 L 241.56 948.42 L 239.5 937.44 L 236.65 926.78 L 233.04 916.54 L 228.69 906.83 L 223.65 897.74 L 217.97 889.35 L 211.71 881.75 L 204.91 875.0 L 197.66 869.18 L 190.02 864.34 L 182.05 860.53 L 173.85 857.78 L 165.49 856.11 L 157.04 855.56 L 148.59 856.11 L 140.23 857.78 L 132.02 860.53 L 124.06 864.34 L 116.42 869.18 L 109.16 875.0 L 102.37 881.75 L 96.11 889.35 L 90.43 897.74 L 85.39 906.83 L 81.04 916.54 L 77.43 926.78 L 74.58 937.44 L 72.52 948.42 L 71.28 959.62 L 70.87 970.93 L 71.28 982.24 L 72.52 993.44 L 74.58 1004.42 L 77.43 1015.08 L 81.04 1025.31 L 85.39 1035.03 L 90.43 1044.12 L 96.11 1052.51 L 102.37 1060.11 L 109.16 1066.86 L 116.42 1072.68 L 124.06 1077.52 L 132.02 1081.33 L 140.23 1084.08 L 148.59 1085.74 L 157.04 1086.3 L 165.49 1085.74 L 173.85 1084.08 L 182.05 1081.33 L 190.02 1077.52 L 197.66 1072.68 L 204.91 1066.86 L 211.71 1060.11 L 217.97 1052.51 L 223.65 1044.12 L 228.69 1035.03 L 233.04 1025.31 L 236.65 1015.08 L 239.5 1004.42 L 241.56 993.44 L 242.8 982.24 L 243.21 970.93" />
+      <path id="merged-cut-anonymous-path-52" class="cut-line" data-box-role="cut-line" data-line-type="cut" d="M 492.09 970.93 L 492.09 970.93 L 491.67 959.34 L 490.38 947.87 L 488.26 936.62 L 485.32 925.69 L 481.58 915.21 L 477.09 905.26 L 471.89 895.94 L 466.02 887.35 L 459.55 879.56 L 452.54 872.65 L 445.04 866.68 L 437.15 861.72 L 428.92 857.81 L 420.45 855.0 L 411.81 853.29 L 403.09 852.72 L 394.36 853.29 L 385.72 855.0 L 377.25 857.81 L 369.02 861.72 L 361.13 866.68 L 353.64 872.65 L 346.62 879.56 L 340.15 887.35 L 334.28 895.94 L 329.08 905.26 L 324.59 915.21 L 320.85 925.69 L 317.91 936.62 L 315.79 947.87 L 314.51 959.34 L 314.08 970.93 L 314.51 982.52 L 315.79 993.99 L 317.91 1005.24 L 320.85 1016.16 L 324.59 1026.65 L 329.08 1036.6 L 334.28 1045.92 L 340.15 1054.51 L 346.62 1062.3 L 353.64 1069.21 L 361.13 1075.18 L 369.02 1080.14 L 377.25 1084.04 L 385.72 1086.86 L 394.36 1088.56 L 403.09 1089.13 L 411.81 1088.56 L 420.45 1086.86 L 428.92 1084.04 L 437.15 1080.14 L 445.04 1075.18 L 452.54 1069.21 L 459.55 1062.3 L 466.02 1054.51 L 471.89 1045.92 L 477.09 1036.6 L 481.58 1026.65 L 485.32 1016.16 L 488.26 1005.24 L 490.38 993.99 L 491.67 982.52 L 492.09 970.93" />
+  </g>
+
+  <g id="labels" class="label" data-box-role="labels" visibility="hidden">
+    <text x="384.15" y="169.58" text-anchor="middle">Upper Body Wrap</text>
+    <text x="712" y="169.58" text-anchor="middle">Upper Joint Flap</text>
+    <text x="86.5" y="286" text-anchor="middle">Upper Flap 1</text>
+    <text x="117.83" y="286" text-anchor="middle">Upper Flap 2</text>
+    <text x="149.16" y="286" text-anchor="middle">Upper Flap 3</text>
+    <text x="180.49" y="286" text-anchor="middle">Upper Flap 4</text>
+    <text x="211.82" y="286" text-anchor="middle">Upper Flap 5</text>
+    <text x="243.14999999999998" y="286" text-anchor="middle">Upper Flap 6</text>
+    <text x="274.48" y="286" text-anchor="middle">Upper Flap 7</text>
+    <text x="305.81" y="286" text-anchor="middle">Upper Flap 8</text>
+    <text x="337.14" y="286" text-anchor="middle">Upper Flap 9</text>
+    <text x="368.46999999999997" y="286" text-anchor="middle">Upper Flap 10</text>
+    <text x="399.79999999999995" y="286" text-anchor="middle">Upper Flap 11</text>
+    <text x="431.13" y="286" text-anchor="middle">Upper Flap 12</text>
+    <text x="462.46" y="286" text-anchor="middle">Upper Flap 13</text>
+    <text x="493.78999999999996" y="286" text-anchor="middle">Upper Flap 14</text>
+    <text x="525.12" y="286" text-anchor="middle">Upper Flap 15</text>
+    <text x="556.45" y="286" text-anchor="middle">Upper Flap 16</text>
+    <text x="587.78" y="286" text-anchor="middle">Upper Flap 17</text>
+    <text x="619.11" y="286" text-anchor="middle">Upper Flap 18</text>
+    <text x="650.4399999999999" y="286" text-anchor="middle">Upper Flap 19</text>
+    <text x="681.77" y="286" text-anchor="middle">Upper Flap 20</text>
+    <text x="154.5" y="482.8" text-anchor="middle">Upper Ellipse End 1</text>
+    <text x="395.4" y="482.8" text-anchor="middle">Upper Ellipse End 2</text>
+    <text x="393.54" y="710.99" text-anchor="middle">Lower Body Wrap</text>
+    <text x="730" y="710.99" text-anchor="middle">Lower Joint Flap</text>
+    <text x="86.5" y="771" text-anchor="middle">Lower Flap 1</text>
+    <text x="118.77000000000001" y="771" text-anchor="middle">Lower Flap 2</text>
+    <text x="151.04000000000002" y="771" text-anchor="middle">Lower Flap 3</text>
+    <text x="183.31" y="771" text-anchor="middle">Lower Flap 4</text>
+    <text x="215.58" y="771" text-anchor="middle">Lower Flap 5</text>
+    <text x="247.85000000000002" y="771" text-anchor="middle">Lower Flap 6</text>
+    <text x="280.12" y="771" text-anchor="middle">Lower Flap 7</text>
+    <text x="312.39" y="771" text-anchor="middle">Lower Flap 8</text>
+    <text x="344.66" y="771" text-anchor="middle">Lower Flap 9</text>
+    <text x="376.93" y="771" text-anchor="middle">Lower Flap 10</text>
+    <text x="409.20000000000005" y="771" text-anchor="middle">Lower Flap 11</text>
+    <text x="441.47" y="771" text-anchor="middle">Lower Flap 12</text>
+    <text x="473.74" y="771" text-anchor="middle">Lower Flap 13</text>
+    <text x="506.01000000000005" y="771" text-anchor="middle">Lower Flap 14</text>
+    <text x="538.28" y="771" text-anchor="middle">Lower Flap 15</text>
+    <text x="570.5500000000001" y="771" text-anchor="middle">Lower Flap 16</text>
+    <text x="602.82" y="771" text-anchor="middle">Lower Flap 17</text>
+    <text x="635.09" y="771" text-anchor="middle">Lower Flap 18</text>
+    <text x="667.36" y="771" text-anchor="middle">Lower Flap 19</text>
+    <text x="699.6300000000001" y="771" text-anchor="middle">Lower Flap 20</text>
+    <text x="158" y="970.9" text-anchor="middle">Lower Ellipse End 1</text>
+    <text x="400" y="970.9" text-anchor="middle">Lower Ellipse End 2</text>
+  </g>
+
+  <g id="objects" data-box-role="objects" visibility="hidden">
+    <g id="object-ellipse-box" data-box-role="object" data-object-id="ellipse-box" data-base-panel-id="upper-body-wrap">
+      <use href="#panel-upper-body-wrap" />
+      <use href="#panel-upper-joint-flap" />
+      <use href="#panel-upper-flap-00" />
+      <use href="#panel-upper-flap-01" />
+      <use href="#panel-upper-flap-02" />
+      <use href="#panel-upper-flap-03" />
+      <use href="#panel-upper-flap-04" />
+      <use href="#panel-upper-flap-05" />
+      <use href="#panel-upper-flap-06" />
+      <use href="#panel-upper-flap-07" />
+      <use href="#panel-upper-flap-08" />
+      <use href="#panel-upper-flap-09" />
+      <use href="#panel-upper-flap-10" />
+      <use href="#panel-upper-flap-11" />
+      <use href="#panel-upper-flap-12" />
+      <use href="#panel-upper-flap-13" />
+      <use href="#panel-upper-flap-14" />
+      <use href="#panel-upper-flap-15" />
+      <use href="#panel-upper-flap-16" />
+      <use href="#panel-upper-flap-17" />
+      <use href="#panel-upper-flap-18" />
+      <use href="#panel-upper-flap-19" />
+      <use href="#panel-upper-ellipse-end-1" />
+      <use href="#panel-upper-ellipse-end-2" />
+      <use href="#panel-lower-body-wrap" />
+      <use href="#panel-lower-joint-flap" />
+      <use href="#panel-lower-flap-00" />
+      <use href="#panel-lower-flap-01" />
+      <use href="#panel-lower-flap-02" />
+      <use href="#panel-lower-flap-03" />
+      <use href="#panel-lower-flap-04" />
+      <use href="#panel-lower-flap-05" />
+      <use href="#panel-lower-flap-06" />
+      <use href="#panel-lower-flap-07" />
+      <use href="#panel-lower-flap-08" />
+      <use href="#panel-lower-flap-09" />
+      <use href="#panel-lower-flap-10" />
+      <use href="#panel-lower-flap-11" />
+      <use href="#panel-lower-flap-12" />
+      <use href="#panel-lower-flap-13" />
+      <use href="#panel-lower-flap-14" />
+      <use href="#panel-lower-flap-15" />
+      <use href="#panel-lower-flap-16" />
+      <use href="#panel-lower-flap-17" />
+      <use href="#panel-lower-flap-18" />
+      <use href="#panel-lower-flap-19" />
+      <use href="#panel-lower-ellipse-end-1" />
+      <use href="#panel-lower-ellipse-end-2" />
+    </g>
+  </g>
+
+  <g id="panels" data-box-role="panels" visibility="hidden">
+    <path id="panel-upper-body-wrap" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="upper-body-wrap" data-panel-type="curved-wall-strip" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M 70.87 70.36 L 697.42 70.36 L 697.42 268.79 L 70.87 268.79 Z" />
+    <path id="panel-upper-joint-flap" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="upper-joint-flap" data-panel-type="glue-flap" data-fold-parent="upper-body-wrap" data-fold-id="merged-construction-thin-joint-flap-1" data-fold-angle-deg="0" d="M 697.42 70.36 L 725.77 80.68 L 725.77 258.47 L 697.42 268.79 Z" />
+    <path id="panel-upper-flap-00" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="upper-flap-00" data-panel-type="segment-flap" data-fold-parent="upper-body-wrap" data-fold-id="merged-fold-flap-i-0-flap-1" data-fold-angle-deg="90" d="M 70.87 268.79 L 81.18 297.13 L 91.88 297.13 L 102.19 268.79 Z" />
+    <path id="panel-upper-flap-01" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="upper-flap-01" data-panel-type="segment-flap" data-fold-parent="upper-body-wrap" data-fold-id="merged-fold-flap-i-1-flap-1" data-fold-angle-deg="90" d="M 102.19 268.79 L 112.51 297.13 L 123.2 297.13 L 133.52 268.79 Z" />
+    <path id="panel-upper-flap-02" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="upper-flap-02" data-panel-type="segment-flap" data-fold-parent="upper-body-wrap" data-fold-id="merged-fold-flap-i-2-flap-1" data-fold-angle-deg="90" d="M 133.52 268.79 L 143.84 297.13 L 154.53 297.13 L 164.85 268.79 Z" />
+    <path id="panel-upper-flap-03" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="upper-flap-03" data-panel-type="segment-flap" data-fold-parent="upper-body-wrap" data-fold-id="merged-fold-flap-i-3-flap-1" data-fold-angle-deg="90" d="M 164.85 268.79 L 175.17 297.13 L 185.86 297.13 L 196.18 268.79 Z" />
+    <path id="panel-upper-flap-04" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="upper-flap-04" data-panel-type="segment-flap" data-fold-parent="upper-body-wrap" data-fold-id="merged-fold-flap-i-4-flap-1" data-fold-angle-deg="90" d="M 196.18 268.79 L 206.49 297.13 L 217.19 297.13 L 227.51 268.79 Z" />
+    <path id="panel-upper-flap-05" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="upper-flap-05" data-panel-type="segment-flap" data-fold-parent="upper-body-wrap" data-fold-id="merged-fold-flap-i-5-flap-1" data-fold-angle-deg="90" d="M 227.51 268.79 L 237.82 297.13 L 248.52 297.13 L 258.83 268.79 Z" />
+    <path id="panel-upper-flap-06" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="upper-flap-06" data-panel-type="segment-flap" data-fold-parent="upper-body-wrap" data-fold-id="merged-fold-flap-i-6-flap-1" data-fold-angle-deg="90" d="M 258.83 268.79 L 269.15 297.13 L 279.84 297.13 L 290.16 268.79 Z" />
+    <path id="panel-upper-flap-07" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="upper-flap-07" data-panel-type="segment-flap" data-fold-parent="upper-body-wrap" data-fold-id="merged-fold-flap-i-7-flap-1" data-fold-angle-deg="90" d="M 290.16 268.79 L 300.48 297.13 L 311.17 297.13 L 321.49 268.79 Z" />
+    <path id="panel-upper-flap-08" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="upper-flap-08" data-panel-type="segment-flap" data-fold-parent="upper-body-wrap" data-fold-id="merged-fold-flap-i-8-flap-1" data-fold-angle-deg="90" d="M 321.49 268.79 L 331.81 297.13 L 342.5 297.13 L 352.82 268.79 Z" />
+    <path id="panel-upper-flap-09" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="upper-flap-09" data-panel-type="segment-flap" data-fold-parent="upper-body-wrap" data-fold-id="merged-fold-flap-i-9-flap-1" data-fold-angle-deg="90" d="M 352.82 268.79 L 363.13 297.13 L 373.83 297.13 L 384.14 268.79 Z" />
+    <path id="panel-upper-flap-10" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="upper-flap-10" data-panel-type="segment-flap" data-fold-parent="upper-body-wrap" data-fold-id="merged-fold-flap-i-10-flap-1" data-fold-angle-deg="90" d="M 384.14 268.79 L 394.46 297.13 L 405.15 297.13 L 415.47 268.79 Z" />
+    <path id="panel-upper-flap-11" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="upper-flap-11" data-panel-type="segment-flap" data-fold-parent="upper-body-wrap" data-fold-id="merged-fold-flap-i-11-flap-1" data-fold-angle-deg="90" d="M 415.47 268.79 L 425.79 297.13 L 436.48 297.13 L 446.8 268.79 Z" />
+    <path id="panel-upper-flap-12" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="upper-flap-12" data-panel-type="segment-flap" data-fold-parent="upper-body-wrap" data-fold-id="merged-fold-flap-i-12-flap-1" data-fold-angle-deg="90" d="M 446.8 268.79 L 457.12 297.13 L 467.81 297.13 L 478.13 268.79 Z" />
+    <path id="panel-upper-flap-13" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="upper-flap-13" data-panel-type="segment-flap" data-fold-parent="upper-body-wrap" data-fold-id="merged-fold-flap-i-13-flap-1" data-fold-angle-deg="90" d="M 478.13 268.79 L 488.44 297.13 L 499.14 297.13 L 509.46 268.79 Z" />
+    <path id="panel-upper-flap-14" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="upper-flap-14" data-panel-type="segment-flap" data-fold-parent="upper-body-wrap" data-fold-id="merged-fold-flap-i-14-flap-1" data-fold-angle-deg="90" d="M 509.46 268.79 L 519.77 297.13 L 530.47 297.13 L 540.78 268.79 Z" />
+    <path id="panel-upper-flap-15" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="upper-flap-15" data-panel-type="segment-flap" data-fold-parent="upper-body-wrap" data-fold-id="merged-fold-flap-i-15-flap-1" data-fold-angle-deg="90" d="M 540.78 268.79 L 551.1 297.13 L 561.79 297.13 L 572.11 268.79 Z" />
+    <path id="panel-upper-flap-16" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="upper-flap-16" data-panel-type="segment-flap" data-fold-parent="upper-body-wrap" data-fold-id="merged-fold-flap-i-16-flap-1" data-fold-angle-deg="90" d="M 572.11 268.79 L 582.43 297.13 L 593.12 297.13 L 603.44 268.79 Z" />
+    <path id="panel-upper-flap-17" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="upper-flap-17" data-panel-type="segment-flap" data-fold-parent="upper-body-wrap" data-fold-id="merged-fold-flap-i-17-flap-1" data-fold-angle-deg="90" d="M 603.44 268.79 L 613.76 297.13 L 624.45 297.13 L 634.77 268.79 Z" />
+    <path id="panel-upper-flap-18" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="upper-flap-18" data-panel-type="segment-flap" data-fold-parent="upper-body-wrap" data-fold-id="merged-fold-flap-i-18-flap-1" data-fold-angle-deg="90" d="M 634.77 268.79 L 645.08 297.13 L 655.78 297.13 L 666.09 268.79 Z" />
+    <path id="panel-upper-flap-19" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="upper-flap-19" data-panel-type="segment-flap" data-fold-parent="upper-body-wrap" data-fold-id="merged-fold-flap-i-19-flap-1" data-fold-angle-deg="90" d="M 666.09 268.79 L 676.41 297.13 L 687.1 297.13 L 697.42 268.79 Z" />
+    <path id="panel-upper-ellipse-end-1" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="upper-ellipse-end-1" data-panel-type="ellipse-end-cap" data-fold-parent="upper-body-wrap" data-fold-id="" data-fold-angle-deg="90" d="M 238.11 482.8 L 238.11 482.8 L 237.71 471.83 L 236.5 460.96 L 234.51 450.3 L 231.74 439.95 L 228.24 430.02 L 224.02 420.6 L 219.13 411.77 L 213.62 403.63 L 207.54 396.25 L 200.95 389.7 L 193.91 384.06 L 186.49 379.36 L 178.76 375.66 L 170.8 372.99 L 162.68 371.37 L 154.49 370.83 L 146.29 371.37 L 138.17 372.99 L 130.21 375.66 L 122.49 379.36 L 115.07 384.06 L 108.03 389.7 L 101.44 396.25 L 95.36 403.63 L 89.85 411.77 L 84.96 420.6 L 80.74 430.02 L 77.23 439.95 L 74.47 450.3 L 72.47 460.96 L 71.27 471.83 L 70.87 482.8 L 71.27 493.78 L 72.47 504.65 L 74.47 515.31 L 77.23 525.65 L 80.74 535.58 L 84.96 545.01 L 89.85 553.84 L 95.36 561.98 L 101.44 569.36 L 108.03 575.9 L 115.07 581.55 L 122.49 586.25 L 130.21 589.95 L 138.17 592.62 L 146.29 594.23 L 154.49 594.77 L 162.68 594.23 L 170.8 592.62 L 178.76 589.95 L 186.49 586.25 L 193.91 581.55 L 200.95 575.9 L 207.54 569.36 L 213.62 561.98 L 219.13 553.84 L 224.02 545.01 L 228.24 535.58 L 231.74 525.65 L 234.51 515.31 L 236.5 504.65 L 237.71 493.78 L 238.11 482.8 Z" />
+    <path id="panel-upper-ellipse-end-2" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="upper-ellipse-end-2" data-panel-type="ellipse-end-cap" data-fold-parent="upper-body-wrap" data-fold-id="" data-fold-angle-deg="90" d="M 481.89 482.8 L 481.89 482.8 L 481.47 471.55 L 480.23 460.41 L 478.17 449.48 L 475.31 438.87 L 471.68 428.69 L 467.32 419.02 L 462.26 409.97 L 456.57 401.63 L 450.28 394.06 L 443.47 387.35 L 436.19 381.56 L 428.52 376.74 L 420.53 372.94 L 412.3 370.21 L 403.91 368.55 L 395.43 368.0 L 386.96 368.55 L 378.57 370.21 L 370.34 372.94 L 362.35 376.74 L 354.68 381.56 L 347.4 387.35 L 340.59 394.06 L 334.3 401.63 L 328.6 409.97 L 323.55 419.02 L 319.19 428.69 L 315.56 438.87 L 312.7 449.48 L 310.64 460.41 L 309.39 471.55 L 308.98 482.8 L 309.39 494.06 L 310.64 505.2 L 312.7 516.13 L 315.56 526.74 L 319.19 536.92 L 323.55 546.58 L 328.6 555.63 L 334.3 563.98 L 340.59 571.55 L 347.4 578.26 L 354.68 584.05 L 362.35 588.87 L 370.34 592.66 L 378.57 595.4 L 386.96 597.05 L 395.43 597.61 L 403.91 597.05 L 412.3 595.4 L 420.53 592.66 L 428.52 588.87 L 436.19 584.05 L 443.47 578.26 L 450.28 571.55 L 456.57 563.98 L 462.26 555.63 L 467.32 546.58 L 471.68 536.92 L 475.31 526.74 L 478.17 516.13 L 480.23 505.2 L 481.47 494.06 L 481.89 482.8 Z" />
+    <path id="panel-lower-body-wrap" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="lower-body-wrap" data-panel-type="curved-wall-strip" data-fold-parent="upper-body-wrap" data-fold-id="" data-fold-angle-deg="0" d="M 70.87 668.47 L 716.22 668.47 L 716.22 753.51 L 70.87 753.51 Z" />
+    <path id="panel-lower-joint-flap" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="lower-joint-flap" data-panel-type="glue-flap" data-fold-parent="lower-body-wrap" data-fold-id="merged-construction-thin-anonymous-path-2" data-fold-angle-deg="0" d="M 716.22 668.47 L 744.56 678.79 L 744.56 743.19 L 716.22 753.51 Z" />
+    <path id="panel-lower-flap-00" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="lower-flap-00" data-panel-type="segment-flap" data-fold-parent="lower-body-wrap" data-fold-id="merged-fold-anonymous-path-21" data-fold-angle-deg="90" d="M 70.87 753.51 L 81.18 781.86 L 92.82 781.86 L 103.13 753.51 Z" />
+    <path id="panel-lower-flap-01" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="lower-flap-01" data-panel-type="segment-flap" data-fold-parent="lower-body-wrap" data-fold-id="merged-fold-anonymous-path-22" data-fold-angle-deg="90" d="M 103.13 753.51 L 113.45 781.86 L 125.08 781.86 L 135.4 753.51 Z" />
+    <path id="panel-lower-flap-02" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="lower-flap-02" data-panel-type="segment-flap" data-fold-parent="lower-body-wrap" data-fold-id="merged-fold-anonymous-path-23" data-fold-angle-deg="90" d="M 135.4 753.51 L 145.72 781.86 L 157.35 781.86 L 167.67 753.51 Z" />
+    <path id="panel-lower-flap-03" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="lower-flap-03" data-panel-type="segment-flap" data-fold-parent="lower-body-wrap" data-fold-id="merged-fold-anonymous-path-24" data-fold-angle-deg="90" d="M 167.67 753.51 L 177.99 781.86 L 189.62 781.86 L 199.94 753.51 Z" />
+    <path id="panel-lower-flap-04" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="lower-flap-04" data-panel-type="segment-flap" data-fold-parent="lower-body-wrap" data-fold-id="merged-fold-anonymous-path-25" data-fold-angle-deg="90" d="M 199.94 753.51 L 210.25 781.86 L 221.89 781.86 L 232.2 753.51 Z" />
+    <path id="panel-lower-flap-05" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="lower-flap-05" data-panel-type="segment-flap" data-fold-parent="lower-body-wrap" data-fold-id="merged-fold-anonymous-path-26" data-fold-angle-deg="90" d="M 232.2 753.51 L 242.52 781.86 L 254.15 781.86 L 264.47 753.51 Z" />
+    <path id="panel-lower-flap-06" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="lower-flap-06" data-panel-type="segment-flap" data-fold-parent="lower-body-wrap" data-fold-id="merged-fold-anonymous-path-27" data-fold-angle-deg="90" d="M 264.47 753.51 L 274.79 781.86 L 286.42 781.86 L 296.74 753.51 Z" />
+    <path id="panel-lower-flap-07" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="lower-flap-07" data-panel-type="segment-flap" data-fold-parent="lower-body-wrap" data-fold-id="merged-fold-anonymous-path-28" data-fold-angle-deg="90" d="M 296.74 753.51 L 307.06 781.86 L 318.69 781.86 L 329.01 753.51 Z" />
+    <path id="panel-lower-flap-08" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="lower-flap-08" data-panel-type="segment-flap" data-fold-parent="lower-body-wrap" data-fold-id="merged-fold-anonymous-path-29" data-fold-angle-deg="90" d="M 329.01 753.51 L 339.32 781.86 L 350.96 781.86 L 361.27 753.51 Z" />
+    <path id="panel-lower-flap-09" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="lower-flap-09" data-panel-type="segment-flap" data-fold-parent="lower-body-wrap" data-fold-id="merged-fold-anonymous-path-30" data-fold-angle-deg="90" d="M 361.27 753.51 L 371.59 781.86 L 383.23 781.86 L 393.54 753.51 Z" />
+    <path id="panel-lower-flap-10" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="lower-flap-10" data-panel-type="segment-flap" data-fold-parent="lower-body-wrap" data-fold-id="merged-fold-anonymous-path-31" data-fold-angle-deg="90" d="M 393.54 753.51 L 403.86 781.86 L 415.49 781.86 L 425.81 753.51 Z" />
+    <path id="panel-lower-flap-11" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="lower-flap-11" data-panel-type="segment-flap" data-fold-parent="lower-body-wrap" data-fold-id="merged-fold-anonymous-path-32" data-fold-angle-deg="90" d="M 425.81 753.51 L 436.13 781.86 L 447.76 781.86 L 458.08 753.51 Z" />
+    <path id="panel-lower-flap-12" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="lower-flap-12" data-panel-type="segment-flap" data-fold-parent="lower-body-wrap" data-fold-id="merged-fold-anonymous-path-33" data-fold-angle-deg="90" d="M 458.08 753.51 L 468.39 781.86 L 480.03 781.86 L 490.35 753.51 Z" />
+    <path id="panel-lower-flap-13" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="lower-flap-13" data-panel-type="segment-flap" data-fold-parent="lower-body-wrap" data-fold-id="merged-fold-anonymous-path-34" data-fold-angle-deg="90" d="M 490.35 753.51 L 500.66 781.86 L 512.3 781.86 L 522.61 753.51 Z" />
+    <path id="panel-lower-flap-14" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="lower-flap-14" data-panel-type="segment-flap" data-fold-parent="lower-body-wrap" data-fold-id="merged-fold-anonymous-path-35" data-fold-angle-deg="90" d="M 522.61 753.51 L 532.93 781.86 L 544.56 781.86 L 554.88 753.51 Z" />
+    <path id="panel-lower-flap-15" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="lower-flap-15" data-panel-type="segment-flap" data-fold-parent="lower-body-wrap" data-fold-id="merged-fold-anonymous-path-36" data-fold-angle-deg="90" d="M 554.88 753.51 L 565.2 781.86 L 576.83 781.86 L 587.15 753.51 Z" />
+    <path id="panel-lower-flap-16" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="lower-flap-16" data-panel-type="segment-flap" data-fold-parent="lower-body-wrap" data-fold-id="merged-fold-anonymous-path-37" data-fold-angle-deg="90" d="M 587.15 753.51 L 597.47 781.86 L 609.1 781.86 L 619.42 753.51 Z" />
+    <path id="panel-lower-flap-17" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="lower-flap-17" data-panel-type="segment-flap" data-fold-parent="lower-body-wrap" data-fold-id="merged-fold-anonymous-path-38" data-fold-angle-deg="90" d="M 619.42 753.51 L 629.73 781.86 L 641.37 781.86 L 651.68 753.51 Z" />
+    <path id="panel-lower-flap-18" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="lower-flap-18" data-panel-type="segment-flap" data-fold-parent="lower-body-wrap" data-fold-id="merged-fold-anonymous-path-39" data-fold-angle-deg="90" d="M 651.68 753.51 L 662.0 781.86 L 673.63 781.86 L 683.95 753.51 Z" />
+    <path id="panel-lower-flap-19" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="lower-flap-19" data-panel-type="segment-flap" data-fold-parent="lower-body-wrap" data-fold-id="merged-fold-anonymous-path-40" data-fold-angle-deg="90" d="M 683.95 753.51 L 694.27 781.86 L 705.9 781.86 L 716.22 753.51 Z" />
+    <path id="panel-lower-ellipse-end-1" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="lower-ellipse-end-1" data-panel-type="ellipse-end-cap" data-fold-parent="lower-body-wrap" data-fold-id="" data-fold-angle-deg="90" d="M 243.21 970.93 L 243.21 970.93 L 242.8 959.62 L 241.56 948.42 L 239.5 937.44 L 236.65 926.78 L 233.04 916.54 L 228.69 906.83 L 223.65 897.74 L 217.97 889.35 L 211.71 881.75 L 204.91 875.0 L 197.66 869.18 L 190.02 864.34 L 182.05 860.53 L 173.85 857.78 L 165.49 856.11 L 157.04 855.56 L 148.59 856.11 L 140.23 857.78 L 132.02 860.53 L 124.06 864.34 L 116.42 869.18 L 109.16 875.0 L 102.37 881.75 L 96.11 889.35 L 90.43 897.74 L 85.39 906.83 L 81.04 916.54 L 77.43 926.78 L 74.58 937.44 L 72.52 948.42 L 71.28 959.62 L 70.87 970.93 L 71.28 982.24 L 72.52 993.44 L 74.58 1004.42 L 77.43 1015.08 L 81.04 1025.31 L 85.39 1035.03 L 90.43 1044.12 L 96.11 1052.51 L 102.37 1060.11 L 109.16 1066.86 L 116.42 1072.68 L 124.06 1077.52 L 132.02 1081.33 L 140.23 1084.08 L 148.59 1085.74 L 157.04 1086.3 L 165.49 1085.74 L 173.85 1084.08 L 182.05 1081.33 L 190.02 1077.52 L 197.66 1072.68 L 204.91 1066.86 L 211.71 1060.11 L 217.97 1052.51 L 223.65 1044.12 L 228.69 1035.03 L 233.04 1025.31 L 236.65 1015.08 L 239.5 1004.42 L 241.56 993.44 L 242.8 982.24 L 243.21 970.93 Z" />
+    <path id="panel-lower-ellipse-end-2" data-box-role="panel" data-object-id="ellipse-box" data-panel-id="lower-ellipse-end-2" data-panel-type="ellipse-end-cap" data-fold-parent="lower-body-wrap" data-fold-id="" data-fold-angle-deg="90" d="M 492.09 970.93 L 492.09 970.93 L 491.67 959.34 L 490.38 947.87 L 488.26 936.62 L 485.32 925.69 L 481.58 915.21 L 477.09 905.26 L 471.89 895.94 L 466.02 887.35 L 459.55 879.56 L 452.54 872.65 L 445.04 866.68 L 437.15 861.72 L 428.92 857.81 L 420.45 855.0 L 411.81 853.29 L 403.09 852.72 L 394.36 853.29 L 385.72 855.0 L 377.25 857.81 L 369.02 861.72 L 361.13 866.68 L 353.64 872.65 L 346.62 879.56 L 340.15 887.35 L 334.28 895.94 L 329.08 905.26 L 324.59 915.21 L 320.85 925.69 L 317.91 936.62 L 315.79 947.87 L 314.51 959.34 L 314.08 970.93 L 314.51 982.52 L 315.79 993.99 L 317.91 1005.24 L 320.85 1016.16 L 324.59 1026.65 L 329.08 1036.6 L 334.28 1045.92 L 340.15 1054.51 L 346.62 1062.3 L 353.64 1069.21 L 361.13 1075.18 L 369.02 1080.14 L 377.25 1084.04 L 385.72 1086.86 L 394.36 1088.56 L 403.09 1089.13 L 411.81 1088.56 L 420.45 1086.86 L 428.92 1084.04 L 437.15 1080.14 L 445.04 1075.18 L 452.54 1069.21 L 459.55 1062.3 L 466.02 1054.51 L 471.89 1045.92 L 477.09 1036.6 L 481.58 1026.65 L 485.32 1016.16 L 488.26 1005.24 L 490.38 993.99 L 491.67 982.52 L 492.09 970.93 Z" />
+  </g>
+
+  <g id="artwork" data-box-role="artwork">
+    <g id="artwork-upper-body-wrap" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="upper-body-wrap" clip-path="url(#clip-upper-body-wrap)"></g>
+    <g id="artwork-upper-joint-flap" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="upper-joint-flap" clip-path="url(#clip-upper-joint-flap)"></g>
+    <g id="artwork-upper-flap-00" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="upper-flap-00" clip-path="url(#clip-upper-flap-00)"></g>
+    <g id="artwork-upper-flap-01" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="upper-flap-01" clip-path="url(#clip-upper-flap-01)"></g>
+    <g id="artwork-upper-flap-02" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="upper-flap-02" clip-path="url(#clip-upper-flap-02)"></g>
+    <g id="artwork-upper-flap-03" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="upper-flap-03" clip-path="url(#clip-upper-flap-03)"></g>
+    <g id="artwork-upper-flap-04" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="upper-flap-04" clip-path="url(#clip-upper-flap-04)"></g>
+    <g id="artwork-upper-flap-05" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="upper-flap-05" clip-path="url(#clip-upper-flap-05)"></g>
+    <g id="artwork-upper-flap-06" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="upper-flap-06" clip-path="url(#clip-upper-flap-06)"></g>
+    <g id="artwork-upper-flap-07" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="upper-flap-07" clip-path="url(#clip-upper-flap-07)"></g>
+    <g id="artwork-upper-flap-08" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="upper-flap-08" clip-path="url(#clip-upper-flap-08)"></g>
+    <g id="artwork-upper-flap-09" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="upper-flap-09" clip-path="url(#clip-upper-flap-09)"></g>
+    <g id="artwork-upper-flap-10" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="upper-flap-10" clip-path="url(#clip-upper-flap-10)"></g>
+    <g id="artwork-upper-flap-11" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="upper-flap-11" clip-path="url(#clip-upper-flap-11)"></g>
+    <g id="artwork-upper-flap-12" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="upper-flap-12" clip-path="url(#clip-upper-flap-12)"></g>
+    <g id="artwork-upper-flap-13" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="upper-flap-13" clip-path="url(#clip-upper-flap-13)"></g>
+    <g id="artwork-upper-flap-14" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="upper-flap-14" clip-path="url(#clip-upper-flap-14)"></g>
+    <g id="artwork-upper-flap-15" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="upper-flap-15" clip-path="url(#clip-upper-flap-15)"></g>
+    <g id="artwork-upper-flap-16" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="upper-flap-16" clip-path="url(#clip-upper-flap-16)"></g>
+    <g id="artwork-upper-flap-17" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="upper-flap-17" clip-path="url(#clip-upper-flap-17)"></g>
+    <g id="artwork-upper-flap-18" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="upper-flap-18" clip-path="url(#clip-upper-flap-18)"></g>
+    <g id="artwork-upper-flap-19" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="upper-flap-19" clip-path="url(#clip-upper-flap-19)"></g>
+    <g id="artwork-upper-ellipse-end-1" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="upper-ellipse-end-1" clip-path="url(#clip-upper-ellipse-end-1)"></g>
+    <g id="artwork-upper-ellipse-end-2" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="upper-ellipse-end-2" clip-path="url(#clip-upper-ellipse-end-2)"></g>
+    <g id="artwork-lower-body-wrap" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="lower-body-wrap" clip-path="url(#clip-lower-body-wrap)"></g>
+    <g id="artwork-lower-joint-flap" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="lower-joint-flap" clip-path="url(#clip-lower-joint-flap)"></g>
+    <g id="artwork-lower-flap-00" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="lower-flap-00" clip-path="url(#clip-lower-flap-00)"></g>
+    <g id="artwork-lower-flap-01" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="lower-flap-01" clip-path="url(#clip-lower-flap-01)"></g>
+    <g id="artwork-lower-flap-02" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="lower-flap-02" clip-path="url(#clip-lower-flap-02)"></g>
+    <g id="artwork-lower-flap-03" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="lower-flap-03" clip-path="url(#clip-lower-flap-03)"></g>
+    <g id="artwork-lower-flap-04" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="lower-flap-04" clip-path="url(#clip-lower-flap-04)"></g>
+    <g id="artwork-lower-flap-05" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="lower-flap-05" clip-path="url(#clip-lower-flap-05)"></g>
+    <g id="artwork-lower-flap-06" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="lower-flap-06" clip-path="url(#clip-lower-flap-06)"></g>
+    <g id="artwork-lower-flap-07" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="lower-flap-07" clip-path="url(#clip-lower-flap-07)"></g>
+    <g id="artwork-lower-flap-08" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="lower-flap-08" clip-path="url(#clip-lower-flap-08)"></g>
+    <g id="artwork-lower-flap-09" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="lower-flap-09" clip-path="url(#clip-lower-flap-09)"></g>
+    <g id="artwork-lower-flap-10" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="lower-flap-10" clip-path="url(#clip-lower-flap-10)"></g>
+    <g id="artwork-lower-flap-11" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="lower-flap-11" clip-path="url(#clip-lower-flap-11)"></g>
+    <g id="artwork-lower-flap-12" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="lower-flap-12" clip-path="url(#clip-lower-flap-12)"></g>
+    <g id="artwork-lower-flap-13" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="lower-flap-13" clip-path="url(#clip-lower-flap-13)"></g>
+    <g id="artwork-lower-flap-14" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="lower-flap-14" clip-path="url(#clip-lower-flap-14)"></g>
+    <g id="artwork-lower-flap-15" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="lower-flap-15" clip-path="url(#clip-lower-flap-15)"></g>
+    <g id="artwork-lower-flap-16" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="lower-flap-16" clip-path="url(#clip-lower-flap-16)"></g>
+    <g id="artwork-lower-flap-17" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="lower-flap-17" clip-path="url(#clip-lower-flap-17)"></g>
+    <g id="artwork-lower-flap-18" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="lower-flap-18" clip-path="url(#clip-lower-flap-18)"></g>
+    <g id="artwork-lower-flap-19" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="lower-flap-19" clip-path="url(#clip-lower-flap-19)"></g>
+    <g id="artwork-lower-ellipse-end-1" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="lower-ellipse-end-1" clip-path="url(#clip-lower-ellipse-end-1)"></g>
+    <g id="artwork-lower-ellipse-end-2" data-box-role="artwork-panel" data-object-id="ellipse-box" data-panel-id="lower-ellipse-end-2" clip-path="url(#clip-lower-ellipse-end-2)"></g>
+  </g>
+</svg>

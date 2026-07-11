@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Structured_hang_tabs_euro_slot"
+     xmlns="http://www.w3.org/2000/svg"
+     viewBox="-5 -5 85 130"
+     width="85mm"
+     height="130mm"
+     data-box-app="BoxBuilder"
+     data-box-version="1.0"
+     data-box-role="template"
+     data-unit="source-svg-unit">
+  <title>Structured hang tabs euro slot dieline</title>
+  <desc>Batch structured SVG with visible cut/fold paths, hidden panel faces, metadata, and clipped artwork groups.</desc>
+
+  <metadata id="box-template-metadata" type="application/json"><![CDATA[
+{
+  "schema": "box-template-v1",
+  "source": {
+    "file": "hang tabs euro slot.svg",
+    "viewBox": "-5 -5 85 130",
+    "width": "85mm",
+    "height": "130mm",
+    "unit": "source-svg-unit",
+    "note": "Batch-structured from SVG. Existing named panel faces were preserved where available; otherwise closed paths were treated as panel regions."
+  },
+  "template": "hang_tabs_euro_slot",
+  "basePanel": "b",
+  "panels": [
+    {
+      "id": "b",
+      "sourceId": "knifeFace_B",
+      "label": "B",
+      "type": "flap",
+      "foldParent": "",
+      "foldId": "",
+      "foldAngleDeg": 0,
+      "path": "M0,8 A8,8 0 0,1 8,0 L67,0 A8,8 0 0,1 75,8 L75,112 A8,8 0 0,1 67,120 L8,120 A8,8 0 0,1 0,112 L0,8 Z"
+    }
+  ],
+  "cutPaths": [
+    {
+      "id": "source-path-3",
+      "role": "cut",
+      "d": "M0,8 A8,8 0 0,1 8,0 L67,0 A8,8 0 0,1 75,8 L75,112 A8,8 0 0,1 67,120 L8,120 A8,8 0 0,1 0,112 L0,8 Z"
+    },
+    {
+      "id": "source-path-4",
+      "role": "cut",
+      "d": "M32.5,10 A0.5,0.5 0 0,0 32.98412291827593,9.625 A4.5158770817240725,2.625 0 0,1 42.01587708172407,9.625 A0.5,0.5 0 0,0 42.5,10 L49.5,10 A3,3 0 0,1 49.5,16 L25.5,16 A3,3 0 0,1 25.5,10 L32.5,10 Z"
+    }
+  ],
+  "foldPaths": [],
+  "tabPaths": [],
+  "sourcePathCount": 4
+}
+  ]]></metadata>
+
+  <defs>
+    <clipPath id="clip-b"><path d="M0,8 A8,8 0 0,1 8,0 L67,0 A8,8 0 0,1 75,8 L75,112 A8,8 0 0,1 67,120 L8,120 A8,8 0 0,1 0,112 L0,8 Z" /></clipPath>
+    <pattern id="glueHatch" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+      <rect width="6" height="6" fill="transparent" />
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#d41a5a" stroke-width="0.8" />
+    </pattern>
+    <style><![CDATA[
+      .cut-line { fill: none; stroke: #d41a5a; stroke-width: 1.25; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+      .fold-line { fill: none; stroke: #00adee; stroke-width: 0.75; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+      .tab-line { fill: #e8e6e1; stroke: #d41a5a; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+      .panel-preview { fill: rgba(212, 26, 90, 0.07); stroke: none; }
+      .preview-glue-flap { fill: url(#glueHatch); opacity: 0.75; }
+      .label { font-family: Arial, sans-serif; font-size: 7px; fill: #333333; pointer-events: none; }
+    ]]></style>
+  </defs>
+
+  <g id="panel-preview" data-box-role="panel-preview" visibility="hidden">
+    <path id="preview-b" class="panel-preview preview-flap" d="M0,8 A8,8 0 0,1 8,0 L67,0 A8,8 0 0,1 75,8 L75,112 A8,8 0 0,1 67,120 L8,120 A8,8 0 0,1 0,112 L0,8 Z" />
+  </g>
+
+  <g id="dieline" data-box-role="dieline">
+    <g id="cut-lines" class="cut-line" data-box-role="cut-lines">
+      <path id="source-path-3" data-box-role="cut-line" data-line-type="cut" d="M0,8 A8,8 0 0,1 8,0 L67,0 A8,8 0 0,1 75,8 L75,112 A8,8 0 0,1 67,120 L8,120 A8,8 0 0,1 0,112 L0,8 Z" />
+      <path id="source-path-4" data-box-role="cut-line" data-line-type="cut" d="M32.5,10 A0.5,0.5 0 0,0 32.98412291827593,9.625 A4.5158770817240725,2.625 0 0,1 42.01587708172407,9.625 A0.5,0.5 0 0,0 42.5,10 L49.5,10 A3,3 0 0,1 49.5,16 L25.5,16 A3,3 0 0,1 25.5,10 L32.5,10 Z" />
+    </g>
+    <g id="fold-lines" class="fold-line" data-box-role="fold-lines">
+
+    </g>
+    <g id="tab-shapes" class="tab-line" data-box-role="tab-shapes">
+
+    </g>
+  </g>
+
+  <g id="labels" class="label" data-box-role="labels" visibility="hidden">
+    <text x="22.3158" y="22.7368" text-anchor="middle">B</text>
+  </g>
+
+  <g id="panels" data-box-role="panels" visibility="hidden">
+    <path id="panel-b" data-box-role="panel" data-panel-id="b" data-source-id="knifeFace_B" data-panel-type="flap" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M0,8 A8,8 0 0,1 8,0 L67,0 A8,8 0 0,1 75,8 L75,112 A8,8 0 0,1 67,120 L8,120 A8,8 0 0,1 0,112 L0,8 Z" />
+  </g>
+
+  <g id="artwork" data-box-role="artwork">
+    <g id="artwork-b" data-box-role="artwork-panel" data-panel-id="b" clip-path="url(#clip-b)"></g>
+  </g>
+</svg>

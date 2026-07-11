@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Structured_PDF_Dieline_Template"
+     xmlns="http://www.w3.org/2000/svg"
+     viewBox="60 450 1370 2770"
+     width="457mm"
+     height="956mm"
+     data-box-app="BoxBuilder"
+     data-box-version="1.0"
+     data-box-role="template"
+     data-unit="pt">
+  <title>Structured PDF dieline</title>
+  <desc>Structured SVG derived from Export_Dieline_2026-06-18.pdf. Bleed and measurement graphics are omitted; trim/cut and crease lines are restyled.</desc>
+
+  <metadata id="box-template-metadata" type="application/json"><![CDATA[
+{
+  "schema": "box-template-v1",
+  "source": {
+    "file": "Export_Dieline_2026-06-18.pdf",
+    "pageIndex": 0,
+    "unit": "pt",
+    "note": "Structured from uploaded PDF. Bleed, measurement lines, legend, and page text were intentionally omitted."
+  },
+  "template": "pdf-dieline-structured",
+  "nominalDimensions": {
+    "insideMm": {
+      "length": 355,
+      "width": 353,
+      "height": 48
+    },
+    "outsideMm": {
+      "length": 361,
+      "width": 361,
+      "height": 51
+    },
+    "manufactureMm": {
+      "length": 360,
+      "width": 360,
+      "height": 50
+    },
+    "material": "E-flute",
+    "thicknessMm": 1.5,
+    "modelId": "156216"
+  },
+  "basePanel": "lower-main-panel",
+  "panels": [
+    {
+      "id": "top-lock-flap",
+      "label": "Top Lock Flap",
+      "type": "lock-flap",
+      "foldParent": "upper-lip",
+      "foldId": "crease-top-lock",
+      "foldAngleDeg": -180,
+      "path": "M 238.819 591.777 L 1255.040 591.777 L 1255.040 727.131 L 238.819 727.131 Z"
+    },
+    {
+      "id": "upper-lip",
+      "label": "Upper Lip",
+      "type": "lip-panel",
+      "foldParent": "upper-main-panel",
+      "foldId": "crease-upper-lip",
+      "foldAngleDeg": 90,
+      "path": "M 238.819 727.131 L 1259.292 727.131 L 1259.292 880.202 L 238.819 880.202 Z"
+    },
+    {
+      "id": "upper-main-panel",
+      "label": "Upper Main Panel",
+      "type": "main-panel",
+      "foldParent": "middle-hinge-panel",
+      "foldId": "crease-upper-main-bottom",
+      "foldAngleDeg": 90,
+      "path": "M 236.693 884.454 L 1257.166 884.454 L 1257.166 1896.422 L 236.693 1896.422 Z"
+    },
+    {
+      "id": "middle-hinge-panel",
+      "label": "Middle Hinge Panel",
+      "type": "hinge-panel",
+      "foldParent": "lower-main-panel",
+      "foldId": "crease-middle-hinge",
+      "foldAngleDeg": 90,
+      "path": "M 234.567 1900.674 L 1259.292 1900.674 L 1259.292 2042.407 L 234.567 2042.407 Z"
+    },
+    {
+      "id": "lower-main-panel",
+      "label": "Lower Main Panel",
+      "type": "main-panel",
+      "foldParent": null,
+      "foldId": null,
+      "foldAngleDeg": 0,
+      "path": "M 240.945 2046.659 L 1252.914 2046.659 L 1252.914 3048.706 L 240.945 3048.706 Z"
+    },
+    {
+      "id": "bottom-lock-flap",
+      "label": "Bottom Lock Flap",
+      "type": "lock-flap",
+      "foldParent": "lower-main-panel",
+      "foldId": "crease-bottom-lock",
+      "foldAngleDeg": 90,
+      "path": "M 240.945 3048.706 L 725.669 3048.706 L 742.000 3072.000 L 768.189 3048.706 L 1252.914 3048.706 L 1215.000 3186.186 L 278.000 3186.186 Z"
+    },
+    {
+      "id": "upper-left-side-flap",
+      "label": "Upper Left Side Flap",
+      "type": "side-flap",
+      "foldParent": "upper-main-panel",
+      "foldId": "crease-upper-left-side",
+      "foldAngleDeg": 90,
+      "path": "M 99.213 884.454 L 236.693 884.454 L 236.693 1896.422 L 99.213 1896.422 Z"
+    },
+    {
+      "id": "upper-right-side-flap",
+      "label": "Upper Right Side Flap",
+      "type": "side-flap",
+      "foldParent": "upper-main-panel",
+      "foldId": "crease-upper-right-side",
+      "foldAngleDeg": -90,
+      "path": "M 1257.166 884.454 L 1394.646 884.454 L 1394.646 1896.422 L 1257.166 1896.422 Z"
+    },
+    {
+      "id": "lower-left-side-flap",
+      "label": "Lower Left Side Flap",
+      "type": "side-flap",
+      "foldParent": "lower-main-panel",
+      "foldId": "crease-lower-left-side",
+      "foldAngleDeg": 90,
+      "path": "M 99.213 2046.659 L 240.945 2046.659 L 240.945 3048.706 L 99.213 3048.706 Z"
+    },
+    {
+      "id": "lower-right-side-flap",
+      "label": "Lower Right Side Flap",
+      "type": "side-flap",
+      "foldParent": "lower-main-panel",
+      "foldId": "crease-lower-right-side",
+      "foldAngleDeg": -90,
+      "path": "M 1252.914 2046.659 L 1394.646 2046.659 L 1394.646 3048.706 L 1252.914 3048.706 Z"
+    }
+  ],
+  "cutPaths": [
+    {
+      "id": "trim-cut-1",
+      "d": "M 238.819 727.131 L 238.819 591.777 L 386.929 591.777 L 391.181 581.147 L 524.409 581.147 L 528.661 591.777 L 676.063 591.777 L 680.315 581.147 L 813.543 581.147 L 817.795 591.777 L 965.197 591.777 L 969.449 581.147 L 1102.677 581.147 L 1106.929 591.777 L 1255.040 591.777 L 1255.040 727.131 L 1259.292 738.469 L 1273.465 476.265 L 1394.646 476.265 L 1394.646 884.454 L 1394.646 1896.422 L 1394.646 2042.407 L 1259.292 2042.407 L 1252.914 2046.659 L 1362.417 2086.515 C 1370.616 2089.499 1377.699 2094.934 1382.704 2102.082 C 1387.709 2109.229 1390.394 2117.744 1390.394 2126.470 L 1390.394 2343.588 L 1362.047 2357.761 L 1362.047 2737.604 L 1390.394 2751.777 L 1390.394 2968.895 C 1390.394 2977.620 1387.709 2986.135 1382.704 2993.283 C 1377.699 3000.431 1370.616 3005.865 1362.417 3008.850 L 1252.914 3048.706 L 1213.058 3158.209 C 1210.073 3166.409 1204.638 3173.492 1197.490 3178.497 C 1190.343 3183.501 1181.828 3186.186 1173.102 3186.186 L 951.024 3186.186 L 936.850 3157.840 L 557.008 3157.840 L 542.835 3186.186 L 320.756 3186.186 C 312.030 3186.186 303.516 3183.501 296.368 3178.497 C 289.220 3173.492 283.785 3166.409 280.801 3158.209 L 240.945 3048.706 L 131.442 3008.850 C 123.242 3005.865 116.159 3000.431 111.154 2993.283 C 106.149 2986.135 103.465 2977.620 103.465 2968.895 L 103.465 2751.777 L 131.811 2737.604 L 131.811 2357.761 L 103.465 2343.588 L 103.465 2126.470 C 103.465 2117.744 106.149 2109.229 111.154 2102.082 C 116.159 2094.934 123.242 2089.499 131.442 2086.515 L 240.945 2046.659 L 234.567 2042.407 L 99.213 2042.407 L 99.213 884.454 L 99.213 476.265 L 220.394 476.265 L 234.567 738.469 L 238.819 727.131 M 236.693 884.454 L 234.567 880.202 L 234.567 738.469 M 1257.166 884.454 L 1259.292 880.202 L 1259.292 738.469 M 236.693 1896.422 L 234.567 1900.674 L 234.567 2042.407 M 1257.166 1896.422 L 1259.292 1900.674 L 1259.292 2042.407 M 725.669 3048.706 C 725.669 3056.301 729.721 3063.320 736.299 3067.117 C 742.877 3070.915 750.981 3070.915 757.559 3067.117 C 764.137 3063.320 768.189 3056.301 768.189 3048.706 M 385.512 2042.407 L 386.929 2038.155 L 528.661 2038.155 L 530.079 2042.407 M 674.646 2042.407 L 676.063 2038.155 L 817.795 2038.155 L 819.213 2042.407 M 963.780 2042.407 L 965.197 2038.155 L 1106.929 2038.155 L 1108.347 2042.407 M 718.583 732.800 C 718.583 742.927 723.986 752.285 732.756 757.349 C 741.526 762.413 752.332 762.413 761.102 757.349 C 769.873 752.285 775.276 742.927 775.276 732.800 C 775.276 722.673 769.873 713.315 761.102 708.251 C 752.332 703.188 741.526 703.188 732.756 708.251 C 723.986 713.315 718.583 722.673 718.583 732.800 M 391.181 880.202 C 389.678 880.202 388.236 880.799 387.172 881.862 C 386.109 882.926 385.512 884.368 385.512 885.871 C 385.512 887.375 386.109 888.817 387.172 889.880 C 388.236 890.943 389.678 891.540 391.181 891.540 L 524.409 891.540 C 525.913 891.540 527.355 890.943 528.418 889.880 C 529.482 888.817 530.079 887.375 530.079 885.871 C 530.079 884.368 529.482 882.926 528.418 881.862 C 527.355 880.799 525.913 880.202 524.409 880.202 L 391.181 880.202 M 680.315 880.202 C 678.811 880.202 677.369 880.799 676.306 881.862 C 675.243 882.926 674.646 884.368 674.646 885.871 C 674.646 887.375 675.243 888.817 676.306 889.880 C 677.369 890.943 678.811 891.540 680.315 891.540 L 813.543 891.540 C 815.047 891.540 816.489 890.943 817.552 889.880 C 818.615 888.817 819.213 887.375 819.213 885.871 C 819.213 884.368 818.615 882.926 817.552 881.862 C 816.489 880.799 815.047 880.202 813.543 880.202 L 680.315 880.202 M 969.449 880.202 C 967.945 880.202 966.503 880.799 965.440 881.862 C 964.377 882.926 963.780 884.368 963.780 885.871 C 963.780 887.375 964.377 888.817 965.440 889.880 C 966.503 890.943 967.945 891.540 969.449 891.540 L 1102.677 891.540 C 1104.181 891.540 1105.623 890.943 1106.686 889.880 C 1107.749 888.817 1108.347 887.375 1108.347 885.871 C 1108.347 884.368 1107.749 882.926 1106.686 881.862 C 1105.623 880.799 1104.181 880.202 1102.677 880.202 L 969.449 880.202",
+      "bounds": [
+        99.21260070800781,
+        476.2647399902344,
+        1394.6458740234375,
+        3186.186279296875
+      ]
+    }
+  ],
+  "creasePaths": [
+    {
+      "id": "crease-1",
+      "d": "M 1255.040 727.131 L 774.703 727.131",
+      "bounds": [
+        774.7029418945312,
+        727.1309204101562,
+        1255.03955078125,
+        727.1309204101562
+      ]
+    },
+    {
+      "id": "crease-2",
+      "d": "M 719.155 727.131 L 238.819 727.131",
+      "bounds": [
+        238.81890869140625,
+        727.1309204101562,
+        719.1554565429688,
+        727.1309204101562
+      ]
+    },
+    {
+      "id": "crease-3",
+      "d": "M 1259.292 880.202 L 1102.677 880.202",
+      "bounds": [
+        1102.67724609375,
+        880.2017822265625,
+        1259.29150390625,
+        880.2017822265625
+      ]
+    },
+    {
+      "id": "crease-4",
+      "d": "M 969.449 880.202 L 813.543 880.202",
+      "bounds": [
+        813.5433959960938,
+        880.2017822265625,
+        969.4489135742188,
+        880.2017822265625
+      ]
+    },
+    {
+      "id": "crease-5",
+      "d": "M 680.315 880.202 L 524.409 880.202",
+      "bounds": [
+        524.4094848632812,
+        880.2017822265625,
+        680.3150024414062,
+        880.2017822265625
+      ]
+    },
+    {
+      "id": "crease-6",
+      "d": "M 391.181 880.202 L 234.567 880.202",
+      "bounds": [
+        234.5669403076172,
+        880.2017822265625,
+        391.18115234375,
+        880.2017822265625
+      ]
+    },
+    {
+      "id": "crease-7",
+      "d": "M 1257.166 884.454 L 1257.166 1896.422",
+      "bounds": [
+        1257.16552734375,
+        884.4537353515625,
+        1257.16552734375,
+        1896.42236328125
+      ]
+    },
+    {
+      "id": "crease-8",
+      "d": "M 1259.292 1900.674 L 234.567 1900.674",
+      "bounds": [
+        234.5669403076172,
+        1900.6744384765625,
+        1259.29150390625,
+        1900.6744384765625
+      ]
+    },
+    {
+      "id": "crease-9",
+      "d": "M 236.693 1896.422 L 236.693 884.454",
+      "bounds": [
+        236.69293212890625,
+        884.4537353515625,
+        236.69293212890625,
+        1896.42236328125
+      ]
+    },
+    {
+      "id": "crease-10",
+      "d": "M 1259.292 2042.407 L 1108.347 2042.407",
+      "bounds": [
+        1108.3465576171875,
+        2042.40673828125,
+        1259.29150390625,
+        2042.40673828125
+      ]
+    },
+    {
+      "id": "crease-11",
+      "d": "M 963.780 2042.407 L 819.213 2042.407",
+      "bounds": [
+        819.212646484375,
+        2042.40673828125,
+        963.7796020507812,
+        2042.40673828125
+      ]
+    },
+    {
+      "id": "crease-12",
+      "d": "M 674.646 2042.407 L 530.079 2042.407",
+      "bounds": [
+        530.0787963867188,
+        2042.40673828125,
+        674.6456909179688,
+        2042.40673828125
+      ]
+    },
+    {
+      "id": "crease-13",
+      "d": "M 385.512 2042.407 L 234.567 2042.407",
+      "bounds": [
+        234.5669403076172,
+        2042.40673828125,
+        385.5118408203125,
+        2042.40673828125
+      ]
+    },
+    {
+      "id": "crease-14",
+      "d": "M 1252.914 2046.659 L 1252.914 3048.706",
+      "bounds": [
+        1252.91357421875,
+        2046.65869140625,
+        1252.91357421875,
+        3048.705810546875
+      ]
+    },
+    {
+      "id": "crease-15",
+      "d": "M 1252.914 3048.706 L 768.189 3048.706",
+      "bounds": [
+        768.1890258789062,
+        3048.705810546875,
+        1252.91357421875,
+        3048.705810546875
+      ]
+    },
+    {
+      "id": "crease-16",
+      "d": "M 725.669 3048.706 L 240.945 3048.706",
+      "bounds": [
+        240.9449005126953,
+        3048.705810546875,
+        725.6693725585938,
+        3048.705810546875
+      ]
+    },
+    {
+      "id": "crease-17",
+      "d": "M 240.945 3048.706 L 240.945 2046.659",
+      "bounds": [
+        240.9449005126953,
+        2046.65869140625,
+        240.9449005126953,
+        3048.705810546875
+      ]
+    },
+    {
+      "id": "crease-18",
+      "d": "M 99.213 884.454 L 236.693 884.454",
+      "bounds": [
+        99.21260070800781,
+        884.4537353515625,
+        236.69293212890625,
+        884.4537353515625
+      ]
+    },
+    {
+      "id": "crease-19",
+      "d": "M 236.693 1896.422 L 99.213 1896.422",
+      "bounds": [
+        99.21260070800781,
+        1896.42236328125,
+        236.69293212890625,
+        1896.42236328125
+      ]
+    },
+    {
+      "id": "crease-20",
+      "d": "M 1394.646 1896.422 L 1257.166 1896.422",
+      "bounds": [
+        1257.16552734375,
+        1896.42236328125,
+        1394.6458740234375,
+        1896.42236328125
+      ]
+    },
+    {
+      "id": "crease-21",
+      "d": "M 1257.166 884.454 L 1394.646 884.454",
+      "bounds": [
+        1257.16552734375,
+        884.4537353515625,
+        1394.6458740234375,
+        884.4537353515625
+      ]
+    },
+    {
+      "id": "crease-22",
+      "d": "M 719.155 738.469 L 234.567 738.469",
+      "bounds": [
+        234.5669403076172,
+        738.469482421875,
+        719.1554565429688,
+        738.469482421875
+      ]
+    },
+    {
+      "id": "crease-23",
+      "d": "M 1259.292 738.469 L 774.703 738.469",
+      "bounds": [
+        774.7029418945312,
+        738.469482421875,
+        1259.29150390625,
+        738.469482421875
+      ]
+    }
+  ]
+}
+  ]]></metadata>
+
+  <defs>
+    <clipPath id="clip-top-lock-flap"><path d="M 238.819 591.777 L 1255.040 591.777 L 1255.040 727.131 L 238.819 727.131 Z" /></clipPath>
+    <clipPath id="clip-upper-lip"><path d="M 238.819 727.131 L 1259.292 727.131 L 1259.292 880.202 L 238.819 880.202 Z" /></clipPath>
+    <clipPath id="clip-upper-main-panel"><path d="M 236.693 884.454 L 1257.166 884.454 L 1257.166 1896.422 L 236.693 1896.422 Z" /></clipPath>
+    <clipPath id="clip-middle-hinge-panel"><path d="M 234.567 1900.674 L 1259.292 1900.674 L 1259.292 2042.407 L 234.567 2042.407 Z" /></clipPath>
+    <clipPath id="clip-lower-main-panel"><path d="M 240.945 2046.659 L 1252.914 2046.659 L 1252.914 3048.706 L 240.945 3048.706 Z" /></clipPath>
+    <clipPath id="clip-bottom-lock-flap"><path d="M 240.945 3048.706 L 725.669 3048.706 L 742.000 3072.000 L 768.189 3048.706 L 1252.914 3048.706 L 1215.000 3186.186 L 278.000 3186.186 Z" /></clipPath>
+    <clipPath id="clip-upper-left-side-flap"><path d="M 99.213 884.454 L 236.693 884.454 L 236.693 1896.422 L 99.213 1896.422 Z" /></clipPath>
+    <clipPath id="clip-upper-right-side-flap"><path d="M 1257.166 884.454 L 1394.646 884.454 L 1394.646 1896.422 L 1257.166 1896.422 Z" /></clipPath>
+    <clipPath id="clip-lower-left-side-flap"><path d="M 99.213 2046.659 L 240.945 2046.659 L 240.945 3048.706 L 99.213 3048.706 Z" /></clipPath>
+    <clipPath id="clip-lower-right-side-flap"><path d="M 1252.914 2046.659 L 1394.646 2046.659 L 1394.646 3048.706 L 1252.914 3048.706 Z" /></clipPath>
+    <style><![CDATA[
+      .cut-line { fill: none; stroke: #d41a5a; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+      .fold-line { fill: none; stroke: #00adee; stroke-width: 1.1; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+      .panel-preview { fill: rgba(212, 26, 90, 0.07); stroke: none; }
+      .label { font-family: Arial, sans-serif; font-size: 20px; fill: #333333; pointer-events: none; }
+    ]]></style>
+  </defs>
+
+  <g id="panel-preview" data-box-role="panel-preview" visibility="hidden">
+    <path id="preview-top-lock-flap" class="panel-preview" d="M 238.819 591.777 L 1255.040 591.777 L 1255.040 727.131 L 238.819 727.131 Z" />
+    <path id="preview-upper-lip" class="panel-preview" d="M 238.819 727.131 L 1259.292 727.131 L 1259.292 880.202 L 238.819 880.202 Z" />
+    <path id="preview-upper-main-panel" class="panel-preview" d="M 236.693 884.454 L 1257.166 884.454 L 1257.166 1896.422 L 236.693 1896.422 Z" />
+    <path id="preview-middle-hinge-panel" class="panel-preview" d="M 234.567 1900.674 L 1259.292 1900.674 L 1259.292 2042.407 L 234.567 2042.407 Z" />
+    <path id="preview-lower-main-panel" class="panel-preview" d="M 240.945 2046.659 L 1252.914 2046.659 L 1252.914 3048.706 L 240.945 3048.706 Z" />
+    <path id="preview-bottom-lock-flap" class="panel-preview" d="M 240.945 3048.706 L 725.669 3048.706 L 742.000 3072.000 L 768.189 3048.706 L 1252.914 3048.706 L 1215.000 3186.186 L 278.000 3186.186 Z" />
+    <path id="preview-upper-left-side-flap" class="panel-preview" d="M 99.213 884.454 L 236.693 884.454 L 236.693 1896.422 L 99.213 1896.422 Z" />
+    <path id="preview-upper-right-side-flap" class="panel-preview" d="M 1257.166 884.454 L 1394.646 884.454 L 1394.646 1896.422 L 1257.166 1896.422 Z" />
+    <path id="preview-lower-left-side-flap" class="panel-preview" d="M 99.213 2046.659 L 240.945 2046.659 L 240.945 3048.706 L 99.213 3048.706 Z" />
+    <path id="preview-lower-right-side-flap" class="panel-preview" d="M 1252.914 2046.659 L 1394.646 2046.659 L 1394.646 3048.706 L 1252.914 3048.706 Z" />
+  </g>
+
+  <g id="dieline" data-box-role="dieline">
+    <g id="cut-lines" class="cut-line" data-box-role="cut-lines">
+      <path id="trim-cut-1" data-box-role="cut-line" data-line-type="cut" d="M 238.819 727.131 L 238.819 591.777 L 386.929 591.777 L 391.181 581.147 L 524.409 581.147 L 528.661 591.777 L 676.063 591.777 L 680.315 581.147 L 813.543 581.147 L 817.795 591.777 L 965.197 591.777 L 969.449 581.147 L 1102.677 581.147 L 1106.929 591.777 L 1255.040 591.777 L 1255.040 727.131 L 1259.292 738.469 L 1273.465 476.265 L 1394.646 476.265 L 1394.646 884.454 L 1394.646 1896.422 L 1394.646 2042.407 L 1259.292 2042.407 L 1252.914 2046.659 L 1362.417 2086.515 C 1370.616 2089.499 1377.699 2094.934 1382.704 2102.082 C 1387.709 2109.229 1390.394 2117.744 1390.394 2126.470 L 1390.394 2343.588 L 1362.047 2357.761 L 1362.047 2737.604 L 1390.394 2751.777 L 1390.394 2968.895 C 1390.394 2977.620 1387.709 2986.135 1382.704 2993.283 C 1377.699 3000.431 1370.616 3005.865 1362.417 3008.850 L 1252.914 3048.706 L 1213.058 3158.209 C 1210.073 3166.409 1204.638 3173.492 1197.490 3178.497 C 1190.343 3183.501 1181.828 3186.186 1173.102 3186.186 L 951.024 3186.186 L 936.850 3157.840 L 557.008 3157.840 L 542.835 3186.186 L 320.756 3186.186 C 312.030 3186.186 303.516 3183.501 296.368 3178.497 C 289.220 3173.492 283.785 3166.409 280.801 3158.209 L 240.945 3048.706 L 131.442 3008.850 C 123.242 3005.865 116.159 3000.431 111.154 2993.283 C 106.149 2986.135 103.465 2977.620 103.465 2968.895 L 103.465 2751.777 L 131.811 2737.604 L 131.811 2357.761 L 103.465 2343.588 L 103.465 2126.470 C 103.465 2117.744 106.149 2109.229 111.154 2102.082 C 116.159 2094.934 123.242 2089.499 131.442 2086.515 L 240.945 2046.659 L 234.567 2042.407 L 99.213 2042.407 L 99.213 884.454 L 99.213 476.265 L 220.394 476.265 L 234.567 738.469 L 238.819 727.131 M 236.693 884.454 L 234.567 880.202 L 234.567 738.469 M 1257.166 884.454 L 1259.292 880.202 L 1259.292 738.469 M 236.693 1896.422 L 234.567 1900.674 L 234.567 2042.407 M 1257.166 1896.422 L 1259.292 1900.674 L 1259.292 2042.407 M 725.669 3048.706 C 725.669 3056.301 729.721 3063.320 736.299 3067.117 C 742.877 3070.915 750.981 3070.915 757.559 3067.117 C 764.137 3063.320 768.189 3056.301 768.189 3048.706 M 385.512 2042.407 L 386.929 2038.155 L 528.661 2038.155 L 530.079 2042.407 M 674.646 2042.407 L 676.063 2038.155 L 817.795 2038.155 L 819.213 2042.407 M 963.780 2042.407 L 965.197 2038.155 L 1106.929 2038.155 L 1108.347 2042.407 M 718.583 732.800 C 718.583 742.927 723.986 752.285 732.756 757.349 C 741.526 762.413 752.332 762.413 761.102 757.349 C 769.873 752.285 775.276 742.927 775.276 732.800 C 775.276 722.673 769.873 713.315 761.102 708.251 C 752.332 703.188 741.526 703.188 732.756 708.251 C 723.986 713.315 718.583 722.673 718.583 732.800 M 391.181 880.202 C 389.678 880.202 388.236 880.799 387.172 881.862 C 386.109 882.926 385.512 884.368 385.512 885.871 C 385.512 887.375 386.109 888.817 387.172 889.880 C 388.236 890.943 389.678 891.540 391.181 891.540 L 524.409 891.540 C 525.913 891.540 527.355 890.943 528.418 889.880 C 529.482 888.817 530.079 887.375 530.079 885.871 C 530.079 884.368 529.482 882.926 528.418 881.862 C 527.355 880.799 525.913 880.202 524.409 880.202 L 391.181 880.202 M 680.315 880.202 C 678.811 880.202 677.369 880.799 676.306 881.862 C 675.243 882.926 674.646 884.368 674.646 885.871 C 674.646 887.375 675.243 888.817 676.306 889.880 C 677.369 890.943 678.811 891.540 680.315 891.540 L 813.543 891.540 C 815.047 891.540 816.489 890.943 817.552 889.880 C 818.615 888.817 819.213 887.375 819.213 885.871 C 819.213 884.368 818.615 882.926 817.552 881.862 C 816.489 880.799 815.047 880.202 813.543 880.202 L 680.315 880.202 M 969.449 880.202 C 967.945 880.202 966.503 880.799 965.440 881.862 C 964.377 882.926 963.780 884.368 963.780 885.871 C 963.780 887.375 964.377 888.817 965.440 889.880 C 966.503 890.943 967.945 891.540 969.449 891.540 L 1102.677 891.540 C 1104.181 891.540 1105.623 890.943 1106.686 889.880 C 1107.749 888.817 1108.347 887.375 1108.347 885.871 C 1108.347 884.368 1107.749 882.926 1106.686 881.862 C 1105.623 880.799 1104.181 880.202 1102.677 880.202 L 969.449 880.202" />
+    </g>
+    <g id="fold-lines" class="fold-line" data-box-role="fold-lines">
+      <path id="crease-1" data-box-role="fold-line" data-line-type="crease" d="M 1255.040 727.131 L 774.703 727.131" />
+      <path id="crease-2" data-box-role="fold-line" data-line-type="crease" d="M 719.155 727.131 L 238.819 727.131" />
+      <path id="crease-3" data-box-role="fold-line" data-line-type="crease" d="M 1259.292 880.202 L 1102.677 880.202" />
+      <path id="crease-4" data-box-role="fold-line" data-line-type="crease" d="M 969.449 880.202 L 813.543 880.202" />
+      <path id="crease-5" data-box-role="fold-line" data-line-type="crease" d="M 680.315 880.202 L 524.409 880.202" />
+      <path id="crease-6" data-box-role="fold-line" data-line-type="crease" d="M 391.181 880.202 L 234.567 880.202" />
+      <path id="crease-7" data-box-role="fold-line" data-line-type="crease" d="M 1257.166 884.454 L 1257.166 1896.422" />
+      <path id="crease-8" data-box-role="fold-line" data-line-type="crease" d="M 1259.292 1900.674 L 234.567 1900.674" />
+      <path id="crease-9" data-box-role="fold-line" data-line-type="crease" d="M 236.693 1896.422 L 236.693 884.454" />
+      <path id="crease-10" data-box-role="fold-line" data-line-type="crease" d="M 1259.292 2042.407 L 1108.347 2042.407" />
+      <path id="crease-11" data-box-role="fold-line" data-line-type="crease" d="M 963.780 2042.407 L 819.213 2042.407" />
+      <path id="crease-12" data-box-role="fold-line" data-line-type="crease" d="M 674.646 2042.407 L 530.079 2042.407" />
+      <path id="crease-13" data-box-role="fold-line" data-line-type="crease" d="M 385.512 2042.407 L 234.567 2042.407" />
+      <path id="crease-14" data-box-role="fold-line" data-line-type="crease" d="M 1252.914 2046.659 L 1252.914 3048.706" />
+      <path id="crease-15" data-box-role="fold-line" data-line-type="crease" d="M 1252.914 3048.706 L 768.189 3048.706" />
+      <path id="crease-16" data-box-role="fold-line" data-line-type="crease" d="M 725.669 3048.706 L 240.945 3048.706" />
+      <path id="crease-17" data-box-role="fold-line" data-line-type="crease" d="M 240.945 3048.706 L 240.945 2046.659" />
+      <path id="crease-18" data-box-role="fold-line" data-line-type="crease" d="M 99.213 884.454 L 236.693 884.454" />
+      <path id="crease-19" data-box-role="fold-line" data-line-type="crease" d="M 236.693 1896.422 L 99.213 1896.422" />
+      <path id="crease-20" data-box-role="fold-line" data-line-type="crease" d="M 1394.646 1896.422 L 1257.166 1896.422" />
+      <path id="crease-21" data-box-role="fold-line" data-line-type="crease" d="M 1257.166 884.454 L 1394.646 884.454" />
+      <path id="crease-22" data-box-role="fold-line" data-line-type="crease" d="M 719.155 738.469 L 234.567 738.469" />
+      <path id="crease-23" data-box-role="fold-line" data-line-type="crease" d="M 1259.292 738.469 L 774.703 738.469" />
+    </g>
+  </g>
+
+  <g id="labels" class="label" data-box-role="labels" visibility="hidden">
+    <text x="746.930" y="659.450" text-anchor="middle">Top Lock Flap</text>
+    <text x="749.060" y="803.670" text-anchor="middle">Upper Lip</text>
+    <text x="746.930" y="1390.440" text-anchor="middle">Upper Main Panel</text>
+    <text x="746.930" y="1971.540" text-anchor="middle">Middle Hinge Panel</text>
+    <text x="746.930" y="2547.680" text-anchor="middle">Lower Main Panel</text>
+    <text x="746.930" y="3120.000" text-anchor="middle">Bottom Lock Flap</text>
+    <text x="167.950" y="1390.440" text-anchor="middle">Upper Left Side Flap</text>
+    <text x="1325.910" y="1390.440" text-anchor="middle">Upper Right Side Flap</text>
+    <text x="170.080" y="2547.680" text-anchor="middle">Lower Left Side Flap</text>
+    <text x="1323.780" y="2547.680" text-anchor="middle">Lower Right Side Flap</text>
+  </g>
+
+  <g id="panels" data-box-role="panels" visibility="hidden">
+    <path id="panel-top-lock-flap" data-box-role="panel" data-panel-id="top-lock-flap" data-panel-type="lock-flap" data-fold-parent="upper-lip" data-fold-id="crease-top-lock" data-fold-angle-deg="-180" d="M 238.819 591.777 L 1255.040 591.777 L 1255.040 727.131 L 238.819 727.131 Z" />
+    <path id="panel-upper-lip" data-box-role="panel" data-panel-id="upper-lip" data-panel-type="lip-panel" data-fold-parent="upper-main-panel" data-fold-id="crease-upper-lip" data-fold-angle-deg="90" d="M 238.819 727.131 L 1259.292 727.131 L 1259.292 880.202 L 238.819 880.202 Z" />
+    <path id="panel-upper-main-panel" data-box-role="panel" data-panel-id="upper-main-panel" data-panel-type="main-panel" data-fold-parent="middle-hinge-panel" data-fold-id="crease-upper-main-bottom" data-fold-angle-deg="90" d="M 236.693 884.454 L 1257.166 884.454 L 1257.166 1896.422 L 236.693 1896.422 Z" />
+    <path id="panel-middle-hinge-panel" data-box-role="panel" data-panel-id="middle-hinge-panel" data-panel-type="hinge-panel" data-fold-parent="lower-main-panel" data-fold-id="crease-middle-hinge" data-fold-angle-deg="90" d="M 234.567 1900.674 L 1259.292 1900.674 L 1259.292 2042.407 L 234.567 2042.407 Z" />
+    <path id="panel-lower-main-panel" data-box-role="panel" data-panel-id="lower-main-panel" data-panel-type="main-panel" data-fold-parent="" data-fold-id="" data-fold-angle-deg="0" d="M 240.945 2046.659 L 1252.914 2046.659 L 1252.914 3048.706 L 240.945 3048.706 Z" />
+    <path id="panel-bottom-lock-flap" data-box-role="panel" data-panel-id="bottom-lock-flap" data-panel-type="lock-flap" data-fold-parent="lower-main-panel" data-fold-id="crease-bottom-lock" data-fold-angle-deg="90" d="M 240.945 3048.706 L 725.669 3048.706 L 742.000 3072.000 L 768.189 3048.706 L 1252.914 3048.706 L 1215.000 3186.186 L 278.000 3186.186 Z" />
+    <path id="panel-upper-left-side-flap" data-box-role="panel" data-panel-id="upper-left-side-flap" data-panel-type="side-flap" data-fold-parent="upper-main-panel" data-fold-id="crease-upper-left-side" data-fold-angle-deg="90" d="M 99.213 884.454 L 236.693 884.454 L 236.693 1896.422 L 99.213 1896.422 Z" />
+    <path id="panel-upper-right-side-flap" data-box-role="panel" data-panel-id="upper-right-side-flap" data-panel-type="side-flap" data-fold-parent="upper-main-panel" data-fold-id="crease-upper-right-side" data-fold-angle-deg="-90" d="M 1257.166 884.454 L 1394.646 884.454 L 1394.646 1896.422 L 1257.166 1896.422 Z" />
+    <path id="panel-lower-left-side-flap" data-box-role="panel" data-panel-id="lower-left-side-flap" data-panel-type="side-flap" data-fold-parent="lower-main-panel" data-fold-id="crease-lower-left-side" data-fold-angle-deg="90" d="M 99.213 2046.659 L 240.945 2046.659 L 240.945 3048.706 L 99.213 3048.706 Z" />
+    <path id="panel-lower-right-side-flap" data-box-role="panel" data-panel-id="lower-right-side-flap" data-panel-type="side-flap" data-fold-parent="lower-main-panel" data-fold-id="crease-lower-right-side" data-fold-angle-deg="-90" d="M 1252.914 2046.659 L 1394.646 2046.659 L 1394.646 3048.706 L 1252.914 3048.706 Z" />
+  </g>
+
+  <g id="artwork" data-box-role="artwork">
+    <g id="artwork-top-lock-flap" data-box-role="artwork-panel" data-panel-id="top-lock-flap" clip-path="url(#clip-top-lock-flap)"></g>
+    <g id="artwork-upper-lip" data-box-role="artwork-panel" data-panel-id="upper-lip" clip-path="url(#clip-upper-lip)"></g>
+    <g id="artwork-upper-main-panel" data-box-role="artwork-panel" data-panel-id="upper-main-panel" clip-path="url(#clip-upper-main-panel)"></g>
+    <g id="artwork-middle-hinge-panel" data-box-role="artwork-panel" data-panel-id="middle-hinge-panel" clip-path="url(#clip-middle-hinge-panel)"></g>
+    <g id="artwork-lower-main-panel" data-box-role="artwork-panel" data-panel-id="lower-main-panel" clip-path="url(#clip-lower-main-panel)"></g>
+    <g id="artwork-bottom-lock-flap" data-box-role="artwork-panel" data-panel-id="bottom-lock-flap" clip-path="url(#clip-bottom-lock-flap)"></g>
+    <g id="artwork-upper-left-side-flap" data-box-role="artwork-panel" data-panel-id="upper-left-side-flap" clip-path="url(#clip-upper-left-side-flap)"></g>
+    <g id="artwork-upper-right-side-flap" data-box-role="artwork-panel" data-panel-id="upper-right-side-flap" clip-path="url(#clip-upper-right-side-flap)"></g>
+    <g id="artwork-lower-left-side-flap" data-box-role="artwork-panel" data-panel-id="lower-left-side-flap" clip-path="url(#clip-lower-left-side-flap)"></g>
+    <g id="artwork-lower-right-side-flap" data-box-role="artwork-panel" data-panel-id="lower-right-side-flap" clip-path="url(#clip-lower-right-side-flap)"></g>
+  </g>
+</svg>
